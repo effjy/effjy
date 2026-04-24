@@ -23,7 +23,7 @@
 ---
 
 <p align="center">
-  <i>“Open‑source contributor revolving around OpSec. Most of the time around cryptography.”</i><br/>
+  <i>“Open‑source contributor evolving around OpSec. Most of the time around cryptography.”</i><br/>
   <a href="https://github.com/effjy">View all repositories →</a>
 </p>
 ```
