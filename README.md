@@ -10,6 +10,8 @@
 
 ### 🔐 Hardened encryption, post‑quantum KEMs, file wiping, and kernel‑mode cryptography – all open‑source, all in C.
 
+### Please visit my private repository and contact me if you need access to any of my private programs or would like to contribute!
+
 ---
 
 ### 🛡️ OpSec Toolchain
