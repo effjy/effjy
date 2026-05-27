@@ -1,5 +1,7 @@
 ## About Me
 
+Network administrator and Level 3 security analyst with deep expertise in operational security (OpSec).
+
 Independent cryptographic researcher focused on symmetric primitive design and cryptanalysis. Creator of Krakken-2048 Abyssal, a 2048-bit SPN-ARX hybrid permutation for high-assurance sponge-based hashing.
 
 ### Current Work
