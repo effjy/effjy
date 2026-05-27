@@ -21,3 +21,17 @@ Ten years of independent cryptanalytic research focused on understanding why SPN
 
 - **ORCID:** [0009-0005-6377-1675](https://orcid.org/0009-0005-6377-1675)
 - **GitHub:** [github.com/effjy](https://github.com/effjy)
+
+ <a
+    id="cy-effective-orcid-url"
+    class="underline"
+     href="https://orcid.org/0009-0005-6377-1675"
+     target="orcid.widget"
+     rel="me noopener noreferrer"
+     style="vertical-align: top">
+     <img
+        src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
+        style="width: 1em; margin-inline-start: 0.5em"
+        alt="ORCID iD icon"/>
+      https://orcid.org/0009-0005-6377-1675
+    </a>
