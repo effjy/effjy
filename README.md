@@ -21,3 +21,4 @@ Ten years of independent cryptanalytic research focused on understanding why SPN
 
 - **ORCID:** [0009-0005-6377-1675](https://orcid.org/0009-0005-6377-1675)
 - **GitHub:** [github.com/effjy](https://github.com/effjy)
+- **Gravatar**: [Profile](https://gravatar.com/luminous0816ec2f7a)
