@@ -13,11 +13,11 @@ Independent cryptographic researcher focused on symmetric primitive design and c
 - SPN-ARX hybrid constructions
 - Invariant subspace cryptanalysis
 - Algebraic degree propagation in ARX carry chains
-- Constraint-based rebound attack search (Z3/MILP)
+- OpSec
 
 ### Background
 
-Ten years of independent cryptanalytic research focused on understanding why SPN structures preserve algebraic invariants and how ARX mixing eliminates them. The Krakken project emerged from this investigation and represents a deliberate design philosophy: use each architectural component to address the cryptanalytic weakness of the other.
+Twenty years and more as a level 3 security analyst, network administrator and technical support representative. Ten years of independent cryptanalytic research focused on understanding why SPN-ARX hybrid constructions. The Krakken project emerged from this investigation and represents a deliberate design philosophy: use each architectural component to address the cryptanalytic weakness of the other.
 
 ### Contact
 
