@@ -1,29 +1,46 @@
-## About Me
+# 👤 About Me
 
-Network administrator and Level 3 security analyst with deep expertise in operational security (OpSec).
+Network administrator and Level 3 security analyst with deep expertise in operational security (OpSec). 
 
-Independent cryptographic researcher focused on symmetric primitive design and cryptanalysis. Creator of Krakken-2048 Abyssal, a 2048-bit SPN-ARX hybrid permutation for high-assurance sponge-based hashing.
+Independent cryptographic researcher focused on symmetric primitive design and cryptanalysis. Creator of the **Krakken-2048 Abyssal** cryptographic permutation and **Virtual Wipe Turbo** secure data sanitization utility.
 
-### Current Work
+---
 
-**[Krakken-2048 Abyssal](https://github.com/effjy/krakken)** — A novel wide-state cryptographic permutation combining an SPN core (GF(2⁸) S-box + MDS layer with branch number 9) with ARX mixing to destroy algebraic invariants. Under development and private analysis since 2016. Submitted for peer review.
+## 🛠️ Current Work
 
-**Areas of interest:**
-- Wide-state permutation design
-- SPN-ARX hybrid constructions
-- Invariant subspace cryptanalysis
-- Algebraic degree propagation in ARX carry chains
-- OpSec
+*   **[Krakken-2048 Abyssal](https://github.com/effjy/krakken)**
+    *   *Description*: A novel wide-state cryptographic permutation combining an SPN core (GF(2⁸) S-box + MDS layer with branch number 9) with ARX mixing to destroy algebraic invariants. Designed for high-assurance sponge-based hashing.
+    *   *Status*: Under development and private analysis since 2016. Submitted for peer review.
 
-### Background
+*   **[Virtual Wipe Turbo](https://github.com/effjy/vwipe)**
+    *   *Description*: A high-performance, forensic-grade secure data and volatile memory (RAM) sanitization suite. Includes a multi-threaded parallel engine with a GTK3 dark UI and a secure interactive CLI memory purger aligned with NIST SP 800-88 Rev. 1.
+    *   *Status*: Completed stable release.
 
-Twenty years and more as a level 3 security analyst, network administrator and technical support representative. Ten years of independent cryptanalytic research focused on understanding why SPN-ARX hybrid constructions. The Krakken project emerged from this investigation and represents a deliberate design philosophy: use each architectural component to address the cryptanalytic weakness of the other.
+### 🎯 Areas of Interest
+- 🧬 Wide-state permutation design
+- 🧬 SPN-ARX hybrid constructions
+- 🛡️ Invariant subspace cryptanalysis
+- 🛡️ Algebraic degree propagation in ARX carry chains
+- 🔒 Operational Security (OpSec) & Sanitization forensics
 
-### Contact
+---
 
-- **ORCID:** [0009-0005-6377-1675](https://orcid.org/0009-0005-6377-1675)
-- **GitHub:** [github.com/effjy](https://github.com/effjy)
-- **Gravatar**: [Profile](https://gravatar.com/luminous0816ec2f7a)
-- **X**: [Profile](https://x.com/jfclachance)
+## 📖 Background
+
+I have over twenty years of experience working as a Level 3 security analyst, network administrator, and technical support representative. 
+
+Alongside my professional operations, I have dedicated more than ten years to independent cryptanalytic research, focusing on the synergy of SPN-ARX hybrid constructions. The Krakken project emerged from this investigation and represents a deliberate design philosophy: using each architectural component to address and mitigate the cryptanalytic weaknesses of the other.
+
+---
+
+## 📬 Contact & Profiles
+
+| Platform | Link |
+| :--- | :--- |
+| **GitHub** | [@effjy](https://github.com/effjy) |
+| **ORCID ID** | [0009-0005-6377-1675](https://orcid.org/0009-0005-6377-1675) |
+| **Gravatar** | [luminous0816ec2f7a](https://gravatar.com/luminous0816ec2f7a) |
+| **X (Twitter)** | [@jfclachance](https://x.com/jfclachance) |
+
 ---
 *🦑 Released into the abyss — 2026*
