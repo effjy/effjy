@@ -1,8 +1,6 @@
 # 👤 About Me
 
-Network administrator and Level 3 security analyst with deep expertise in operational security (OpSec). 
-
-Independent cryptographic researcher focused on symmetric primitive design and cryptanalysis. Creator of the **Krakken-2048 Abyssal** cryptographic permutation and **Virtual Wipe Turbo** secure data sanitization utility.
+Network administrator and Level 3 security analyst specializing in operational security (OpSec) and forensics. As an independent cryptographic researcher focused on symmetric primitive design and cryptanalysis, I am the creator of the **Krakken-2048 Abyssal** wide-state permutation, the **Krakken-Disk** post-quantum encrypted volume manager, and the **Virtual Wipe Turbo** forensic-grade data sanitization suite.
 
 ---
 
