@@ -8,6 +8,10 @@ Independent cryptographic researcher focused on symmetric primitive design and c
 
 ## 🛠️ Current Work
 
+*   **[Krakken-Disk](https://github.com/effjy/krakken-disk/)**
+    *   *Description*: A post-quantum encrypted disk manager for Linux combining Kyber-1024/X448 hybrid cryptography and AVX2-accelerated wide-state permutations with plausible deniability.
+    *   *Status*: Completed stable release.
+
 *   **[Krakken-2048 Abyssal](https://github.com/effjy/krakken)**
     *   *Description*: A novel wide-state cryptographic permutation combining an SPN core (GF(2⁸) S-box + MDS layer with branch number 9) with ARX mixing to destroy algebraic invariants. Designed for high-assurance sponge-based hashing.
     *   *Status*: Under development and private analysis since 2016. Submitted for peer review.
