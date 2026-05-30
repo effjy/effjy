@@ -4,6 +4,14 @@ Network administrator and Level 3 security analyst with deep expertise in operat
 
 ---
 
+## 🎯 Mission
+
+The goal of my work is to help keep **long-term secrets safe** and protect against **data recovery** by adversaries — whether they are persistent threat actors, forensic investigators, or future quantum-capable attackers. My cryptographic primitives and secure erasure tools are designed for organizations that cannot afford to leave anything behind.
+
+I believe that **governments, defense contractors, financial institutions, and enterprises handling the most sensitive data** should move beyond legacy encryption and erasure standards. The Krakken-2048 permutation (and its highly secure Butterfly variant) offers a modern, post-quantum-ready foundation for protecting classified, financial, and personally identifiable information (PII) — even against nation-state-level recovery attempts.
+
+---
+
 ## 🛠️ Current Projects
 
 **Krakken-Disk**  
