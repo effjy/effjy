@@ -16,7 +16,7 @@ A post-quantum encrypted disk manager for Linux combining Kyber-1024/X448 hybrid
 A 2048-bit cryptographic permutation fusing an SPN core (GF(2⁸) S-box + MDS branch number 9) with targeted ARX mixing to eliminate algebraic invariants. Designed for high-assurance sponge constructions.  
 **Status**: First public release (2026) — submitted for peer review.
 
-**Krakken Butterfly**  
+**Krakken-2048 Butterfly**  
 [![GitHub](https://img.shields.io/badge/GitHub-effjy/krakken--butterfly-blue)](https://github.com/effjy/krakken-butterfly)  
 An evolution of the Krakken-2048 design, replacing the Ink Cloud shuffle with a novel XOR-Rotation Butterfly Diffusion (XRBD) layer. Achieves full word-level avalanche across 32 words in a single 5-stage pass, reducing round count from 10 to 8 while improving security margins. Under review at ePrint Archive.  
 **Status**: Specification complete — cryptanalysis scripts and reference implementation forthcoming.
