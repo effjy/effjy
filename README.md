@@ -1,7 +1,7 @@
 # 👤 About Me
-
+<center>
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FFCC&center=true&vCenter=true&width=500&lines=Symmetric+Primitive+Design;Advanced+Cryptanalysis;Post-Quantum+Secured+Systems;Forensic-Grade+Sanitization)](https://git.io/typing-svg)
-
+</center>
 Network administrator and Level 3 security analyst with deep expertise in operational security (OpSec) and digital forensics. As an independent cryptographic researcher, I specialize in symmetric primitive design and advanced cryptanalysis. I am the creator of **Krakken-2048 Abyssal & Butterfly**, novel wide-state SPN-ARX hybrid permutations, along with the **Krakken-Disk** post-quantum encrypted volume managers and **Virtual Wipe Turbo**, a forensic-grade data sanitization suite, etc.
 
 ---
