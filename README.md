@@ -14,35 +14,15 @@ I believe that **governments, defense contractors, financial institutions, and e
 
 ## 🛠️ Current Projects
 
-**Krakken-Disk**  
-[![GitHub](https://img.shields.io/badge/GitHub-effjy/krakken--disk-blue)](https://github.com/effjy/krakken-disk/)  
-A post-quantum encrypted disk manager for Linux combining Kyber-1024/X448 hybrid KEM with AVX2-accelerated wide-state permutations and strong plausible deniability.  
-**Status**: Stable release available.
-
-**Krakken-Disk Butterfly** ![NEW](https://img.shields.io/badge/NEW-orange?style=flat-square)  
-[![GitHub](https://img.shields.io/badge/GitHub-effjy/krakken--disk--butterfly-blue)](https://github.com/effjy/krakken-disk-butterfly/)  
-An evolution of Krakken-Disk that replaces the original permutation with the **Krakken-2048 Butterfly** permutation. Inherits all features (Kyber‑1024/X448 KEM, plausible deniability, AVX2 acceleration) while benefiting from the faster 8‑round design and the novel XRBD diffusion layer.  
-**Status**: Stable release available (v4.6.0).
-
-**Secure Mount** ![NEW](https://img.shields.io/badge/NEW-orange?style=flat-square)  
-[![GitHub](https://img.shields.io/badge/GitHub-effjy/secure_mount-blue)](https://github.com/effjy/secure_mount/)  
-A modern GTK3 graphical frontend for gocryptfs that makes mounting, unmounting, and initializing encrypted volumes effortless. Features desktop integration, secure terminal password entry, and one-click volume management.  
-**Status**: Initial release available.
-
-**Krakken-2048 Abyssal**  
-[![GitHub](https://img.shields.io/badge/GitHub-effjy/krakken-blue)](https://github.com/effjy/krakken)  
-A 2048-bit cryptographic permutation fusing an SPN core (GF(2⁸) S-box + MDS branch number 9) with targeted ARX mixing to eliminate algebraic invariants. Designed for high-assurance sponge constructions.  
-**Status**: First public release (2026) — submitted for peer review.
-
-**Krakken-2048 Butterfly**  
-[![GitHub](https://img.shields.io/badge/GitHub-effjy/krakken--butterfly-blue)](https://github.com/effjy/krakken-butterfly)  
-An evolution of the Krakken-2048 design featuring a novel XOR-Rotation Butterfly Diffusion (XRBD) layer that achieves full word-level avalanche across 32 words in a single 5-stage pass. This additional mixing stage enables a round count reduction from 10 to 8 while improving security margins. Under review at ePrint Archive.  
-**Status**: Specification complete — reference implementation and cryptanalysis scripts available.
-
-**Virtual Wipe Turbo**  
-[![GitHub](https://img.shields.io/badge/GitHub-effjy/vwipe-blue)](https://github.com/effjy/vwipe)  
-High-performance, forensic-grade secure erasure suite for storage and volatile memory (RAM), aligned with NIST SP 800-88 Rev. 1. Features a multi-threaded engine, GTK3 dark theme UI, and secure CLI memory purger.  
-**Status**: Stable release available.
+| Project | Description | Status |
+|:--------|:------------|:-------|
+| **Krakken-2048 Abyssal**<br>[![GitHub](https://img.shields.io/badge/GitHub-effjy/krakken-blue)](https://github.com/effjy/krakken) | A 2048-bit cryptographic permutation fusing an SPN core (GF(2⁸) S-box + MDS branch number 9) with targeted ARX mixing to eliminate algebraic invariants. Designed for high-assurance sponge constructions. | First public release (2026) — submitted for peer review |
+| **Krakken-2048 Butterfly**<br>[![GitHub](https://img.shields.io/badge/GitHub-effjy/krakken--butterfly-blue)](https://github.com/effjy/krakken-butterfly) | An evolution of the Krakken-2048 design featuring a novel XOR-Rotation Butterfly Diffusion (XRBD) layer that achieves full word-level avalanche across 32 words in a single 5-stage pass. This additional mixing stage enables a round count reduction from 10 to 8 while improving security margins. | Specification complete — reference implementation and cryptanalysis scripts available |
+| **Krakken-Disk**<br>[![GitHub](https://img.shields.io/badge/GitHub-effjy/krakken--disk-blue)](https://github.com/effjy/krakken-disk/) | A post-quantum encrypted disk manager for Linux combining Kyber-1024/X448 hybrid KEM with AVX2-accelerated wide-state permutations and strong plausible deniability. | Stable release available |
+| **Krakken-Disk Butterfly** ![NEW](https://img.shields.io/badge/NEW-orange?style=flat-square)<br>[![GitHub](https://img.shields.io/badge/GitHub-effjy/krakken--disk--butterfly-blue)](https://github.com/effjy/krakken-disk-butterfly/) | An evolution of Krakken-Disk that replaces the original permutation with the **Krakken-2048 Butterfly** permutation. Inherits all features (Kyber‑1024/X448 KEM, plausible deniability, AVX2 acceleration) while benefiting from the faster 8‑round design and the novel XRBD diffusion layer. | Stable release available (v4.6.0) |
+| **Secure Mount** ![NEW](https://img.shields.io/badge/NEW-orange?style=flat-square)<br>[![GitHub](https://img.shields.io/badge/GitHub-effjy/secure_mount-blue)](https://github.com/effjy/secure_mount/) | A modern GTK3 graphical frontend for gocryptfs that makes mounting, unmounting, and initializing encrypted volumes effortless. Features desktop integration, secure terminal password entry, and one-click volume management. | Initial release available |
+| **Usage**<br>[![GitHub](https://img.shields.io/badge/GitHub-effjy/usage-blue)](https://github.com/effjy/usage/) | A real-time network traffic and bandwidth monitoring tool written in C and built with GTK+ 3. Displays current speeds, records session statistics, and draws a live graph of incoming and outgoing traffic. Styled with a premium Tokyo Night dark theme. | Stable release available |
+| **Virtual Wipe Turbo**<br>[![GitHub](https://img.shields.io/badge/GitHub-effjy/vwipe-blue)](https://github.com/effjy/vwipe) | High-performance, forensic-grade secure erasure suite for storage and volatile memory (RAM), aligned with NIST SP 800-88 Rev. 1. Features a multi-threaded engine, GTK3 dark theme UI, and secure CLI memory purger. | Stable release available |
 
 ---
 
