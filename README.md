@@ -22,7 +22,7 @@ A post-quantum encrypted disk manager for Linux combining Kyber-1024/X448 hybrid
 **Krakken-Disk Butterfly** ![NEW](https://img.shields.io/badge/NEW-orange?style=flat-square)  
 [![GitHub](https://img.shields.io/badge/GitHub-effjy/krakken--disk--butterfly-blue)](https://github.com/effjy/krakken-disk-butterfly/)  
 An evolution of Krakken-Disk that replaces the original permutation with the **Krakken-2048 Butterfly** permutation. Inherits all features (Kyber‑1024/X448 KEM, plausible deniability, AVX2 acceleration) while benefiting from the faster 8‑round design and the novel XRBD diffusion layer.  
-**Status**: In development — repository coming soon.
+**Status**: Stable release available (v4.6.0).
 
 **Krakken-2048 Abyssal**  
 [![GitHub](https://img.shields.io/badge/GitHub-effjy/krakken-blue)](https://github.com/effjy/krakken)  
