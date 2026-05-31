@@ -24,6 +24,11 @@ A post-quantum encrypted disk manager for Linux combining Kyber-1024/X448 hybrid
 An evolution of Krakken-Disk that replaces the original permutation with the **Krakken-2048 Butterfly** permutation. Inherits all features (Kyber‑1024/X448 KEM, plausible deniability, AVX2 acceleration) while benefiting from the faster 8‑round design and the novel XRBD diffusion layer.  
 **Status**: Stable release available (v4.6.0).
 
+**Secure Mount** ![NEW](https://img.shields.io/badge/NEW-orange?style=flat-square)  
+[![GitHub](https://img.shields.io/badge/GitHub-effjy/secure--mount--gtk3-blue)](https://github.com/effjy/secure-mount-gtk3/)  
+A modern GTK3 graphical frontend for gocryptfs that makes mounting, unmounting, and initializing encrypted volumes effortless. Features desktop integration, secure terminal password entry, and one-click volume management.  
+**Status**: Initial release available.
+
 **Krakken-2048 Abyssal**  
 [![GitHub](https://img.shields.io/badge/GitHub-effjy/krakken-blue)](https://github.com/effjy/krakken)  
 A 2048-bit cryptographic permutation fusing an SPN core (GF(2⁸) S-box + MDS branch number 9) with targeted ARX mixing to eliminate algebraic invariants. Designed for high-assurance sponge constructions.  
