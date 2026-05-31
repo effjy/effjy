@@ -25,7 +25,7 @@ An evolution of Krakken-Disk that replaces the original permutation with the **K
 **Status**: Stable release available (v4.6.0).
 
 **Secure Mount** ![NEW](https://img.shields.io/badge/NEW-orange?style=flat-square)  
-[![GitHub](https://img.shields.io/badge/GitHub-effjy/secure--mount--gtk3-blue)](https://github.com/effjy/secure_mount/)  
+[![GitHub](https://img.shields.io/badge/GitHub-effjy/secure_mount-blue)](https://github.com/effjy/secure_mount/)  
 A modern GTK3 graphical frontend for gocryptfs that makes mounting, unmounting, and initializing encrypted volumes effortless. Features desktop integration, secure terminal password entry, and one-click volume management.  
 **Status**: Initial release available.
 
