@@ -1,6 +1,6 @@
 # 👤 About Me
 
-Network administrator and Level 3 security analyst with deep expertise in operational security (OpSec) and digital forensics. As an independent cryptographic researcher, I specialize in symmetric primitive design and advanced cryptanalysis. I am the creator of **Krakken-2048 Abyssal**, a novel wide-state SPN-ARX hybrid permutation, along with the **Krakken-Disk** post-quantum encrypted volume manager and **Virtual Wipe Turbo**, a forensic-grade data sanitization suite.
+Network administrator and Level 3 security analyst with deep expertise in operational security (OpSec) and digital forensics. As an independent cryptographic researcher, I specialize in symmetric primitive design and advanced cryptanalysis. I am the creator of **Krakken-2048 Abyssal & Butterfly**, novel wide-state SPN-ARX hybrid permutations, along with the **Krakken-Disk** post-quantum encrypted volume managers and **Virtual Wipe Turbo**, a forensic-grade data sanitization suite, etc.
 
 ---
 
