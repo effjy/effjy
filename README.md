@@ -8,6 +8,13 @@
 
 Network administrator and Level 3 security analyst with deep expertise in operational security (OpSec) and digital forensics. As an independent cryptographic researcher, I specialize in symmetric primitive design and advanced cryptanalysis. I am the creator of **Krakken-2048 Abyssal & Butterfly**, novel wide-state SPN-ARX hybrid permutations, along with the **Krakken-Disk** post-quantum encrypted volume managers and **Virtual Wipe Turbo**, a forensic-grade data sanitization suite, etc.
 
+### 🛠️ Core Arsenal & Tech Stack
+![](https://img.shields.io/badge/Language-C%20%2F%20C%2B%2B-00599C?style=flat-square&logo=c%2B%2B)
+![](https://img.shields.io/badge/OS-Linux%20Kernel%20%2F%20Hardening-FCC624?style=flat-square&logo=linux)
+![](https://img.shields.io/badge/Crypto-Kyber%20%2F%20X448%20%2F%20SPN--ARX-00FFCC?style=flat-square)
+![](https://img.shields.io/badge/GUI-GTK3%20%2F%20Cairo-7E57C2?style=flat-square&logo=gnome)
+![](https://img.shields.io/badge/Compliance-NIST%20SP%20800--88%20%2F%20FIPS%20140--3-blue?style=flat-square)
+
 ---
 
 ## 🎯 Mission
