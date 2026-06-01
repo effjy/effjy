@@ -71,7 +71,8 @@ Over 20 years as a Level 3 security analyst, network administrator, and technica
 |--------------|------|
 | **GitHub**   | [@effjy](https://github.com/effjy) |
 | **ORCID**    | [0009-0005-6377-1675](https://orcid.org/0009-0005-6377-1675) |
-| **Gravatar** | [luminous0816ec2f7a](https://gravatar.com/luminous0816ec2f7a) |
+| **Figshare** | [Publications](https://figshare.com/authors/Jean-Francois_Lachance-Caumartin/24086388) |
+| **Gravatar** | [effjy](https://gravatar.com/effjy) |
 | **X**        | [@jfclachance](https://x.com/jfclachance) |
 
 ---
