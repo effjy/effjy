@@ -21,7 +21,7 @@ Network administrator and Level 3 security analyst with deep expertise in operat
 
 The goal of my work is to help keep **long-term secrets safe** and protect against **data recovery** by adversaries — whether they are persistent threat actors, forensic investigators, or future quantum-capable attackers. My cryptographic primitives and secure erasure tools are designed for organizations that cannot afford to leave anything behind.
 
-I believe that **governments, defense contractors, financial institutions, and enterprises handling the most sensitive data** should move beyond legacy encryption and erasure standards. The Krakken-2048 permutation (and its highly secure Butterfly variant) offers a modern, post-quantum-ready foundation for protecting classified, financial, and personally identifiable information (PII) — even against nation-state-level recovery attempts.
+I believe that **governments, defense contractors, financial institutions, and enterprises managing the world’s most sensitive data** can no longer rely on legacy encryption and erasure standards. The Krakken‑2048 permutation — and its faster, high‑security Butterfly variant — provides a modern, post‑quantum‑ready foundation to protect classified intelligence, financial records, and personally identifiable information (PII), even against nation‑state‑level data recovery attempts.
 
 ---
 
@@ -61,7 +61,7 @@ I believe that **governments, defense contractors, financial institutions, and e
 
 ## 📖 Background
 
-With over 20 years of professional experience as a Level 3 security analyst, network administrator, and technical specialist, I bring real-world operational insight to cryptographic design. For more than a decade, I have pursued independent research into symmetric cryptography, with a particular focus on how SPN and ARX paradigms can be fused to overcome each other's inherent weaknesses. The Krakken project embodies this philosophy: every component is engineered to neutralize the cryptanalytic vulnerabilities of the others.
+Over 20 years as a Level 3 security analyst, network administrator, and technical specialist have given me a rare bridge between operational security and cryptographic design. For more than a decade, I have independently researched symmetric primitives, focusing specifically on how SPN and ARX paradigms can be fused to cancel each other’s weaknesses. The Krakken project is the embodiment of that philosophy: every S‑box, every rotation, every linear layer is chosen to neutralize the cryptanalytic vulnerabilities of the others.
 
 ---
 
