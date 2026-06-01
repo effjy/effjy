@@ -82,4 +82,3 @@ Over 20 years as a Level 3 security analyst, network administrator, and technica
 <div align="center">
   <img src="cybersecurity.jpg" width="200" alt="Logo">
 </div>
-*🦑 Released into the abyss — 2026*
