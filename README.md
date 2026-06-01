@@ -79,6 +79,31 @@ Over 20 years as a Level 3 security analyst, network administrator, and technica
 | **X**        | [@jfclachance](https://x.com/jfclachance) |
 
 ---
+
+<div align="center">
+  
+  <!-- Row 1 -->
+  <img src="CSS.svg" width="60" alt="CSS">
+  <img src="Java-Dark.svg" width="60" alt="Java">
+  <img src="Perl.svg" width="60" alt="Perl">
+  <img src="Bash-Dark.svg" width="60" alt="Bash">
+  <img src="C.svg" width="60" alt="C">
+  <img src="JavaScript.svg" width="60" alt="JavaScript">
+  <img src="Python-Dark.svg" width="60" alt="Python">
+  
+  <br>
+  
+  <!-- Row 2 -->
+  <img src="CMake-Dark.svg" width="60" alt="CMake">
+  <img src="Git.svg" width="60" alt="Git">
+  <img src="HTML.svg" width="60" alt="HTML">
+  <img src="Linux-Dark.svg" width="60" alt="Linux">
+  <img src="Ubuntu-Dark.svg" width="60" alt="Ubuntu">
+  <img src="CPP.svg" width="60" alt="C++">
+  <img src="SVG-Dark.svg" width="60" alt="SVG">
+  
+</div>
+
 <div align="center">
   <img src="cybersecurity.jpg" width="200" alt="Logo">
 </div>
