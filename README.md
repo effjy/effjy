@@ -49,11 +49,13 @@ I believe that **governments, defense contractors, financial institutions, and e
 
 ## 🎯 Research Interests
 
-- Wide-state permutation design  
-- SPN-ARX hybrid architectures  
-- Invariant subspace cryptanalysis  
-- Algebraic degree propagation in mixed constructions  
-- Operational Security (OpSec) and advanced sanitization techniques  
+- **Wide‑state permutation design for post‑quantum symmetric cryptography**  
+- **SPN‑ARX hybrid architectures** (invariant subspace resistance, algebraic degree propagation)  
+- **Side‑channel resistant & constant‑time implementations**  
+- **Automated cryptanalysis** (MILP, SAT/SMT solvers) of mixed constructions  
+- **Deniable encryption & hidden volume plausibility**  
+- **Forensic‑grade sanitization and cryptographic erasure** (NIST SP 800‑88)  
+- **Mode design for large‑state sponges** (keyed duplex, AEAD)
 
 ---
 
