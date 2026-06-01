@@ -66,7 +66,7 @@ I am the author of the Krakken-2048 family of wide-state SPN-ARX hybrid permutat
 
 ## 📖 Background
 
-Over 20 years as a Level 3 security analyst, network administrator, and technical specialist have given me a rare bridge between operational security and cryptographic design. For more than a decade, I have independently researched symmetric primitives, focusing specifically on how SPN and ARX paradigms can be fused to cancel each other’s weaknesses. The Krakken project is the embodiment of that philosophy: every S‑box, every rotation, every linear layer is chosen to neutralize the cryptanalytic vulnerabilities of the others.
+Over 20 years as as security analyst, network administrator, and technical specialist have given me a rare bridge between operational security and cryptographic design. For more than a decade, I have independently researched symmetric primitives, focusing specifically on how SPN and ARX paradigms can be fused to cancel each other’s weaknesses. The Krakken project is the embodiment of that philosophy: every S‑box, every rotation, every linear layer is chosen to neutralize the cryptanalytic vulnerabilities of the others.
 
 ---
 
