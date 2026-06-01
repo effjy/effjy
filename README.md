@@ -103,7 +103,3 @@ Over 20 years as a Level 3 security analyst, network administrator, and technica
   <img src="SVG-Dark.svg" width="60" alt="SVG">
   
 </div>
-
-<div align="center">
-  <img src="cybersecurity.jpg" width="200" alt="Logo">
-</div>
