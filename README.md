@@ -80,5 +80,5 @@
 ---
 
 <div align="center">
-  <img src="cybersecurity_logo.svg" width="200" alt="Cybersecurity logo">
+  <img src="cybersecurity_logo.svg" width="300" alt="Cybersecurity logo">
 </div>
