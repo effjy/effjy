@@ -6,7 +6,7 @@
 
 </div>
 
-Network administrator and Level 3 security analyst with deep expertise in operational security (OpSec) and digital forensics. As an independent cryptographic researcher, I specialize in symmetric primitive design and advanced cryptanalysis. I am the creator of **Krakken-2048 Abyssal & Butterfly**, novel wide-state SPN-ARX hybrid permutations, along with the **Krakken-Disk** post-quantum encrypted volume managers and **Virtual Wipe Turbo**, a forensic-grade data sanitization suite, etc.
+Network administrator and Level 3 security analyst with deep expertise in operational security (OpSec) and digital forensics. As an independent cryptographic researcher, I specialize in symmetric primitive design and advanced cryptanalysis. I am the creator of **Krakken-2048 Abyssal & Butterfly**, novel wide-state SPN-ARX hybrid permutations, along with the **Krakken-Disk** post-quantum encrypted volume managers and **Virtual Wipe Turbo**, a forensic-grade data sanitization suite. I also develop systems security tools including **KageAlloc** (MPK‑based memory allocator) and **TIDS** (topological intrusion detection).
 
 ### 🛠️ Core Arsenal & Tech Stack
 ![](https://img.shields.io/badge/Language-C%20%2F%20C%2B%2B-00599C?style=flat-square&logo=c%2B%2B)
@@ -52,6 +52,8 @@ Network administrator and Level 3 security analyst with deep expertise in operat
 
 - **Wide‑state permutation design for post‑quantum symmetric cryptography**  
 - **SPN‑ARX hybrid architectures** (invariant subspace resistance, algebraic degree propagation)  
+- **Topological data analysis for intrusion detection** (persistent homology, Vietoris‑Rips complexes)  
+- **Hardware‑assisted memory safety** (Intel MPK, temporal safety, control‑flow isolation)  
 - **Side‑channel resistant & constant‑time implementations**  
 - **Automated cryptanalysis** (MILP, SAT/SMT solvers) of mixed constructions  
 - **Deniable encryption & hidden volume plausibility**  
