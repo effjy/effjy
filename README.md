@@ -17,11 +17,11 @@ Network administrator and Level 3 security analyst with deep expertise in operat
 
 ---
 
-## 🎯 Mission
+## 🔬 Hardware‑Assisted Memory Safety & Systems Security
 
-The goal of my work is to help keep **long-term secrets safe** and protect against **data recovery** by adversaries — whether they are persistent threat actors, forensic investigators, or future quantum-capable attackers. My cryptographic primitives and secure erasure tools are designed for organizations that cannot afford to leave anything behind.
-
-I believe that **governments, defense contractors, financial institutions, and enterprises managing the world’s most sensitive data** can no longer rely on legacy encryption and erasure standards. The Krakken‑2048 permutation — and its faster, high‑security Butterfly variant — provides a modern, post‑quantum‑ready foundation to protect classified intelligence, financial records, and personally identifiable information (PII), even against nation‑state‑level data recovery attempts.
+| Project | Description | Status |
+|:--------|:------------|:-------|
+| **[KageAlloc](https://github.com/effjy/kagealloc)** | [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Language](https://img.shields.io/badge/language-C-blue)](https://github.com/effjy/kagealloc) [![Platform](https://img.shields.io/badge/platform-Linux-important)](https://github.com/effjy/kagealloc) [![MPK](https://img.shields.io/badge/Intel-MPK-orange)](https://github.com/effjy/kagealloc)<br><br>High‑performance memory allocator using Intel Memory Protection Keys (MPK) to enforce temporal safety, metadata integrity, and control‑flow isolation. Introduces **RICCG** (defeats PKRU hijacking), **BKR** (near‑zero overhead quarantine), and **TIMP** (thread‑isolated metadata). Only 3.8% overhead over `ptmalloc`. | First public release (2026) — published<br>[![DOI](https://img.shields.io/badge/DOI-10.6084/m9.figshare.32529792-blue)](https://doi.org/10.6084/m9.figshare.32529792) |
 
 ---
 
