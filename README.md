@@ -175,3 +175,4 @@ The **Krakken** project embodies that philosophy: every S‑box, every rotation,
   <img src="CPP.svg" width="50" alt="C++">
   <img src="SVG-Dark.svg" width="50" alt="SVG">
 </div>
+![Profile Views](https://komarev.com/ghpvc/?username=effjy)
