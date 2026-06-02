@@ -6,9 +6,7 @@
 
 </div>
 
-By day, I work as a **network administrator and security analyst** specializing in operational security and digital forensics. By night, I am an **independent cryptographic researcher** focused on symmetric primitive design and cryptanalysis.
-
-My work centers on the **Krakken** family of wide-state SPN-ARX hybrid permutations and a surrounding ecosystem of high-assurance security tools: post-quantum encrypted volume managers, forensic-grade sanitization utilities, hardware-assisted memory allocators, topological intrusion detection, and deniable-encryption vaults.
+By day, I'm a network administrator and security analyst. By night, I'm an independent cryptographic researcher designing symmetric primitives—centered on the Krakken wide-state SPN-ARX hybrid permutations—and building high-assurance security tools: post-quantum encrypted volumes, forensic-grade sanitizers, hardware memory allocators, topological IDS, and deniable vaults.
 
 ### 🛠️ Core Arsenal & Tech Stack
 
