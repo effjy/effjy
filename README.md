@@ -169,9 +169,3 @@ The **Krakken** project is the embodiment of that philosophy: every S-box, every
   <img src="SVG-Dark.svg" width="60" alt="SVG">
 
 </div>
-
-<div align="center">
-
-  <img src="cybersecurity_logo.svg" width="250" alt="Cybersecurity Logo">
-
-</div>
