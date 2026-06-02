@@ -20,8 +20,57 @@ My work centers on the **Krakken** family of wide-state SPN-ARX hybrid permutati
 
 ---
 
+## ⭐ Featured Project — Krakken-Disk Butterfly Edition
+
+<div align="center">
+
+<img src="https://github.com/effjy/krakken-disk-butterfly/raw/main/krakken_logo.png" width="180" alt="Krakken-Disk Butterfly Logo">
+
+### 🐙 Krakken-Disk v4.6.0 — Butterfly Edition
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/effjy/krakken-disk-butterfly/blob/main/LICENSE)
+[![Language](https://img.shields.io/badge/language-C11-blue)](https://github.com/effjy/krakken-disk-butterfly)
+[![Platform](https://img.shields.io/badge/platform-Linux-important)](https://github.com/effjy/krakken-disk-butterfly)
+[![Security](https://img.shields.io/badge/security-Post--Quantum-teal)](https://github.com/effjy/krakken-disk-butterfly)
+![NEW](https://img.shields.io/badge/NEW-800080?style=flat-square)
+
+**An ultra-secure, post-quantum encrypted disk manager for Linux.**
+
+</div>
+
+Krakken-Disk Butterfly Edition is an encrypted disk manager built for the post-quantum era. Driven by the **2048-bit Krakken-2048 Butterfly** permutation, it delivers a uniform **256-bit post-Grover security margin** across every volume layer, combining lattice-based cryptography, elliptic-curve key exchange, and hardware-accelerated AVX2 SIMD so your data stays private even against future quantum adversaries.
+
+<div align="center">
+
+<a href="https://github.com/effjy/krakken-disk-butterfly">
+  <img src="https://github.com/effjy/krakken-disk-butterfly/raw/main/screenshot.png" width="720" alt="Krakken-Disk Butterfly graphical interface — dark-themed GTK volume manager">
+</a>
+
+<sub><i>The Krakken-Disk dashboard — a dark-themed GTK interface for one-click volume management.</i></sub>
+
+</div>
+
+#### 🌌 Why it stands out
+
+- 🛡️ **Post-quantum by design** — a native 2048-bit wide-state permutation provides a uniform 256-bit post-Grover security margin across header and data layers.
+- 🧬 **Hybrid key encapsulation** — pairs post-quantum **Kyber-1024** with classical **X448** so a break of either scheme alone never exposes your keys.
+- 🦋 **Novel XRBD diffusion** — the XOR-Rotation Butterfly Diffusion layer mixes all 32 state words in a single 5-stage pass, enabling a leaner **8-round** design with stronger security margins.
+- 🌑 **Plausible deniability** — fully **IND-RND** compliant: volumes carry no headers, signatures, or metadata, making them mathematically indistinguishable from random noise.
+- 🔒 **Brute-force hardened** — **Argon2id** key derivation locked to 1 GB of RAM renders GPU- and ASIC-based attacks economically infeasible.
+- ⚡ **Fast where it counts** — hand-tuned AVX2 vectorization with a multi-threaded, segment-parallel AEAD stream engine.
+- 🐧 **Transparent mounting** — **FUSE 3** exposes encrypted containers as ordinary read-write directories.
+
+<div align="center">
+
+**[📦 Explore the repository →](https://github.com/effjy/krakken-disk-butterfly)**
+
+</div>
+
+---
+
 ## 🧭 Navigation
 
+- [Featured Project — Krakken-Disk Butterfly](#-featured-project--krakken-disk-butterfly-edition)
 - [Hardware-Assisted Memory Safety & Systems Security](#-hardwareassisted-memory-safety--systems-security)
 - [Cryptographic Permutations](#-cryptographic-permutations)
 - [Software Applications](#️-software-applications)
