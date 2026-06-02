@@ -15,13 +15,13 @@
 
 ## 🧭 Navigation
 
-- [Featured Project – Krakken-Disk Butterfly](#-featured-project--krakken-disk-butterfly)
-- [Hardware‑Assisted Memory Safety & Systems Security](#-hardware-assisted-memory-safety--systems-security)
-- [Cryptographic Permutations](#-cryptographic-permutations)
-- [Software Applications](#-software-applications)
-- [Research Interests](#-research-interests)
-- [Background](#-background)
-- [Contact & Profiles](#-contact--profiles)
+- [Featured Project – Krakken-Disk Butterfly](#featured-project--krakken-disk-butterfly-edition)
+- [Hardware‑Assisted Memory Safety & Systems Security](#hardware-assisted-memory-safety--systems-security)
+- [Cryptographic Permutations](#cryptographic-permutations)
+- [Software Applications](#software-applications)
+- [Research Interests](#research-interests)
+- [Background](#background)
+- [Contact & Profiles](#contact--profiles)
 
 <br>
 
