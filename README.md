@@ -15,19 +15,19 @@
 
 ## 🧭 Navigation
 
-- [Featured Project – Krakken-Disk Butterfly](#featured-project--krakken-disk-butterfly-edition)
-- [Hardware‑Assisted Memory Safety & Systems Security](#hardware-assisted-memory-safety--systems-security)
-- [Cryptographic Permutations](#cryptographic-permutations)
-- [Software Applications](#software-applications)
-- [Research Interests](#research-interests)
+- [Featured Project – Krakken-Disk Butterfly](#featured)
+- [Hardware‑Assisted Memory Safety & Systems Security](#hardware-memory-safety)
+- [Cryptographic Permutations](#crypto-permutations)
+- [Software Applications](#software-apps)
+- [Research Interests](#research)
 - [Background](#background)
-- [Contact & Profiles](#contact--profiles)
+- [Contact & Profiles](#contact)
 
 <br>
 
 ---
 
-## ⭐ Featured Project — Krakken‑Disk Butterfly Edition
+<h2 id="featured">⭐ Featured Project — Krakken‑Disk Butterfly Edition</h2>
 
 <div align="center">
   <img src="https://github.com/effjy/krakken-disk-butterfly/raw/main/krakken_logo.png" width="160" alt="Krakken-Disk Butterfly Logo">
@@ -74,7 +74,7 @@ Driven by the **2048‑bit Krakken‑2048 Butterfly** permutation, it delivers a
 
 ---
 
-## 🔬 Hardware‑Assisted Memory Safety & Systems Security
+<h2 id="hardware-memory-safety">🔬 Hardware‑Assisted Memory Safety & Systems Security</h2>
 
 | Project | Description |
 |:--------|:------------|
@@ -86,7 +86,7 @@ Driven by the **2048‑bit Krakken‑2048 Butterfly** permutation, it delivers a
 
 ---
 
-## 🔬 Cryptographic Permutations
+<h2 id="crypto-permutations">🔬 Cryptographic Permutations</h2>
 
 | Project | Description |
 |:--------|:------------|
@@ -97,7 +97,7 @@ Driven by the **2048‑bit Krakken‑2048 Butterfly** permutation, it delivers a
 
 ---
 
-## 🛠️ Software Applications
+<h2 id="software-apps">🛠️ Software Applications</h2>
 
 | Project | Description |
 |:--------|:------------|
@@ -112,7 +112,7 @@ Driven by the **2048‑bit Krakken‑2048 Butterfly** permutation, it delivers a
 
 ---
 
-## 🎯 Research Interests
+<h2 id="research">🎯 Research Interests</h2>
 
 <div align="center">
 
@@ -134,7 +134,7 @@ Driven by the **2048‑bit Krakken‑2048 Butterfly** permutation, it delivers a
 
 ---
 
-## 📖 Background
+<h2 id="background">📖 Background</h2>
 
 Over **20 years** as a security analyst, network administrator, and technical specialist – a rare bridge between operational security and cryptographic design. For more than a decade I have independently researched symmetric primitives, focusing on how the SPN and ARX paradigms can be fused so each cancels the other's weaknesses.
 
@@ -144,7 +144,7 @@ The **Krakken** project embodies that philosophy: every S‑box, every rotation,
 
 ---
 
-## 📬 Contact & Profiles
+<h2 id="contact">📬 Contact & Profiles</h2>
 
 | Platform | Link |
 |:---------|:-----|
