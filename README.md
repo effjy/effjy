@@ -15,7 +15,7 @@
 
 ## 🧭 Navigation
 
-- [Featured Project – Krakken-Disk Butterfly](#featured)
+- [Featured Project – Axis (Galactic Edition)](#featured)
 - [Hardware‑Assisted Memory Safety & Systems Security](#hardware-memory-safety)
 - [Cryptographic Permutations](#crypto-permutations)
 - [Software Applications](#software-apps)
@@ -27,28 +27,27 @@
 
 ---
 
-<h2 id="featured">⭐ Featured Project — Krakken‑Disk Butterfly Edition</h2>
+<h2 id="featured">⭐ Featured Project — Axis (Galactic Edition)</h2>
 
 <div align="center">
-  <img src="https://github.com/effjy/krakken-disk-butterfly/raw/main/krakken_logo.png" width="160" alt="Krakken-Disk Butterfly Logo">
   <br>
-  <strong>🐙 Krakken‑Disk v5.0.0 — Butterfly Edition</strong>
+  <strong>🚀 Axis v1.0.0 — Galactic Edition</strong>
   <br><br>
-  <a href="https://github.com/effjy/krakken-disk-butterfly"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
-  <a href="https://github.com/effjy/krakken-disk-butterfly"><img src="https://img.shields.io/badge/language-C11-blue" alt="C11"></a>
-  <a href="https://github.com/effjy/krakken-disk-butterfly"><img src="https://img.shields.io/badge/platform-Linux-important" alt="Linux"></a>
-  <a href="https://github.com/effjy/krakken-disk-butterfly"><img src="https://img.shields.io/badge/security-Post--Quantum-teal" alt="Post‑Quantum"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/language-C11-blue" alt="C11"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/platform-Linux-important" alt="Linux"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/security-AES--256--GCM-teal" alt="AES-256-GCM"></a>
   <img src="https://img.shields.io/badge/NEW-800080?style=flat-square" alt="NEW">
 </div>
 
 <br>
 
-**An ultra‑secure, post‑quantum encrypted disk manager for Linux.**  
-Driven by the **2048‑bit Krakken‑2048 Butterfly** permutation, it delivers a uniform **256‑bit post‑Grover security margin** across every volume layer. Combines lattice‑based KEM (Kyber‑1024), elliptic‑curve key exchange (X448), and AVX2 SIMD – your data stays private even against future quantum adversaries.
+**An ultra‑secure encrypted disk manager for Linux, powered by hardware‑accelerated AES‑256‑GCM.**  
+Driven by the **AES‑256‑GCM permutation** with AES‑NI and AVX2 acceleration, it delivers high‑throughput authenticated encryption. Combines lattice‑based KEM (Kyber‑1024), elliptic‑curve key exchange (X448), and hardware acceleration – your data stays private even against future quantum adversaries.
 
 <div align="center">
-  <a href="https://github.com/effjy/krakken-disk-butterfly">
-    <img src="https://github.com/effjy/krakken-disk-butterfly/raw/main/screenshot.png" width="680" alt="Krakken-Disk Butterfly GUI">
+  <a href="https://github.com/effjy/axis">
+    <img src="https://github.com/effjy/axis/raw/main/screenshot.png" width="680" alt="Axis Galactic Edition GUI">
   </a>
   <br>
   <sub><i>Dark‑themed GTK dashboard for one‑click volume management</i></sub>
@@ -58,16 +57,15 @@ Driven by the **2048‑bit Krakken‑2048 Butterfly** permutation, it delivers a
 
 ### 🌌 Why it stands out
 
-- 🛡️ **Post‑quantum by design** – native 2048‑bit wide‑state permutation gives uniform 256‑bit post‑Grover security.
+- 🛡️ **Hardware‑accelerated AES‑256‑GCM** – uses AES‑NI and AVX2 for fast, secure authenticated encryption.
 - 🧬 **Hybrid KEM** – Kyber‑1024 + X448: breaking either scheme alone never exposes your keys.
-- 🦋 **XRBD diffusion** – XOR‑Rotation Butterfly Diffusion mixes all 32 state words in a single 5‑stage pass → leaner 8‑round design.
+- ⚡ **Hardware acceleration** – AES‑NI/AVX2 instructions deliver high throughput with low CPU overhead.
 - 🌑 **Plausible deniability** – IND‑RND compliant: volumes have no headers, signatures, or metadata → indistinguishable from random noise.
 - 🔒 **Brute‑force hardened** – Argon2id locked to 1 GB RAM makes GPU/ASIC attacks uneconomic.
-- ⚡ **AVX2 + multi‑threading** – hand‑tuned vectorization with a segment‑parallel AEAD stream engine.
 - 🐧 **FUSE 3 mounting** – encrypted containers appear as ordinary read‑write directories.
 
 <div align="center">
-  <a href="https://github.com/effjy/krakken-disk-butterfly">📦 Explore the repository →</a>
+  <a href="https://github.com/effjy/axis">📦 Explore the repository →</a>
 </div>
 
 <br>
