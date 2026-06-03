@@ -32,7 +32,7 @@
 <div align="center">
   <img src="https://github.com/effjy/krakken-disk-butterfly/raw/main/krakken_logo.png" width="160" alt="Krakken-Disk Butterfly Logo">
   <br>
-  <strong>🐙 Krakken‑Disk v4.6.0 — Butterfly Edition</strong>
+  <strong>🐙 Krakken‑Disk v5.0.0 — Butterfly Edition</strong>
   <br><br>
   <a href="https://github.com/effjy/krakken-disk-butterfly"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
   <a href="https://github.com/effjy/krakken-disk-butterfly"><img src="https://img.shields.io/badge/language-C11-blue" alt="C11"></a>
