@@ -26,8 +26,7 @@
 <br>
 
 ---
-
-<h2 id="featured">⭐ Featured Project — Axis (Galactic Edition)</h2>
+<h2 id="featured">⭐ Featured Project — <a href="https://github.com/effjy/axis">Axis (Galactic Edition)</a></h2>
 
 <div align="center">
   <br>
