@@ -30,6 +30,7 @@
 
 <div align="center">
   <br>
+  <img src="https://github.com/effjy/axis/raw/main/axis_logo.png" width="500" alt="Axis Galactic Edition GUI">
   <strong>🚀 Axis v10.0.0 — Galactic Edition</strong>
   <br><br>
   <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
