@@ -14,6 +14,11 @@
 > [!NOTE]
 > My work centers on the **Krakken family** of wide‑state SPN‑ARX hybrid permutations, plus a surrounding ecosystem: post‑quantum encrypted volume managers, forensic‑grade sanitization utilities, hardware‑assisted memory allocators, topological intrusion detection, and deniable encryption vaults.
 
+> [!TIP]
+> **⭐ If you find my work valuable, please consider starring the [Axis (Galactic Edition)](https://github.com/effjy/axis) repository!**  
+> Stars help others discover these projects and motivate continued development.  
+> *Even one star makes a huge difference – thank you! 🙏*
+
 <br>
 
 <p align="center">
