@@ -30,7 +30,7 @@
 
 <div align="center">
   <br>
-  <strong>🚀 Axis v10.0.0 — Galactic Edition</strong>
+  <strong>🚀 #Axis v10.0.0 — Galactic Edition</strong>
   <br><br>
   <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
   <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/language-C11-blue" alt="C11"></a>
