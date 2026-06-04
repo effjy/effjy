@@ -30,7 +30,7 @@
 
 <div align="center">
   <br>
-  <img src="https://github.com/effjy/axis/raw/main/axis_logo.png" width="300" alt="Axis Galactic Edition GUI">
+  <a href="https://github.com/effjy/axis"><img src="https://github.com/effjy/axis/raw/main/axis_logo.png" width="200" alt="Axis Galactic Edition GUI"></a>
   <br><br>
   <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
   <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/language-C11-blue" alt="C11"></a>
