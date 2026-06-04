@@ -198,3 +198,8 @@ Over **20 years** as a security analyst, network administrator, and technical sp
   <img src="CSS.svg" width="45" alt="CSS" title="CSS">&nbsp;
   <img src="SVG-Dark.svg" width="45" alt="SVG" title="SVG">
 </div>
+<div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px;">
+
+Cyber Security - Security and Honesty
+
+</div>
