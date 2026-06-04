@@ -4,50 +4,55 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FFCC&center=true&vCenter=true&width=500&lines=Symmetric+Primitive+Design;Advanced+Cryptanalysis;Post-Quantum+Secured+Systems;Forensic-Grade+Sanitization)](https://git.io/typing-svg)
 
+<p align="center">
+  <b>By day</b> — Network administrator & security analyst (operational security, digital forensics) <br>
+  <b>By night</b> — Independent cryptographic researcher, designing symmetric primitives and high‑assurance security tools
+</p>
+
 </div>
 
-**By day** – Network administrator & security analyst (operational security, digital forensics)  
-**By night** – Independent cryptographic researcher, designing symmetric primitives and high‑assurance security tools
-
+> [!NOTE]
 > My work centers on the **Krakken family** of wide‑state SPN‑ARX hybrid permutations, plus a surrounding ecosystem: post‑quantum encrypted volume managers, forensic‑grade sanitization utilities, hardware‑assisted memory allocators, topological intrusion detection, and deniable encryption vaults.
 
 <br>
 
-## 🧭 Navigation
-
-- [Featured Project – Axis (Galactic Edition)](#featured)
-- [Hardware‑Assisted Memory Safety & Systems Security](#hardware-memory-safety)
-- [Cryptographic Permutations](#crypto-permutations)
-- [Software Applications](#software-apps)
-- [Research Interests](#research)
-- [Background](#background)
-- [Contact & Profiles](#contact)
+<p align="center">
+  <a href="#featured"><b>⭐ Featured Project</b></a> • 
+  <a href="#hardware-memory-safety"><b>🔬 Systems Security</b></a> • 
+  <a href="#crypto-permutations"><b>🧬 Cryptography</b></a> • 
+  <a href="#software-apps"><b>🛠️ Applications</b></a> • 
+  <a href="#research"><b>🎯 Research</b></a> • 
+  <a href="#background"><b>📖 Background</b></a> • 
+  <a href="#contact"><b>📬 Contact</b></a>
+</p>
 
 <br>
 
 ---
-<h2 id="featured">⭐ Featured Project — <a href="https://github.com/effjy/axis">Axis (Galactic Edition)</a></h2>
+
+<h2 id="featured" align="center">⭐ Featured Project — <a href="https://github.com/effjy/axis">Axis (Galactic Edition)</a></h2>
 
 <div align="center">
   <br>
-  <a href="https://github.com/effjy/axis"><img src="https://github.com/effjy/axis/raw/main/axis_logo.png" width="200" alt="Axis Galactic Edition GUI"></a>
-  <br><br>
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/language-C11-blue" alt="C11"></a>
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/platform-Linux-important" alt="Linux"></a>
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/security-AES--256--GCM-teal" alt="AES-256-GCM"></a>
-  <img src="https://img.shields.io/badge/NEW-800080?style=flat-square" alt="NEW">
-</div>
-
-<br>
-<div align="center">
-**An ultra‑secure encrypted disk manager for Linux, powered by hardware‑accelerated AES‑256‑GCM.**  
-Driven by the **AES‑256‑GCM permutation** with AES‑NI and AVX2 acceleration, it delivers high‑throughput authenticated encryption. Combines lattice‑based KEM (Kyber‑1024), elliptic‑curve key exchange (X448), and hardware acceleration – your data stays private even against future quantum adversaries.
-  <br><br>
-</div>
-<div align="center">
   <a href="https://github.com/effjy/axis">
-    <img src="https://github.com/effjy/axis/raw/main/screenshot.png" width="680" alt="Axis Galactic Edition GUI">
+    <img src="https://github.com/effjy/axis/raw/main/axis_logo.png" width="180" alt="Axis Galactic Edition GUI">
+  </a>
+  <br><br>
+
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/License-MIT-00ffcc?style=flat-square&labelColor=1a1a1a" alt="MIT License"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Language-C11-00ffcc?style=flat-square&labelColor=1a1a1a" alt="C11"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Platform-Linux-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Linux"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Security-AES--256--GCM-00ffcc?style=flat-square&labelColor=1a1a1a" alt="AES-256-GCM"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Release-New-800080?style=flat-square&labelColor=1a1a1a" alt="NEW"></a>
+  
+  <br><br>
+  <b>An ultra‑secure encrypted disk manager for Linux, powered by hardware‑accelerated AES‑256‑GCM.</b>
+  <br>
+  Driven by the <b>AES‑256‑GCM permutation</b> with AES‑NI and AVX2 acceleration, it delivers high‑throughput authenticated encryption. Combines lattice‑based KEM (Kyber‑1024), elliptic‑curve key exchange (X448), and hardware acceleration – your data stays private even against future quantum adversaries.
+  <br><br>
+  
+  <a href="https://github.com/effjy/axis">
+    <img src="https://github.com/effjy/axis/raw/main/screenshot.png" width="680" alt="Axis Galactic Edition GUI" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
   </a>
   <br>
   <sub><i>Dark‑themed GTK dashboard for one‑click volume management</i></sub>
@@ -57,15 +62,15 @@ Driven by the **AES‑256‑GCM permutation** with AES‑NI and AVX2 acceleratio
 
 ### 🌌 Why it stands out
 
-- 🛡️ **Hardware‑accelerated AES‑256‑GCM** – uses AES‑NI and AVX2 for fast, secure authenticated encryption.
-- 🧬 **Hybrid KEM** – Kyber‑1024 + X448: breaking either scheme alone never exposes your keys.
-- ⚡ **Hardware acceleration** – AES‑NI/AVX2 instructions deliver high throughput with low CPU overhead.
-- 🌑 **Plausible deniability** – IND‑RND compliant: volumes have no headers, signatures, or metadata → indistinguishable from random noise.
-- 🔒 **Brute‑force hardened** – Argon2id locked to 1 GB RAM makes GPU/ASIC attacks uneconomic.
-- 🐧 **FUSE 3 mounting** – encrypted containers appear as ordinary read‑write directories.
+- 🛡️ **Hardware‑accelerated AES‑256‑GCM** — uses AES‑NI and AVX2 for fast, secure authenticated encryption.
+- 🧬 **Hybrid KEM** — Kyber‑1024 + X448: breaking either scheme alone never exposes your keys.
+- ⚡ **Zero-Overhead Processing** — AES-NI/AVX2 instructions deliver high throughput with minimal CPU load.
+- 🌑 **Plausible deniability** — IND‑RND compliant: volumes have no headers, signatures, or metadata → indistinguishable from random noise.
+- 🔒 **Brute‑force hardened** — Argon2id locked to 1 GB RAM makes GPU/ASIC attacks uneconomic.
+- 🐧 **FUSE 3 mounting** — encrypted containers appear as ordinary read‑write directories.
 
 <div align="center">
-  <a href="https://github.com/effjy/axis">📦 Explore the repository →</a>
+  <a href="https://github.com/effjy/axis"><b>📦 Explore the repository →</b></a>
 </div>
 
 <br>
@@ -74,11 +79,11 @@ Driven by the **AES‑256‑GCM permutation** with AES‑NI and AVX2 acceleratio
 
 <h2 id="hardware-memory-safety">🔬 Hardware‑Assisted Memory Safety & Systems Security</h2>
 
-| Project | Description |
-|:--------|:------------|
-| **[KageAlloc](https://github.com/effjy/kagealloc)** <br> [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![C](https://img.shields.io/badge/language-C-blue)](https://github.com/effjy/kagealloc) [![Linux](https://img.shields.io/badge/platform-Linux-important)](https://github.com/effjy/kagealloc) [![MPK](https://img.shields.io/badge/Intel-MPK-orange)](https://github.com/effjy/kagealloc) [![DOI](https://img.shields.io/badge/DOI-10.6084/m9.figshare.32529792-blue)](https://doi.org/10.6084/m9.figshare.32529792) | High‑performance memory allocator using **Intel MPK** for temporal safety, metadata integrity, and control‑flow isolation. Features **RICCG** (defeats PKRU hijacking), **BKR** (low‑overhead quarantine), and **TIMP** (thread‑isolated metadata). **3.8% overhead** over `ptmalloc`. <br> *Published 2026* |
-| **[TIDS](https://github.com/effjy/tids)** <br> [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![C99](https://img.shields.io/badge/language-C99-blue)](https://github.com/effjy/tids) [![Linux](https://img.shields.io/badge/platform-Linux-important)](https://github.com/effjy/tids) [![GTK3](https://img.shields.io/badge/GUI-GTK3-green)](https://gtk.org) [![DOI](https://img.shields.io/badge/DOI-10.6084/m9.figshare.32536887-blue)](https://doi.org/10.6084/m9.figshare.32536887) | **Topological Intrusion Detection System** – real‑time NIDS using persistent homology. Transforms flow features into 5D point clouds, computes Vietoris–Rips filtrations, and visualizes *H₀*/*H₁* invariants in GTK3/Cairo. Detects DDoS, port scans, slow exfiltration – **0.03% FPR** on CIC‑IDS2017. <br> *Published 2026* |
-| **[HoneyCrypt](https://github.com/effjy/honeycrypt)** <br> [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![ANSI C99](https://img.shields.io/badge/language-ANSI%20C99-blue)](https://github.com/effjy/honeycrypt) [![Linux](https://img.shields.io/badge/platform-Linux-important)](https://github.com/effjy/honeycrypt) [![GTK3](https://img.shields.io/badge/GUI-GTK3-green)](https://gtk.org) [![DOI](https://img.shields.io/badge/DOI-10.6084/m9.figshare.32537733-blue)](https://doi.org/10.6084/m9.figshare.32537733) | **Distribution‑Transforming Encryption (DTE) vault** – replaces authentication errors with plausible decoys (Luhn‑valid cards, BIP39 seeds, GPS, medical records). Incorrect passcode returns a syntactically valid decoy, denying offline brute‑force feedback. Includes 21‑slot decoy grid, four high‑fidelity synthesizers, and a brute‑force simulator. <br> *Published 2026* |
+| Project | Technology Stack & Identifiers | Description & Benchmarks |
+|:---|:---|:---|
+| **[KageAlloc](https://github.com/effjy/kagealloc)** | [![License: MIT](https://img.shields.io/badge/License-MIT-00ffcc?style=flat-square&labelColor=1a1a1a)](LICENSE) <br> [![Language: C](https://img.shields.io/badge/Language-C-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/kagealloc) <br> [![Platform: Linux](https://img.shields.io/badge/Platform-Linux-8a2be2?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/kagealloc) <br> [![Hardware: Intel MPK](https://img.shields.io/badge/Hardware-Intel%20MPK-8a2be2?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/kagealloc) <br> [![DOI](https://img.shields.io/badge/DOI-10.6084%2Ffigshare.32529792-00ffcc?style=flat-square&labelColor=1a1a1a)](https://doi.org/10.6084/m9.figshare.32529792) | High‑performance memory allocator using **Intel MPK** for temporal safety, metadata integrity, and control‑flow isolation. <br> • **RICCG**: Defeats PKRU hijacking. <br> • **BKR**: Low‑overhead quarantine. <br> • **TIMP**: Thread‑isolated metadata. <br> 📊 **3.8% overhead** over standard `ptmalloc`. *(Published 2026)* |
+| **[TIDS](https://github.com/effjy/tids)** | [![License: MIT](https://img.shields.io/badge/License-MIT-00ffcc?style=flat-square&labelColor=1a1a1a)](LICENSE) <br> [![Language: C99](https://img.shields.io/badge/Language-C99-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/tids) <br> [![Platform: Linux](https://img.shields.io/badge/Platform-Linux-8a2be2?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/tids) <br> [![GUI: GTK3](https://img.shields.io/badge/GUI-GTK3-8a2be2?style=flat-square&labelColor=1a1a1a)](https://gtk.org) <br> [![DOI](https://img.shields.io/badge/DOI-10.6084%2Ffigshare.32536887-00ffcc?style=flat-square&labelColor=1a1a1a)](https://doi.org/10.6084/m9.figshare.32536887) | **Topological Intrusion Detection System** — real‑time NIDS using persistent homology. <br> • Transforms flow features into 5D point clouds. <br> • Computes Vietoris–Rips filtrations. <br> • Visualizes *H₀*/*H₁* invariants in GTK3/Cairo. <br> 📊 **0.03% FPR** on CIC‑IDS2017. *(Published 2026)* |
+| **[HoneyCrypt](https://github.com/effjy/honeycrypt)** | [![License: MIT](https://img.shields.io/badge/License-MIT-00ffcc?style=flat-square&labelColor=1a1a1a)](LICENSE) <br> [![Language: ANSI C99](https://img.shields.io/badge/Language-ANSI%20C99-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/honeycrypt) <br> [![Platform: Linux](https://img.shields.io/badge/Platform-Linux-8a2be2?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/honeycrypt) <br> [![GUI: GTK3](https://img.shields.io/badge/GUI-GTK3-8a2be2?style=flat-square&labelColor=1a1a1a)](https://gtk.org) <br> [![DOI](https://img.shields.io/badge/DOI-10.6084%2Ffigshare.32537733-00ffcc?style=flat-square&labelColor=1a1a1a)](https://doi.org/10.6084/m9.figshare.32537733) | **Distribution‑Transforming Encryption (DTE) vault** — replaces authentication errors with plausible decoys (Luhn‑valid cards, BIP39 seeds, GPS, medical records). <br> • Incorrect passcode returns a syntactically valid decoy, denying offline brute‑force feedback. <br> • Includes a 21‑slot decoy grid, four high‑fidelity synthesizers, and a brute‑force simulator. *(Published 2026)* |
 
 <br>
 
@@ -86,10 +91,10 @@ Driven by the **AES‑256‑GCM permutation** with AES‑NI and AVX2 acceleratio
 
 <h2 id="crypto-permutations">🔬 Cryptographic Permutations</h2>
 
-| Project | Description |
-|:--------|:------------|
-| **[Krakken-2048 Abyssal](https://github.com/effjy/krakken)** <br> [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![C](https://img.shields.io/badge/language-C-blue)](https://github.com/effjy/krakken) [![Linux](https://img.shields.io/badge/platform-Linux-important)](https://github.com/effjy/krakken) [![DOI](https://img.shields.io/badge/DOI-10.6084/m9.figshare.32527359-blue)](https://doi.org/10.6084/m9.figshare.32527359) | A **2048‑bit permutation** fusing an SPN core (GF(2⁸) S‑box + MDS branch number 9) with targeted ARX mixing to eliminate algebraic invariants. Designed for high‑assurance sponge constructions. <br> *Published 2026* |
-| **[Krakken-2048 Butterfly](https://github.com/effjy/krakken-butterfly)** <br> [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![C](https://img.shields.io/badge/language-C-blue)](https://github.com/effjy/krakken-butterfly) [![Linux](https://img.shields.io/badge/platform-Linux-important)](https://github.com/effjy/krakken-butterfly) [![DOI](https://img.shields.io/badge/DOI-10.6084/m9.figshare.32527287-blue)](https://doi.org/10.6084/m9.figshare.32527287) | Evolution of Krakken‑2048 with the **XOR‑Rotation Butterfly Diffusion (XRBD)** layer – achieves full word‑level avalanche across 32 words in a single 5‑stage pass. Enables round reduction from 10 to 8 while improving security margins. <br> *Published 2026* |
+| Project | Mathematical Stack & Identifiers | Description & Architectural Features |
+|:---|:---|:---|
+| **[Krakken-2048 Abyssal](https://github.com/effjy/krakken)** | [![License: MIT](https://img.shields.io/badge/License-MIT-00ffcc?style=flat-square&labelColor=1a1a1a)](LICENSE) <br> [![Language: C](https://img.shields.io/badge/Language-C-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/krakken) <br> [![Platform: Linux](https://img.shields.io/badge/Platform-Linux-8a2be2?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/krakken) <br> [![DOI](https://img.shields.io/badge/DOI-10.6084%2Ffigshare.32527359-00ffcc?style=flat-square&labelColor=1a1a1a)](https://doi.org/10.6084/m9.figshare.32527359) | A **2048‑bit permutation** fusing an SPN core (GF(2⁸) S‑box + MDS branch number 9) with targeted ARX mixing to eliminate algebraic invariants. Designed specifically for high‑assurance sponge constructions. *(Published 2026)* |
+| **[Krakken-2048 Butterfly](https://github.com/effjy/krakken-butterfly)** | [![License: MIT](https://img.shields.io/badge/License-MIT-00ffcc?style=flat-square&labelColor=1a1a1a)](LICENSE) <br> [![Language: C](https://img.shields.io/badge/Language-C-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/krakken-butterfly) <br> [![Platform: Linux](https://img.shields.io/badge/Platform-Linux-8a2be2?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/krakken-butterfly) <br> [![DOI](https://img.shields.io/badge/DOI-10.6084%2Ffigshare.32527287-00ffcc?style=flat-square&labelColor=1a1a1a)](https://doi.org/10.6084/m9.figshare.32527287) | Evolution of Krakken‑2048 with the **XOR‑Rotation Butterfly Diffusion (XRBD)** layer. <br> • Achieves full word‑level avalanche across 32 words in a single 5‑stage pass. <br> • Enables round reduction from 10 to 8 while improving security margins. *(Published 2026)* |
 
 <br>
 
@@ -97,15 +102,15 @@ Driven by the **AES‑256‑GCM permutation** with AES‑NI and AVX2 acceleratio
 
 <h2 id="software-apps">🛠️ Software Applications</h2>
 
-| Project | Description |
-|:--------|:------------|
-| **[Axis (Galactic Edition)](https://github.com/effjy/axis/)** <br> [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![C](https://img.shields.io/badge/language-C-blue)](https://github.com/effjy/axis) [![Linux](https://img.shields.io/badge/platform-Linux-important)](https://github.com/effjy/axis) [![Security](https://img.shields.io/badge/security-Post--Quantum--%2B--AES-teal)](https://github.com/effjy/axis) <img src="https://img.shields.io/badge/NEW-800080?style=flat-square" align="right"> | Ultra‑secure encrypted disk manager with hardware‑accelerated AES‑256‑GCM, Kyber‑1024/X448 hybrid KEM, plausible deniability, and GTK GUI. **Stable** |
-| **[Krakken-Disk](https://github.com/effjy/krakken-disk/)** <br> [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![C](https://img.shields.io/badge/language-C-blue)](https://github.com/effjy/krakken-disk) [![Linux](https://img.shields.io/badge/platform-Linux-important)](https://github.com/effjy/krakken-disk) [![Post‑Quantum](https://img.shields.io/badge/security-Post--Quantum-teal)](https://github.com/effjy/krakken-disk) | Post‑quantum encrypted disk manager for Linux. Kyber‑1024/X448 hybrid KEM, AVX2‑accelerated wide‑state permutations, plausible deniability. **Stable** |
-| **[Krakken-Disk Butterfly](https://github.com/effjy/krakken-disk-butterfly/)** <br> [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![C](https://img.shields.io/badge/language-C-blue)](https://github.com/effjy/krakken-disk-butterfly) [![Linux](https://img.shields.io/badge/platform-Linux-important)](https://github.com/effjy/krakken-disk-butterfly) [![Post‑Quantum](https://img.shields.io/badge/security-Post--Quantum-teal)](https://github.com/effjy/krakken-disk-butterfly) <img src="https://img.shields.io/badge/NEW-800080?style=flat-square" align="right"> | Same features as Krakken‑Disk, but with the **Krakken‑2048 Butterfly** permutation – faster 8‑round design and XRBD diffusion. **Stable** |
-| **[Secure Mount](https://github.com/effjy/secure_mount/)** <br> [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![C](https://img.shields.io/badge/language-C-blue)](https://github.com/effjy/secure_mount) [![Linux](https://img.shields.io/badge/platform-Linux-important)](https://github.com/effjy/secure_mount) [![GTK3](https://img.shields.io/badge/GTK-3.0-brightgreen)](https://github.com/effjy/secure_mount) | Modern GTK3 frontend for **gocryptfs** – effortless mounting, unmounting, and initializing encrypted volumes. Desktop integration, secure password entry. **Stable** |
-| **[Secure Wipe](https://github.com/effjy/swipe)** <br> [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![C](https://img.shields.io/badge/language-C-blue)](https://github.com/effjy/swipe) [![Linux](https://img.shields.io/badge/platform-Linux-important)](https://github.com/effjy/swipe) [![NIST](https://img.shields.io/badge/standards-NIST%20SP%20800--88%20%2F%20FIPS%20140--3-blue)](https://github.com/effjy/swipe) | CLI data sanitization utility – NIST SP 800‑88 compliant file, directory, free‑space, and RAM wiping. Interactive text‑based interface. **Stable** |
-| **[Usage](https://github.com/effjy/usage/)** <br> [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![C](https://img.shields.io/badge/language-C-blue)](https://github.com/effjy/usage) [![Linux](https://img.shields.io/badge/platform-Linux-important)](https://github.com/effjy/usage) [![GTK3](https://img.shields.io/badge/GTK-3.0-brightgreen)](https://github.com/effjy/usage) | Real‑time network traffic monitor with GTK+3 – current speeds, session statistics, live graph. Styled with **Tokyo Night** dark theme. **Stable** |
-| **[Virtual Wipe Turbo](https://github.com/effjy/vwipe)** <br> [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![C](https://img.shields.io/badge/language-C-blue)](https://github.com/effjy/vwipe) [![Linux](https://img.shields.io/badge/platform-Linux-important)](https://github.com/effjy/vwipe) [![NIST](https://img.shields.io/badge/standards-NIST%20SP%20800--88%20%2F%20FIPS%20140--3-blue)](https://github.com/effjy/vwipe) <img src="https://img.shields.io/badge/NEW-800080?style=flat-square" align="right"> | High‑performance secure‑erasure suite for storage and volatile memory. Multi‑threaded engine, GTK3 dark theme, secure CLI memory purger. **Stable** |
+| Project | Security & Tech Stack | Description & Status |
+|:---|:---|:---|
+| **[Axis (Galactic Edition)](https://github.com/effjy/axis/)** | [![Language: C](https://img.shields.io/badge/Language-C-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/axis) <br> [![Security: Post-Quantum + AES](https://img.shields.io/badge/Security-Post--Quantum--%2B--AES-8a2be2?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/axis) | Ultra‑secure encrypted disk manager with hardware‑accelerated AES‑256‑GCM, Kyber‑1024/X448 hybrid KEM, plausible deniability, and GTK GUI. <br> 🏷️ [![Status: Stable](https://img.shields.io/badge/Status-Stable-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/axis/) [![Release: New](https://img.shields.io/badge/Release-New-9933ff?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/axis/) |
+| **[Krakken-Disk](https://github.com/effjy/krakken-disk/)** | [![Language: C](https://img.shields.io/badge/Language-C-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/krakken-disk) <br> [![Security: Post-Quantum](https://img.shields.io/badge/Security-Post--Quantum-8a2be2?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/krakken-disk) | Post‑quantum encrypted disk manager for Linux. Kyber‑1024/X448 hybrid KEM, AVX2‑accelerated wide‑state permutations, plausible deniability. <br> 🏷️ [![Status: Stable](https://img.shields.io/badge/Status-Stable-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/krakken-disk/) |
+| **[Krakken-Disk Butterfly](https://github.com/effjy/krakken-disk-butterfly/)** | [![Language: C](https://img.shields.io/badge/Language-C-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/krakken-disk-butterfly) <br> [![Security: Post-Quantum](https://img.shields.io/badge/Security-Post--Quantum-8a2be2?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/krakken-disk-butterfly) | Same features as Krakken‑Disk, but with the **Krakken‑2048 Butterfly** permutation — faster 8‑round design and XRBD diffusion. <br> 🏷️ [![Status: Stable](https://img.shields.io/badge/Status-Stable-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/krakken-disk-butterfly/) [![Release: New](https://img.shields.io/badge/Release-New-9933ff?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/krakken-disk-butterfly/) |
+| **[Secure Mount](https://github.com/effjy/secure_mount/)** | [![Language: C](https://img.shields.io/badge/Language-C-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/secure_mount) <br> [![GUI: GTK3](https://img.shields.io/badge/GUI-GTK3.0-8a2be2?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/secure_mount) | Modern GTK3 frontend for **gocryptfs** — effortless mounting, unmounting, and initializing encrypted volumes. Desktop integration, secure password entry. <br> 🏷️ [![Status: Stable](https://img.shields.io/badge/Status-Stable-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/secure_mount/) |
+| **[Secure Wipe](https://github.com/effjy/swipe)** | [![Language: C](https://img.shields.io/badge/Language-C-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/swipe) <br> [![Standards: NIST SP 800-88](https://img.shields.io/badge/Standards-NIST%20SP%20800--88-8a2be2?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/swipe) | CLI data sanitization utility — NIST SP 800‑88 compliant file, directory, free‑space, and RAM wiping. Interactive text‑based interface. <br> 🏷️ [![Status: Stable](https://img.shields.io/badge/Status-Stable-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/swipe) |
+| **[Usage](https://github.com/effjy/usage/)** | [![Language: C](https://img.shields.io/badge/Language-C-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/usage) <br> [![GUI: GTK3](https://img.shields.io/badge/GUI-GTK3.0-8a2be2?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/usage) | Real‑time network traffic monitor with GTK+3 — current speeds, session statistics, live graph. Styled with **Tokyo Night** dark theme. <br> 🏷️ [![Status: Stable](https://img.shields.io/badge/Status-Stable-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/usage/) |
+| **[Virtual Wipe Turbo](https://github.com/effjy/vwipe)** | [![Language: C](https://img.shields.io/badge/Language-C-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/vwipe) <br> [![Standards: NIST SP 800-88](https://img.shields.io/badge/Standards-NIST%20SP%20800--88-8a2be2?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/vwipe) | High‑performance secure‑erasure suite for storage and volatile memory. Multi‑threaded engine, GTK3 dark theme, secure CLI memory purger. <br> 🏷️ [![Status: Stable](https://img.shields.io/badge/Status-Stable-00ffcc?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/vwipe) [![Release: New](https://img.shields.io/badge/Release-New-9933ff?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/vwipe) |
 
 <br>
 
@@ -113,21 +118,31 @@ Driven by the **AES‑256‑GCM permutation** with AES‑NI and AVX2 acceleratio
 
 <h2 id="research">🎯 Research Interests</h2>
 
-<div align="center">
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-| **Wide‑state permutation design** | **SPN‑ARX hybrid architectures** |
-|:----------------------------------|:----------------------------------|
-| Post‑quantum symmetric crypto | Invariant subspace resistance, algebraic degree propagation |
-| **Topological data analysis for IDS** | **Hardware‑assisted memory safety** |
-| Persistent homology, Vietoris–Rips complexes | Intel MPK, temporal safety, control‑flow isolation |
-| **Side‑channel resistance** | **Automated cryptanalysis** |
-| Constant‑time implementations | MILP, SAT/SMT solvers on mixed constructions |
-| **Deniable encryption** | **Forensic‑grade sanitization** |
-| Hidden‑volume plausibility | NIST SP 800‑88, cryptographic erasure |
-| **Mode design for large‑state sponges** | – |
-| Keyed duplex, AEAD | – |
+#### 🧬 Cryptographic Primitives & Design
+- **Wide‑state permutation design** for high-assurance sponge functions
+- **SPN‑ARX hybrid architectures** (canceling reciprocal vulnerabilities)
+- **Post‑quantum symmetric cryptography** and hybrid key encapsulation
+- **Invariant subspace resistance** and algebraic degree propagation analysis
+- **Mode design for large‑state sponges** (Keyed duplex, robust AEAD schemes)
+- **Automated cryptanalysis** (applying MILP, SAT/SMT solvers on mixed constructions)
 
-</div>
+</td>
+<td width="50%" valign="top">
+
+#### 🛡️ Hardware, Forensics & Systems Security
+- **Hardware‑assisted memory safety** (leveraging Intel MPK, control‑flow isolation)
+- **Topological intrusion detection systems (TIDS)** (persistent homology, Vietoris–Rips complexes)
+- **Side‑channel attack resistance** (designing strict constant‑time software implementations)
+- **Forensic‑grade data sanitization** (alignment with NIST SP 800‑88 and FIPS 140‑3 standards)
+- **Plausibly deniable encryption** (multi-slot decoy structures & hidden-volume engineering)
+
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -135,9 +150,10 @@ Driven by the **AES‑256‑GCM permutation** with AES‑NI and AVX2 acceleratio
 
 <h2 id="background">📖 Background</h2>
 
-Over **20 years** as a security analyst, network administrator, and technical specialist – a rare bridge between operational security and cryptographic design. For more than a decade I have independently researched symmetric primitives, focusing on how the SPN and ARX paradigms can be fused so each cancels the other's weaknesses.
+Over **20 years** as a security analyst, network administrator, and technical specialist — representing a rare, crucial bridge between operational security and cryptographic design. For more than a decade, I have independently researched symmetric primitives, focusing on how the SPN and ARX paradigms can be fused so each cancels the other's weaknesses.
 
-The **Krakken** project embodies that philosophy: every S‑box, every rotation, every linear layer is chosen to neutralize the cryptanalytic vulnerabilities of the others.
+> [!TIP]
+> The **Krakken** project embodies this philosophy: every S‑box, every rotation, and every linear layer is systematically chosen to neutralize the cryptanalytic vulnerabilities of the others.
 
 <br>
 
@@ -145,32 +161,35 @@ The **Krakken** project embodies that philosophy: every S‑box, every rotation,
 
 <h2 id="contact">📬 Contact & Profiles</h2>
 
-| Platform | Link |
-|:---------|:-----|
-| **GitHub**   | [@effjy](https://github.com/effjy) |
-| **ORCID**    | [0009-0005-6377-1675](https://orcid.org/0009-0005-6377-1675) |
-| **Figshare** | [Publications](https://figshare.com/authors/Jean-Francois_Lachance-Caumartin/24086388) |
-| **Gravatar** | [effjy](https://gravatar.com/effjy) |
-| **X**        | [@jfclachance](https://x.com/jfclachance) |
+<p align="center">
+  <a href="https://github.com/effjy"><img src="https://img.shields.io/badge/GitHub-%40effjy-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>&nbsp;
+  <a href="https://orcid.org/0009-0005-6377-1675"><img src="https://img.shields.io/badge/ORCID-0009--0005--6377--1675-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"></a>&nbsp;
+  <a href="https://figshare.com/authors/Jean-Francois_Lachance-Caumartin/24086388"><img src="https://img.shields.io/badge/Figshare-Publications-36454F?style=for-the-badge&logo=figshare&logoColor=white" alt="Figshare"></a>&nbsp;
+  <a href="https://gravatar.com/effjy"><img src="https://img.shields.io/badge/Gravatar-effjy-1F8CEB?style=for-the-badge&logo=gravatar&logoColor=white" alt="Gravatar"></a>&nbsp;
+  <a href="https://x.com/jfclachance"><img src="https://img.shields.io/badge/X-%40jfclachance-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+</p>
 
 <br>
 
 ---
 
+<h3 align="center">🛠️ Tech Stack & Tooling</h3>
 <div align="center">
-  <img src="CSS.svg" width="50" alt="CSS">
-  <img src="Java-Dark.svg" width="50" alt="Java">
-  <img src="Perl.svg" width="50" alt="Perl">
-  <img src="Bash-Dark.svg" width="50" alt="Bash">
-  <img src="C.svg" width="50" alt="C">
-  <img src="JavaScript.svg" width="50" alt="JavaScript">
-  <img src="Python-Dark.svg" width="50" alt="Python">
-  <br>
-  <img src="CMake-Dark.svg" width="50" alt="CMake">
-  <img src="Git.svg" width="50" alt="Git">
-  <img src="HTML.svg" width="50" alt="HTML">
-  <img src="Linux-Dark.svg" width="50" alt="Linux">
-  <img src="Ubuntu-Dark.svg" width="50" alt="Ubuntu">
-  <img src="CPP.svg" width="50" alt="C++">
-  <img src="SVG-Dark.svg" width="50" alt="SVG">
+  <!-- Languages -->
+  <img src="C.svg" width="45" alt="C" title="C">&nbsp;
+  <img src="CPP.svg" width="45" alt="C++" title="C++">&nbsp;
+  <img src="Python-Dark.svg" width="45" alt="Python" title="Python">&nbsp;
+  <img src="Bash-Dark.svg" width="45" alt="Bash" title="Bash">&nbsp;
+  <img src="JavaScript.svg" width="45" alt="JavaScript" title="JavaScript">&nbsp;
+  <img src="Java-Dark.svg" width="45" alt="Java" title="Java">&nbsp;
+  <img src="Perl.svg" width="45" alt="Perl" title="Perl">&nbsp;
+  <br><br>
+  <!-- Frameworks, Markup & DevTools -->
+  <img src="Linux-Dark.svg" width="45" alt="Linux" title="Linux">&nbsp;
+  <img src="Ubuntu-Dark.svg" width="45" alt="Ubuntu" title="Ubuntu">&nbsp;
+  <img src="Git.svg" width="45" alt="Git" title="Git">&nbsp;
+  <img src="CMake-Dark.svg" width="45" alt="CMake" title="CMake">&nbsp;
+  <img src="HTML.svg" width="45" alt="HTML" title="HTML">&nbsp;
+  <img src="CSS.svg" width="45" alt="CSS" title="CSS">&nbsp;
+  <img src="SVG-Dark.svg" width="45" alt="SVG" title="SVG">
 </div>
