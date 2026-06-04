@@ -43,6 +43,7 @@
 <div align="center">
 **An ultra‑secure encrypted disk manager for Linux, powered by hardware‑accelerated AES‑256‑GCM.**  
 Driven by the **AES‑256‑GCM permutation** with AES‑NI and AVX2 acceleration, it delivers high‑throughput authenticated encryption. Combines lattice‑based KEM (Kyber‑1024), elliptic‑curve key exchange (X448), and hardware acceleration – your data stays private even against future quantum adversaries.
+  <br>
 </div>
 <div align="center">
   <a href="https://github.com/effjy/axis">
