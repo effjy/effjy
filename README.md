@@ -15,7 +15,7 @@
 > My work centers on the **Krakken family** of wide‑state SPN‑ARX hybrid permutations, plus a surrounding ecosystem: post‑quantum encrypted volume managers, forensic‑grade sanitization utilities, hardware‑assisted memory allocators, topological intrusion detection, and deniable encryption vaults.
 
 > [!TIP]
-> **⭐ If you find my work valuable, please consider starring the [Krakken-Disk (Butterfly Edition)](https://github.com/effjy/krakken-disk-butterfly) repository (or any other project you like)!**  
+> **⭐ If you find my work valuable, please consider starring the [Axis (Galactic Edition)](https://github.com/effjy/axis) repository (or any other project you like)!**  
 > Stars help others discover these projects and motivate continued development.  
 > *Even one star makes a huge difference – thank you! 🙏*
 
@@ -35,29 +35,29 @@
 
 ---
 
-<h2 id="featured" align="center">⭐ Featured Project — <a href="https://github.com/effjy/krakken-disk-butterfly">Krakken-Disk (Butterfly Edition)</a></h2>
+<h2 id="featured" align="center">⭐ Featured Project — <a href="https://github.com/effjy/axis">Axis (Galactic Edition)</a></h2>
 
 <div align="center">
   <br>
-  <a href="https://github.com/effjy/krakken-disk-butterfly">
-    <img src="https://github.com/effjy/krakken-disk-butterfly/raw/main/krakken_logo.png" width="180" alt="Krakken-Disk Butterfly Edition GUI">
+  <a href="https://github.com/effjy/axis">
+    <img src="https://github.com/effjy/axis/raw/main/axis_logo.png" width="180" alt="Axis Galactic Edition GUI">
   </a>
   <br><br>
 
-  <a href="https://github.com/effjy/krakken-disk-butterfly"><img src="https://img.shields.io/badge/License-MIT-teal?style=flat-square&labelColor=1a1a1a" alt="MIT License"></a>
-  <a href="https://github.com/effjy/krakken-disk-butterfly"><img src="https://img.shields.io/badge/Language-C11-teal?style=flat-square&labelColor=1a1a1a" alt="C11"></a>
-  <a href="https://github.com/effjy/krakken-disk-butterfly"><img src="https://img.shields.io/badge/Platform-Linux-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Linux"></a>
-  <a href="https://github.com/effjy/krakken-disk-butterfly"><img src="https://img.shields.io/badge/Security-Post--Quantum--Era-teal?style=flat-square&labelColor=1a1a1a" alt="Post-Quantum-Era"></a>
-  <a href="https://github.com/effjy/krakken-disk-butterfly"><img src="https://img.shields.io/badge/Release-New-800080?style=flat-square&labelColor=1a1a1a" alt="NEW"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/License-MIT-teal?style=flat-square&labelColor=1a1a1a" alt="MIT License"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Language-C11-teal?style=flat-square&labelColor=1a1a1a" alt="C11"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Platform-Linux-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Linux"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Security-AES--256--GCM-teal?style=flat-square&labelColor=1a1a1a" alt="AES-256-GCM"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Release-New-800080?style=flat-square&labelColor=1a1a1a" alt="NEW"></a>
   
   <br><br>
-  <b>An ultra‑secure encrypted disk manager for Linux, engineered for the post‑quantum era.</b>
+  <b>An ultra‑secure encrypted disk manager for Linux, powered by hardware‑accelerated AES‑256‑GCM.</b>
   <br>
-  Powered by the massive 2048‑bit <b>Krakken‑2048 Butterfly permutation</b>, it provides a uniform 256‑bit post‑Grover security margin. Combines lattice‑based KEM (Kyber‑1024), elliptic‑curve key exchange (X448), and AVX2 SIMD acceleration – your data stays private even against future quantum adversaries.
+  Driven by the <b>AES‑256‑GCM permutation</b> with AES‑NI and AVX2 acceleration, it delivers high‑throughput authenticated encryption. Combines lattice‑based KEM (Kyber‑1024), elliptic‑curve key exchange (X448), and hardware acceleration – your data stays private even against future quantum adversaries.
   <br><br>
   
-  <a href="https://github.com/effjy/krakken-disk-butterfly">
-    <img src="https://github.com/effjy/krakken-disk-butterfly/raw/main/screenshot.png" width="680" alt="Krakken-Disk Butterfly Edition GUI" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+  <a href="https://github.com/effjy/axis">
+    <img src="https://github.com/effjy/axis/raw/main/screenshot.png" width="680" alt="Axis Galactic Edition GUI" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
   </a>
   <br>
   <sub><i>Dark‑themed GTK dashboard for one‑click volume management</i></sub>
@@ -67,15 +67,15 @@
 
 ### 🌌 Why it stands out
 
-- 🛡️ **Post‑Quantum Security Margin** — native 2048‑bit wide‑state permutation providing a uniform 256‑bit post‑Grover security margin.
+- 🛡️ **Hardware‑accelerated AES‑256‑GCM** — uses AES‑NI and AVX2 for fast, secure authenticated encryption.
 - 🧬 **Hybrid KEM** — Kyber‑1024 + X448: breaking either scheme alone never exposes your keys.
-- ⚡ **Butterfly Permutation Core** — highly-secure hand‑tuned AVX2 SIMD vectorization with register‑only MDS mixing and a faster 8‑round design.
+- ⚡ **Zero-Overhead Processing** — AES-NI/AVX2 instructions deliver high throughput with minimal CPU load.
 - 🌑 **Plausible deniability** — IND‑RND compliant: volumes have no headers, signatures, or metadata → indistinguishable from random noise.
 - 🔒 **Brute‑force hardened** — Argon2id locked to 1 GB RAM makes GPU/ASIC attacks uneconomic.
 - 🐧 **FUSE 3 mounting** — encrypted containers appear as ordinary read‑write directories.
 
 <div align="center">
-  <a href="https://github.com/effjy/krakken-disk-butterfly"><b>📦 Explore the repository →</b></a>
+  <a href="https://github.com/effjy/axis"><b>📦 Explore the repository →</b></a>
 </div>
 
 <br>
