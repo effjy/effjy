@@ -69,7 +69,7 @@
 
 - 🛡️ **Post‑Quantum Security Margin** — native 2048‑bit wide‑state permutation providing a uniform 256‑bit post‑Grover security margin.
 - 🧬 **Hybrid KEM** — Kyber‑1024 + X448: breaking either scheme alone never exposes your keys.
-- ⚡ **Butterfly Permutation Core** — hand‑tuned AVX2 SIMD vectorization with register‑only MDS mixing and a faster 8‑round design.
+- ⚡ **Butterfly Permutation Core** — highly-secure hand‑tuned AVX2 SIMD vectorization with register‑only MDS mixing and a faster 8‑round design.
 - 🌑 **Plausible deniability** — IND‑RND compliant: volumes have no headers, signatures, or metadata → indistinguishable from random noise.
 - 🔒 **Brute‑force hardened** — Argon2id locked to 1 GB RAM makes GPU/ASIC attacks uneconomic.
 - 🐧 **FUSE 3 mounting** — encrypted containers appear as ordinary read‑write directories.
