@@ -48,7 +48,7 @@
 | **[Virtual Wipe Turbo](https://github.com/effjy/vwipe)** | [![Language: C](https://img.shields.io/badge/Language-C-teal?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/vwipe) <br> [![Standards: NIST SP 800-88](https://img.shields.io/badge/Standards-NIST%20SP%20800--88-8a2be2?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/vwipe) <br> [![Status: Stable](https://img.shields.io/badge/Status-Stable-teal?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/vwipe) [![Release: New](https://img.shields.io/badge/Release-New-9933ff?style=flat-square&labelColor=070807)](https://github.com/effjy/vwipe) | High-performance secure-erasure suite for storage and volatile memory. Multi-threaded wiping engine, GTK3 dark theme, and a secure CLI memory purger — NIST SP 800-88 aligned. |
 | **[Secure Wipe](https://github.com/effjy/swipe)** | [![Language: C](https://img.shields.io/badge/Language-C-teal?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/swipe) <br> [![Standards: NIST SP 800-88](https://img.shields.io/badge/Standards-NIST%20SP%20800--88-8a2be2?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/swipe) <br> [![Status: Stable](https://img.shields.io/badge/Status-Stable-teal?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/swipe) | NIST SP 800-88 compliant CLI sanitization utility for files, directories, free space, and RAM. Lightweight, scriptable, with an interactive text-based interface. |
 
-<details>
+<details open>
 <summary><b>More utilities & tools</b></summary>
 
 <br>
