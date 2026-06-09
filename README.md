@@ -40,6 +40,7 @@
 
 | Project | Update |
 |:---|:---|
+| **[Forensic Dump](https://github.com/effjy/fordump)** | 🆕 New release |
 | **[memscan](https://github.com/effjy/memscan/)** | 🆕 New release |
 | **[Syshash](https://github.com/effjy/syshash/)** | 🆕 New release |
 
