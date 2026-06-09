@@ -34,18 +34,6 @@
 
 ---
 
-<h2 align="center">🆕 What's New</h2>
-
-<p align="center"><i>June 9, 2026</i></p>
-
-| Project | Update |
-|:---|:---|
-| **[Forensic Dump](https://github.com/effjy/fordump)** | 🆕 New release |
-| **[memscan](https://github.com/effjy/memscan/)** | 🆕 New release |
-| **[Syshash](https://github.com/effjy/syshash/)** | 🆕 New release |
-
----
-
 <h2 id="apps" align="center">🛠️ Flagship Applications</h2>
 
 <p align="center"><i>Production-ready security tools for Linux. Stars on any of these are hugely appreciated. ⭐</i></p>
