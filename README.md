@@ -6,7 +6,7 @@
 
 **Security analyst by day · cryptographic researcher by night.**
 I build high-assurance security tools and design symmetric primitives.
-
+<br>
 UPCOMING PROJECT - ONE OF THE <b>FIRST</b> POST-QUANTUM PASSWORD MANAGER!
 
 <br>
