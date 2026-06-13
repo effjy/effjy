@@ -22,6 +22,7 @@
   <a href="#featured"><b>⭐ Featured Project</b></a> • 
   <a href="#hardware-memory-safety"><b>🔬 Systems Security</b></a> • 
   <a href="#crypto-permutations"><b>🧬 Cryptography</b></a> • 
+  <a href="#learning"><b>📚 Learning Resources</b></a> • 
   <a href="#contact"><b>📬 Contact</b></a>
 </p>
 
