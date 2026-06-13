@@ -49,6 +49,7 @@ I build high-assurance security tools and design symmetric primitives.
 | Project | Stack | What it does |
 |:---|:---|:---|
 | **[Chkrootkit-gui](https://github.com/effjy/chkrootkit-gui/)** | `C` · GTK3 | Color-coded GTK3 front-end for **chkrootkit** with live scan output and false-positive filtering. |
+| **[Connection Monitor](https://github.com/effjy/connmon/)** | `C` · GTK3 | Real-time TCP connection monitor — reads `/proc/net/tcp`, resolves owning process per socket, cyber-themed live table. |
 | **[Forensic Dump](https://github.com/effjy/fordump)** | `C` · GTK3 | Multithreaded disk acquisition with file carving (JPEG/PNG/PDF/ZIP) and key/credential search. |
 | **[Memscan](https://github.com/effjy/memscan/)** | `C` · Linux | Scans a live process's memory for byte patterns or file magic via `/proc/<pid>/mem`. |
 | **[Password Toolkit](https://github.com/effjy/entropy/)** | `C` · getrandom() | CSPRNG password generator with an entropy analyzer that penalizes repeats, sequences and dictionary words. |
