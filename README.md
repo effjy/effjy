@@ -131,6 +131,16 @@
 
 ---
 
+<h2 id="learning">📚 Learning Resources</h2>
+
+| Project | Language & Tech Stack | Description |
+|:---|:---|:---|
+| **[Learning C](https://github.com/effjy/learning-c/)** | [![Language: C](https://img.shields.io/badge/Language-C-teal?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/learning-c) <br> [![Type: Tutorial](https://img.shields.io/badge/Type-Tutorial-8a2be2?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/learning-c) | A complete from-scratch guide to coding in C — covers compilation, variables, pointers, structs, and manual memory management, with 5 progressive hands-on exercises and line-by-line explanations. |
+| **[Learning Python](https://github.com/effjy/learning-python/)** | [![Language: Python](https://img.shields.io/badge/Language-Python-teal?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/learning-python) <br> [![Type: Tutorial](https://img.shields.io/badge/Type-Tutorial-8a2be2?style=flat-square&labelColor=1a1a1a)](https://github.com/effjy/learning-python) | A complete from-scratch guide to coding in Python — covers the interpreter, data types, collections, functions, exceptions, and files, with 5 progressive hands-on exercises and line-by-line explanations. |
+<br>
+
+---
+
 <h2 id="contact">📬 Contact & Profiles</h2>
 
 <p align="center">
