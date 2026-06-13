@@ -39,7 +39,7 @@ I build high-assurance security tools and design symmetric primitives.
 | **[Krakken-Disk Butterfly](https://github.com/effjy/krakken-disk-butterfly/)** ⭐ | `C` · Post-Quantum | Krakken-Disk on the **Butterfly** permutation — faster throughput, stronger margins. |
 | **[Krakken-Disk Butterfly CLI](https://github.com/effjy/krakken-disk-butterfly-cli/)** | `C` · Post-Quantum | Headless build for servers and automation scripts. |
 | **[Secure Wipe](https://github.com/effjy/swipe)** | `C` · NIST SP 800-88 | Lightweight CLI sanitizer for files, directories, free space and RAM. |
-| **[Virtual Wipe Turbo](https://github.com/effjy/vwipe)** ⭐ | `C` · NIST SP 800-88 | High-performance secure-erasure suite for storage and memory, with a GTK3 UI. |
+| **[Virtual Wipe Turbo](https://github.com/effjy/vwipe)** | `C` · NIST SP 800-88 | High-performance secure-erasure suite for storage and memory, with a GTK3 UI. |
 
 <details open>
 <summary><b>More utilities &amp; tools</b></summary>
@@ -54,6 +54,7 @@ I build high-assurance security tools and design symmetric primitives.
 | **[Memscan](https://github.com/effjy/memscan/)** | `C` · Linux | Scans a live process's memory for byte patterns or file magic via `/proc/<pid>/mem`. |
 | **[Password Toolkit](https://github.com/effjy/entropy/)** | `C` · getrandom() | CSPRNG password generator with an entropy analyzer that penalizes repeats, sequences and dictionary words. |
 | **[Password Toolkit GUI](https://github.com/effjy/entropy-gui/)** | `C` · GTK3 | Desktop edition — naive vs. realistic entropy, color-coded strength meter, one-click copy. |
+| **[RAM Visualizer](https://github.com/effjy/ram/)** | `C` · GTK3 | RAM analyzer — top memory-consuming processes, live Cairo ring gauges and bar charts, verified `SIGTERM`/`SIGKILL` process kills. |
 | **[Secure Mount](https://github.com/effjy/secure_mount/)** | `C` · GTK3 | GTK3 frontend for **gocryptfs** — mount, unmount and init encrypted volumes. |
 | **[Sizer](https://github.com/effjy/sizer)** | `C` · GTK3 | Threaded disk-space analyzer with live percentage bars, an interactive donut and drill-down. |
 | **[Syshash](https://github.com/effjy/syshash/)** | `C` · SHA3-512 | File-integrity monitor that recursively hashes a directory and flags any change. |
