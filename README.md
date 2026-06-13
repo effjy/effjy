@@ -33,7 +33,7 @@ I build high-assurance security tools and design symmetric primitives.
 |:---|:---|:---|
 | **[Axis · Galactic Edition](https://github.com/effjy/axis/)** ⭐ | `C` · Post-Quantum + AES | Ultra-secure encrypted disk manager — AES-256-GCM, Kyber-1024/X448 hybrid KEM, plausible deniability, GTK GUI. |
 | **[Calculator Vault](https://github.com/effjy/axis-secret/)** ⭐ | `C` · Hidden PQ Vault | A working GTK3 calculator that secretly unlocks Axis with the right passcode — a post-quantum vault hiding in plain sight. |
-| **[Ciphers](https://github.com/effjy/ciphers/)** | `C` · Post-Quantum + AEAD | File encryption with Kyber-1024/X448 KEM over AES-256-GCM & XChaCha20, Argon2id, and locked non-dumpable memory. |
+| **[Ciphers](https://github.com/effjy/ciphers/)** ⭐ | `C` · Post-Quantum + AEAD | File encryption with Kyber-1024/X448 KEM over AES-256-GCM & XChaCha20, Argon2id, and locked non-dumpable memory. |
 | **[Czip](https://github.com/effjy/czip/)** | `C` · XChaCha20-Poly1305 | First archiver to fuse multithreaded zstd with XChaCha20-Poly1305, Argon2id, file splitting and auto-reassembly. |
 | **[Krakken-Disk](https://github.com/effjy/krakken-disk/)** | `C` · Post-Quantum | Encrypted disk manager driven by the custom **Krakken-2048** wide-state permutation. |
 | **[Krakken-Disk Butterfly](https://github.com/effjy/krakken-disk-butterfly/)** ⭐ | `C` · Post-Quantum | Krakken-Disk on the **Butterfly** permutation — faster throughput, stronger margins. |
