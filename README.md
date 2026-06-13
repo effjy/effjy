@@ -39,7 +39,7 @@ I build high-assurance security tools and design symmetric primitives.
 | **[Krakken-Disk Butterfly](https://github.com/effjy/krakken-disk-butterfly/)** ⭐ | `C` · Post-Quantum | Krakken-Disk on the **Butterfly** permutation — faster throughput, stronger margins. |
 | **[Krakken-Disk Butterfly CLI](https://github.com/effjy/krakken-disk-butterfly-cli/)** | `C` · Post-Quantum | Headless build for servers and automation scripts. |
 | **[Secure Wipe](https://github.com/effjy/swipe)** | `C` · NIST SP 800-88 | Lightweight CLI sanitizer for files, directories, free space and RAM. |
-| **[Virtual Wipe Turbo](https://github.com/effjy/vwipe)** | `C` · NIST SP 800-88 | High-performance secure-erasure suite for storage and memory, with a GTK3 UI. |
+| **[Virtual Wipe Turbo](https://github.com/effjy/vwipe)** ⭐ | `C` · NIST SP 800-88 | High-performance secure-erasure suite for storage and memory, with a GTK3 UI. |
 
 <details open>
 <summary><b>More utilities &amp; tools</b></summary>
