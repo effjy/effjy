@@ -49,7 +49,7 @@ I build high-assurance security tools and design symmetric primitives.
 
 | Project | Stack | What it does |
 |:---|:---|:---|
-| **[Chkrootkit-gui](https://github.com/effjy/chkrootkit-gui/)** | `C` · GTK3 | Color-coded GTK3 front-end for **chkrootkit** with live scan output and false-positive filtering. |
+| **[Chkrootkit GUI](https://github.com/effjy/chkrootkit-gui/)** | `C` · GTK3 | Color-coded GTK3 front-end for **chkrootkit** with live scan output and false-positive filtering. |
 | **[Connection Monitor](https://github.com/effjy/connmon/)** | `C` · GTK3 | Real-time TCP connection monitor — reads `/proc/net/tcp`, resolves owning process per socket, cyber-themed live table. |
 | **[Forensic Dump](https://github.com/effjy/fordump)** | `C` · GTK3 | Multithreaded disk acquisition with file carving (JPEG/PNG/PDF/ZIP) and key/credential search. |
 | **[Lynis GUI](https://github.com/effjy/lynis-gui/)** | `C` · GTK3 | Color-coded GTK3 front-end for the **Lynis** security auditor with live audit output, hardening-index readout, and one-click reports. |
