@@ -74,31 +74,29 @@ I build high-assurance security tools and design symmetric primitives.
 
 <div align="center">
   <br>
-  <a href="https://github.com/effjy/axis">
-    <img src="https://github.com/effjy/axis/raw/main/axis_logo.png" width="170" alt="Axis Galactic Edition logo">
-  </a>
 
-  ### Axis · Galactic Edition
+  ### ❖ Ciphers · v1.0.2
 
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/License-MIT-teal?style=flat-square&labelColor=1a1a1a" alt="MIT License"></a>
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Language-C11-teal?style=flat-square&labelColor=1a1a1a" alt="C11"></a>
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Platform-Linux-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Linux"></a>
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Security-AES--256--GCM-teal?style=flat-square&labelColor=1a1a1a" alt="AES-256-GCM"></a>
+  <a href="https://github.com/effjy/ciphers"><img src="https://img.shields.io/badge/License-MIT-teal?style=flat-square&labelColor=1a1a1a" alt="MIT License"></a>
+  <a href="https://github.com/effjy/ciphers"><img src="https://img.shields.io/badge/Language-C-teal?style=flat-square&labelColor=1a1a1a" alt="C"></a>
+  <a href="https://github.com/effjy/ciphers"><img src="https://img.shields.io/badge/Platform-Linux-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Linux"></a>
+  <a href="https://github.com/effjy/ciphers"><img src="https://img.shields.io/badge/Security-AES--256--GCM-teal?style=flat-square&labelColor=1a1a1a" alt="AES-256-GCM"></a>
+  <a href="https://github.com/effjy/ciphers"><img src="https://img.shields.io/badge/PQC-Kyber--1024%20%2B%20X448-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Kyber-1024 + X448"></a>
 
   <br><br>
-  <b>An ultra-secure encrypted disk manager for Linux.</b>
+  <b>A simple, secure GTK3 desktop app for encrypting and decrypting files.</b>
   <br>
-  <sub>Kyber-1024 + X448 hybrid KEM · AES-NI/AVX2 · plausible deniability · Argon2id · FUSE 3.</sub>
+  <sub>Kyber-1024 + X448 hybrid KEM · AES-256-GCM / XChaCha20-Poly1305 · Argon2id · locked non-dumpable memory.</sub>
 
   <br><br>
-  <a href="https://github.com/effjy/axis">
-    <img src="https://github.com/effjy/axis/raw/main/screenshot.png" width="660" alt="Axis Galactic Edition GUI">
+  <a href="https://github.com/effjy/ciphers">
+    <img src="https://github.com/effjy/ciphers/raw/main/data/screenshot.png" width="660" alt="Ciphers main window">
   </a>
   <br>
-  <sub><i>Dark-themed GTK dashboard for one-click volume management</i></sub>
+  <sub><i>Pick a cipher, key strength and the post-quantum hybrid layer, then encrypt with a single password</i></sub>
 
   <br><br>
-  <a href="https://github.com/effjy/axis"><b>Explore the repository →</b></a>
+  <a href="https://github.com/effjy/ciphers"><b>Explore the repository →</b></a>
 </div>
 
 <br>
