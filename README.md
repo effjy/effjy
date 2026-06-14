@@ -90,7 +90,7 @@ I build high-assurance security tools and design symmetric primitives.
 
   <br><br>
   <a href="https://github.com/effjy/ciphers">
-    <img src="https://github.com/effjy/ciphers/raw/main/data/screenshot.png" width="660" alt="Ciphers main window">
+    <img src="https://github.com/effjy/ciphers/raw/main/data/screenshot.png" width="500" alt="Ciphers main window">
   </a>
   <br>
   <sub><i>Pick a cipher, key strength and the post-quantum hybrid layer, then encrypt with a single password</i></sub>
