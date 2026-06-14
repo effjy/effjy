@@ -90,7 +90,7 @@ I build high-assurance security tools and design symmetric primitives.
 
   <br><br>
   <a href="https://github.com/effjy/pqpman">
-    <img src="https://github.com/effjy/pqpman/raw/main/screenshot_1.png" width="650" alt="PQPMan main window">
+    <img src="https://github.com/effjy/pqpman/raw/main/screenshot_1.png" width="700" alt="PQPMan main window">
   </a>
   <br>
   <sub><i>The vault view — entry list, credential editor and built-in password generator in one cyber-styled window</i></sub>
