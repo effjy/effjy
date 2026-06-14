@@ -38,6 +38,7 @@ I build high-assurance security tools and design symmetric primitives.
 | **[Krakken-Disk](https://github.com/effjy/krakken-disk/)** | `C` · Post-Quantum | Encrypted disk manager driven by the custom **Krakken-2048** wide-state permutation. |
 | **[Krakken-Disk Butterfly](https://github.com/effjy/krakken-disk-butterfly/)** ⭐ | `C` · Post-Quantum | Krakken-Disk on the **Butterfly** permutation — faster throughput, stronger margins. |
 | **[Krakken-Disk Butterfly CLI](https://github.com/effjy/krakken-disk-butterfly-cli/)** | `C` · Post-Quantum | Headless build for servers and automation scripts. |
+| **[PQPMan](https://github.com/effjy/pqpman/)** ⭐ | `C` · Post-Quantum + AEAD | **The first password manager built on post-quantum cryptography** — Kyber-1024/X448 hybrid KEM over AES-256-GCM & XChaCha20-Poly1305, Argon2id, and locked non-dumpable memory, behind one master password. |
 | **[Secure Wipe](https://github.com/effjy/swipe)** | `C` · NIST SP 800-88 | Lightweight CLI sanitizer for files, directories, free space and RAM. |
 | **[Virtual Wipe Turbo](https://github.com/effjy/vwipe)** ⭐ | `C` · NIST SP 800-88 | High-performance secure-erasure suite for storage and memory, with a GTK3 UI. |
 
