@@ -75,7 +75,7 @@ I build high-assurance security tools and design symmetric primitives.
 <div align="center">
   <br>
 
-  ### ⛨ PQPMan · v1.0.1
+  ### ⛨ PQPMan · v1.1.0
 
   <a href="https://github.com/effjy/pqpman"><img src="https://img.shields.io/badge/License-MIT-teal?style=flat-square&labelColor=1a1a1a" alt="MIT License"></a>
   <a href="https://github.com/effjy/pqpman"><img src="https://img.shields.io/badge/Language-C-teal?style=flat-square&labelColor=1a1a1a" alt="C"></a>
