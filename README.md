@@ -38,7 +38,6 @@ I build high-assurance security tools and design symmetric primitives.
 | **[Krakken-Disk](https://github.com/effjy/krakken-disk/)** | `C` · Post-Quantum | Encrypted disk manager driven by the custom **Krakken-2048** wide-state permutation. |
 | **[Krakken-Disk Butterfly](https://github.com/effjy/krakken-disk-butterfly/)** ⭐ | `C` · Post-Quantum | Krakken-Disk on the **Butterfly** permutation — faster throughput, stronger margins. |
 | **[Krakken-Disk Butterfly CLI](https://github.com/effjy/krakken-disk-butterfly-cli/)** | `C` · Post-Quantum | Headless build for servers and automation scripts. |
-| **[PQPMan](https://github.com/effjy/pqpman/)** ⭐ | `C` · Post-Quantum + AEAD | The first post-quantum password manager — encrypted GTK3 vault with a Kyber-1024/X448 hybrid KEM over AES-256-GCM/XChaCha20, Argon2id, a built-in generator (naive vs. real entropy), and locked non-dumpable memory. |
 | **[Secure Wipe](https://github.com/effjy/swipe)** | `C` · NIST SP 800-88 | Lightweight CLI sanitizer for files, directories, free space and RAM. |
 | **[Virtual Wipe Turbo](https://github.com/effjy/vwipe)** ⭐ | `C` · NIST SP 800-88 | High-performance secure-erasure suite for storage and memory, with a GTK3 UI. |
 
@@ -53,6 +52,7 @@ I build high-assurance security tools and design symmetric primitives.
 | **[Connection Monitor](https://github.com/effjy/connmon/)** | `C` · GTK3 | Real-time TCP connection monitor — reads `/proc/net/tcp`, resolves owning process per socket, cyber-themed live table. |
 | **[Forensic Dump](https://github.com/effjy/fordump)** | `C` · GTK3 | Multithreaded disk acquisition with file carving (JPEG/PNG/PDF/ZIP) and key/credential search. |
 | **[Memscan](https://github.com/effjy/memscan/)** | `C` · Linux | Scans a live process's memory for byte patterns or file magic via `/proc/<pid>/mem`. |
+| **[Network Speed Limiter](https://github.com/effjy/limiter/)** | `C` · GTK3 | Bandwidth limiter capping combined up/down speed on any interface via Linux `tc`, with a one-click systemd service to reapply at boot. |
 | **[Password Toolkit](https://github.com/effjy/entropy/)** | `C` · getrandom() | CSPRNG password generator with an entropy analyzer that penalizes repeats, sequences and dictionary words. |
 | **[Password Toolkit GUI](https://github.com/effjy/entropy-gui/)** | `C` · GTK3 | Desktop edition — naive vs. realistic entropy, color-coded strength meter, one-click copy. |
 | **[RAM Visualizer](https://github.com/effjy/ram/)** | `C` · GTK3 | RAM analyzer — top memory-consuming processes, live Cairo ring gauges and bar charts, verified `SIGTERM`/`SIGKILL` process kills. |
