@@ -76,30 +76,30 @@ I build high-assurance security tools and design symmetric primitives.
 <div align="center">
   <br>
 
-  <a href="https://github.com/effjy/ciphers"><img src="titles/ciphers-title.svg" height="56" alt="Ciphers"></a>
+  <a href="https://github.com/effjy/axis"><img src="titles/axis-title.svg" height="56" alt="Axis"></a>
 
   <br><br>
 
-  <a href="https://github.com/effjy/ciphers"><img src="https://img.shields.io/badge/License-MIT-teal?style=flat-square&labelColor=1a1a1a" alt="MIT License"></a>
-  <a href="https://github.com/effjy/ciphers"><img src="https://img.shields.io/badge/Language-C-teal?style=flat-square&labelColor=1a1a1a" alt="C"></a>
-  <a href="https://github.com/effjy/ciphers"><img src="https://img.shields.io/badge/Platform-Linux-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Linux"></a>
-  <a href="https://github.com/effjy/ciphers"><img src="https://img.shields.io/badge/Security-AES--256--GCM-teal?style=flat-square&labelColor=1a1a1a" alt="AES-256-GCM"></a>
-  <a href="https://github.com/effjy/ciphers"><img src="https://img.shields.io/badge/PQC-Kyber--1024%20%2B%20X448-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Kyber-1024 + X448"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/License-MIT-teal?style=flat-square&labelColor=1a1a1a" alt="MIT License"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Language-C-teal?style=flat-square&labelColor=1a1a1a" alt="C"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Platform-Linux-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Linux"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Security-AES--256--GCM-teal?style=flat-square&labelColor=1a1a1a" alt="AES-256-GCM"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/PQC-Kyber--1024%20%2B%20X448-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Kyber-1024 + X448"></a>
 
   <br><br>
-  <b>A simple, secure GTK3 app for file encryption — now with post-quantum hybrid key encapsulation.</b>
+  <b>Ultra-secure encrypted disk manager — hybrid post-quantum key encapsulation with plausible deniability.</b>
   <br>
-  <sub>Kyber-1024 + X448 hybrid KEM · AES-256-GCM / XChaCha20-Poly1305 · Argon2id · chunked authenticated streaming · locked non-dumpable memory.</sub>
+  <sub>Kyber-1024 + X448 hybrid KEM · AES-256-GCM · Argon2id (1 GB) · FUSE 3 mounting · IND-RND plausible deniability · locked non-dumpable memory.</sub>
 
   <br><br>
-  <a href="https://github.com/effjy/ciphers">
-    <img src="https://github.com/effjy/ciphers/raw/main/data/screenshot.png" width="500px" alt="Ciphers main window">
+  <a href="https://github.com/effjy/axis">
+    <img src="https://github.com/effjy/axis/raw/main/data/screenshot.png" width="500px" alt="Axis main window">
   </a>
   <br>
-  <sub><i>The Ciphers main window — pick a cipher, key strength and the optional post-quantum hybrid layer, then encrypt or decrypt with a single password</i></sub>
+  <sub><i>The Axis dashboard — create or open an encrypted volume, then mount it as a transparent FUSE filesystem with a single password</i></sub>
 
   <br><br>
-  <a href="https://github.com/effjy/ciphers"><b>Explore the repository →</b></a>
+  <a href="https://github.com/effjy/axis"><b>Explore the repository →</b></a>
 </div>
 
 ---
