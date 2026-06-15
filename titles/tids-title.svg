@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="272" height="96" viewBox="0 0 272 96" role="img" aria-label="TIDS">
+  <title>TIDS</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00FFCC"/>
+      <stop offset="55%" stop-color="#1FB6FF"/>
+      <stop offset="100%" stop-color="#8A2BE2"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g transform="translate(36,8)" fill="url(#g)" filter="url(#glow)">
+    <path d="M340 0V639H20V720H740V639H421V0Z" transform="translate(0.00,70) scale(0.06400,-0.06400)"/>
+    <path d="M66 0V720H148V0Z" transform="translate(56.58,70) scale(0.06400,-0.06400)"/>
+    <path d="M58 0V720H658Q691 720 718.5 704.0Q746 688 762.0 660.5Q778 633 778 600V120Q778 87 762.0 59.5Q746 32 718.5 16.0Q691 0 658 0ZM178 81H658Q674 81 685.5 92.5Q697 104 697 120V600Q697 616 685.5 627.5Q674 639 658 639H178Q162 639 150.5 627.5Q139 616 139 600V120Q139 104 150.5 92.5Q162 81 178 81Z" transform="translate(78.27,70) scale(0.06400,-0.06400)"/>
+    <path d="M171 0Q138 0 110.5 16.0Q83 32 67.0 59.5Q51 87 51 120V148H132V120Q132 104 143.5 92.5Q155 81 171 81H651Q667 81 678.5 92.5Q690 104 690 120V281Q690 297 678.5 308.0Q667 319 651 319H171Q138 319 110.5 335.5Q83 352 67.0 379.0Q51 406 51 439V600Q51 633 67.0 660.5Q83 688 110.5 704.0Q138 720 171 720H651Q684 720 711.5 704.0Q739 688 755.0 660.5Q771 633 771 600V572H690V600Q690 616 678.5 627.5Q667 639 651 639H171Q155 639 143.5 627.5Q132 616 132 600V439Q132 423 143.5 412.0Q155 401 171 401H651Q684 401 711.5 384.5Q739 368 755.0 341.0Q771 314 771 281V120Q771 87 755.0 59.5Q739 32 711.5 16.0Q684 0 651 0Z" transform="translate(139.65,70) scale(0.06400,-0.06400)"/>
+  </g>
+</svg>
