@@ -93,7 +93,7 @@ I build high-assurance security tools and design symmetric primitives.
 
   <br><br>
   <a href="https://github.com/effjy/axis">
-    <img src="https://github.com/effjy/axis/raw/main/screenshot.png" width="500px" alt="Axis main window">
+    <img src="https://github.com/effjy/axis/raw/main/screenshot.png" width="650px" alt="Axis main window">
   </a>
   <br>
   <sub><i>The Axis dashboard — create or open an encrypted volume, then mount it as a transparent FUSE filesystem with a single password</i></sub>
