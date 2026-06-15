@@ -77,8 +77,6 @@ I build high-assurance security tools and design symmetric primitives.
 
   <a href="https://github.com/effjy/ciphers"><img src="titles/ciphers-title.svg" height="56" alt="Ciphers"></a>
 
-  <sub>v1.0.3</sub>
-
   <br><br>
 
   <a href="https://github.com/effjy/ciphers"><img src="https://img.shields.io/badge/License-MIT-teal?style=flat-square&labelColor=1a1a1a" alt="MIT License"></a>
