@@ -59,7 +59,7 @@ I build high-assurance security tools and design symmetric primitives.
 | **[Password Toolkit GUI](https://github.com/effjy/entropy-gui/)** | `C` · GTK3 | Desktop edition — naive vs. realistic entropy, color-coded strength meter, one-click copy. |
 | **[RAM Visualizer](https://github.com/effjy/ram/)** | `C` · GTK3 | RAM analyzer — top memory-consuming processes, live Cairo ring gauges and bar charts, verified `SIGTERM`/`SIGKILL` process kills. |
 | **[Secure Mount](https://github.com/effjy/secure_mount/)** | `C` · GTK3 | GTK3 frontend for **gocryptfs** — mount, unmount and init encrypted volumes. |
-| **[Sizer](https://github.com/effjy/sizer)** | `C` · GTK3 | Threaded disk-space analyzer with live percentage bars, an interactive donut and drill-down. |
+| **[Sizer](https://github.com/effjy/sizer)** ⭐ | `C` · GTK3 | Threaded disk-space analyzer with live percentage bars, an interactive donut and drill-down. |
 | **[Syshash](https://github.com/effjy/syshash/)** | `C` · SHA3-512 · CLI + GTK3 | File-integrity monitor that recursively hashes a directory and flags any change — interactive CLI plus a GTK3 desktop app. |
 | **[Usage](https://github.com/effjy/usage/)** | `C` · GTK3 | Real-time network monitor with live speeds, session stats and a Tokyo Night graph. |
 | **[Viewer](https://github.com/effjy/viewer)** | `C` · X11 | RAM-only image viewer — locks pixels in physical memory, zeroes on teardown. |
