@@ -1,6 +1,6 @@
 <div align="center">
 
-# Jean-François Lachance-Caumartin
+<a href="https://github.com/effjy/effjy/"><img src="titles/jean-francois-lachance-caumartin-title.svg" height="44" alt="Jean-Francois Lachance-Caumartin"></a>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FFCC&center=true&vCenter=true&width=560&lines=Symmetric+Primitive+Design;Advanced+Cryptanalysis;Post-Quantum+Secured+Systems;Forensic-Grade+Sanitization)](https://git.io/typing-svg)
 
