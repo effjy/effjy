@@ -5,6 +5,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FFCC&center=true&vCenter=true&width=560&lines=Symmetric+Primitive+Design;Advanced+Cryptanalysis;Post-Quantum+Secured+Systems;Forensic-Grade+Sanitization)](https://git.io/typing-svg)
 
 **Security analyst by day · cryptographic researcher by night.**
+
 I build high-assurance security tools and design symmetric primitives.
 
 <br>
@@ -21,52 +22,48 @@ I build high-assurance security tools and design symmetric primitives.
 > [!TIP]
 > ⭐ **A star goes a long way** — it helps others find the work and keeps me building. Thank you.
 
-<br>
-
 ---
 
 ## 🛠️ Applications
 
 <sub>Production-ready security tools for Linux.</sub>
 
-| Project | Stack | What it does |
+| Project | Tech | What it does |
 |:---|:---|:---|
-| **[Axis](https://github.com/effjy/axis/)** ⭐ | `C` · Post-Quantum + AES | Ultra-secure encrypted disk manager — AES-256-GCM, Kyber-1024/X448 hybrid KEM, plausible deniability, GTK GUI. |
-| **[Calculator Vault (Axis)](https://github.com/effjy/axis-secret/)** ⭐ | `C` · Hidden PQ Vault | A working GTK3 calculator that secretly unlocks Axis with the right passcode — a post-quantum vault hiding in plain sight. |
-| **[Ciphers](https://github.com/effjy/ciphers/)** ⭐ | `C` · Post-Quantum + AEAD | File encryption with Kyber-1024/X448 KEM over AES-256-GCM & XChaCha20, Argon2id, and locked non-dumpable memory. |
-| **[Czip](https://github.com/effjy/czip/)** | `C` · XChaCha20-Poly1305 | First archiver to fuse multithreaded zstd with XChaCha20-Poly1305, Argon2id, file splitting and auto-reassembly. |
-| **[Krakken-Disk](https://github.com/effjy/krakken-disk/)** | `C` · Post-Quantum | Encrypted disk manager driven by the custom **Krakken-2048** wide-state permutation. |
-| **[Krakken-Disk Butterfly](https://github.com/effjy/krakken-disk-butterfly/)** ⭐ | `C` · Post-Quantum | Krakken-Disk on the **Butterfly** permutation — faster throughput, stronger margins. |
-| **[Krakken-Disk Butterfly CLI](https://github.com/effjy/krakken-disk-butterfly-cli/)** | `C` · Post-Quantum | Headless build for servers and automation scripts. |
-| **[PQPMan](https://github.com/effjy/pqpman/)** ⭐ | `C` · Post-Quantum + AEAD | **The first password manager built on post-quantum cryptography** — Kyber-1024/X448 hybrid KEM over AES-256-GCM & XChaCha20-Poly1305, Argon2id, and locked non-dumpable memory, behind one master password. |
-| **[Secure Wipe](https://github.com/effjy/swipe)** | `C` · NIST SP 800-88 | Lightweight CLI sanitizer for files, directories, free space and RAM. |
-| **[Virtual Wipe Turbo](https://github.com/effjy/vwipe)** ⭐ | `C` · NIST SP 800-88 | High-performance secure-erasure suite for storage and memory, with a GTK3 UI. |
+| **[Axis](https://github.com/effjy/axis/)** ⭐ | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![PQ](https://img.shields.io/badge/PQ-8a2be2?style=flat-square) | Ultra-secure encrypted disk manager — AES-256-GCM, Kyber-1024/X448 hybrid KEM, plausible deniability, GTK GUI. |
+| **[Calculator Vault](https://github.com/effjy/axis-secret/)** ⭐ | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![PQ](https://img.shields.io/badge/PQ-8a2be2?style=flat-square) | A working GTK3 calculator that secretly unlocks Axis with the right passcode — a post-quantum vault hiding in plain sight. |
+| **[Ciphers](https://github.com/effjy/ciphers/)** ⭐ | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![AEAD](https://img.shields.io/badge/AEAD-teal?style=flat-square) | File encryption with Kyber-1024/X448 KEM over AES-256-GCM & XChaCha20, Argon2id, and locked non-dumpable memory. |
+| **[Czip](https://github.com/effjy/czip/)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![XChaCha20](https://img.shields.io/badge/XChaCha20-teal?style=flat-square) | First archiver to fuse multithreaded zstd with XChaCha20-Poly1305, Argon2id, file splitting and auto-reassembly. |
+| **[Krakken-Disk](https://github.com/effjy/krakken-disk/)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![PQ](https://img.shields.io/badge/PQ-8a2be2?style=flat-square) | Encrypted disk manager driven by the custom **Krakken-2048** wide-state permutation. |
+| **[Krakken-Disk Butterfly](https://github.com/effjy/krakken-disk-butterfly/)** ⭐ | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![PQ](https://img.shields.io/badge/PQ-8a2be2?style=flat-square) | Krakken-Disk on the **Butterfly** permutation — faster throughput, stronger margins. |
+| **[Krakken-Disk Butterfly CLI](https://github.com/effjy/krakken-disk-butterfly-cli/)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![CLI](https://img.shields.io/badge/CLI-555?style=flat-square) | Headless build for servers and automation scripts. |
+| **[PQPMan](https://github.com/effjy/pqpman/)** ⭐ | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![PQ](https://img.shields.io/badge/PQ-8a2be2?style=flat-square) | **The first password manager built on post-quantum cryptography** — Kyber-1024/X448 hybrid KEM over AES-256-GCM & XChaCha20-Poly1305, behind one master password. |
+| **[Secure Wipe](https://github.com/effjy/swipe)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![NIST](https://img.shields.io/badge/NIST_800--88-36454F?style=flat-square) | Lightweight CLI sanitizer for files, directories, free space and RAM. |
+| **[Virtual Wipe Turbo](https://github.com/effjy/vwipe)** ⭐ | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![NIST](https://img.shields.io/badge/NIST_800--88-36454F?style=flat-square) | High-performance secure-erasure suite for storage and memory, with a GTK3 UI. |
 
 <details open>
 <summary><b>More utilities &amp; tools</b></summary>
 
 <br>
 
-| Project | Stack | What it does |
+| Project | Tech | What it does |
 |:---|:---|:---|
-| **[Chkrootkit GUI](https://github.com/effjy/chkrootkit-gui/)** | `C` · GTK3 | Color-coded GTK3 front-end for **chkrootkit** with live scan output and false-positive filtering. |
-| **[Connection Monitor](https://github.com/effjy/connmon/)** | `C` · GTK3 | Real-time TCP connection monitor — reads `/proc/net/tcp`, resolves owning process per socket, cyber-themed live table. |
-| **[Forensic Dump](https://github.com/effjy/fordump)** | `C` · GTK3 | Multithreaded disk acquisition with file carving (JPEG/PNG/PDF/ZIP) and key/credential search. |
-| **[Lynis GUI](https://github.com/effjy/lynis-gui/)** | `C` · GTK3 | Color-coded GTK3 front-end for the **Lynis** security auditor with live audit output, hardening-index readout, and one-click reports. |
-| **[Memscan](https://github.com/effjy/memscan/)** | `C` · Linux | Scans a live process's memory for byte patterns or file magic via `/proc/<pid>/mem`. |
-| **[Network Speed Limiter](https://github.com/effjy/limiter/)** | `C` · GTK3 | Bandwidth limiter capping combined up/down speed on any interface via Linux `tc`, with a one-click systemd service to reapply at boot. |
-| **[Password Toolkit](https://github.com/effjy/entropy/)** | `C` · getrandom() | CSPRNG password generator with an entropy analyzer that penalizes repeats, sequences and dictionary words. |
-| **[Password Toolkit GUI](https://github.com/effjy/entropy-gui/)** ⭐ | `C` · GTK3 | Desktop edition — naive vs. realistic entropy, color-coded strength meter, one-click copy. |
-| **[RAM Visualizer](https://github.com/effjy/ram/)** | `C` · GTK3 | RAM analyzer — top memory-consuming processes, live Cairo ring gauges and bar charts, verified `SIGTERM`/`SIGKILL` process kills. |
-| **[Secure Mount](https://github.com/effjy/secure_mount/)** | `C` · GTK3 | GTK3 frontend for **gocryptfs** — mount, unmount and init encrypted volumes. |
-| **[Sizer](https://github.com/effjy/sizer)** ⭐ | `C` · GTK3 | Threaded disk-space analyzer with live percentage bars, an interactive donut and drill-down. |
-| **[Syshash](https://github.com/effjy/syshash/)** | `C` · SHA3-512 · CLI + GTK3 | File-integrity monitor that recursively hashes a directory and flags any change — interactive CLI plus a GTK3 desktop app. |
-| **[Usage](https://github.com/effjy/usage/)** | `C` · GTK3 | Real-time network monitor with live speeds, session stats and a Tokyo Night graph. |
-| **[Viewer](https://github.com/effjy/viewer)** | `C` · X11 | RAM-only image viewer — locks pixels in physical memory, zeroes on teardown. |
+| **[Chkrootkit GUI](https://github.com/effjy/chkrootkit-gui/)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![GTK3](https://img.shields.io/badge/GTK3-teal?style=flat-square) | Color-coded GTK3 front-end for **chkrootkit** with live scan output and false-positive filtering. |
+| **[Connection Monitor](https://github.com/effjy/connmon/)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![GTK3](https://img.shields.io/badge/GTK3-teal?style=flat-square) | Real-time TCP connection monitor — reads `/proc/net/tcp`, resolves owning process per socket, cyber-themed live table. |
+| **[Forensic Dump](https://github.com/effjy/fordump)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![GTK3](https://img.shields.io/badge/GTK3-teal?style=flat-square) | Multithreaded disk acquisition with file carving (JPEG/PNG/PDF/ZIP) and key/credential search. |
+| **[Lynis GUI](https://github.com/effjy/lynis-gui/)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![GTK3](https://img.shields.io/badge/GTK3-teal?style=flat-square) | Color-coded GTK3 front-end for the **Lynis** security auditor with live audit output and one-click reports. |
+| **[Memscan](https://github.com/effjy/memscan/)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-555?style=flat-square&logo=linux&logoColor=white) | Scans a live process's memory for byte patterns or file magic via `/proc/<pid>/mem`. |
+| **[Network Speed Limiter](https://github.com/effjy/limiter/)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![GTK3](https://img.shields.io/badge/GTK3-teal?style=flat-square) | Bandwidth limiter capping combined up/down speed on any interface via Linux `tc`, with a systemd service to reapply at boot. |
+| **[Password Toolkit](https://github.com/effjy/entropy/)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![CSPRNG](https://img.shields.io/badge/CSPRNG-teal?style=flat-square) | CSPRNG password generator with an entropy analyzer that penalizes repeats, sequences and dictionary words. |
+| **[Password Toolkit GUI](https://github.com/effjy/entropy-gui/)** ⭐ | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![GTK3](https://img.shields.io/badge/GTK3-teal?style=flat-square) | Desktop edition — naive vs. realistic entropy, color-coded strength meter, one-click copy. |
+| **[RAM Visualizer](https://github.com/effjy/ram/)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![GTK3](https://img.shields.io/badge/GTK3-teal?style=flat-square) | RAM analyzer — top memory-consuming processes, live Cairo ring gauges and bar charts, verified process kills. |
+| **[Secure Mount](https://github.com/effjy/secure_mount/)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![GTK3](https://img.shields.io/badge/GTK3-teal?style=flat-square) | GTK3 frontend for **gocryptfs** — mount, unmount and init encrypted volumes. |
+| **[Sizer](https://github.com/effjy/sizer)** ⭐ | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![GTK3](https://img.shields.io/badge/GTK3-teal?style=flat-square) | Threaded disk-space analyzer with live percentage bars, an interactive donut and drill-down. |
+| **[Syshash](https://github.com/effjy/syshash/)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![SHA3-512](https://img.shields.io/badge/SHA3--512-teal?style=flat-square) | File-integrity monitor that recursively hashes a directory and flags any change — CLI plus a GTK3 desktop app. |
+| **[Usage](https://github.com/effjy/usage/)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![GTK3](https://img.shields.io/badge/GTK3-teal?style=flat-square) | Real-time network monitor with live speeds, session stats and a Tokyo Night graph. |
+| **[Viewer](https://github.com/effjy/viewer)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![X11](https://img.shields.io/badge/X11-555?style=flat-square) | RAM-only image viewer — locks pixels in physical memory, zeroes on teardown. |
 
 </details>
-
-<br>
 
 ---
 
@@ -99,23 +96,19 @@ I build high-assurance security tools and design symmetric primitives.
   <a href="https://github.com/effjy/ciphers"><b>Explore the repository →</b></a>
 </div>
 
-<br>
-
 ---
 
 ## 🔬 Systems Security
 
 <sub>Hardware-assisted memory safety &amp; defensive systems.</sub>
 
-| Project | Stack | What it does |
+| Project | Tech | What it does |
 |:---|:---|:---|
-| **[HoneyCrypt](https://github.com/effjy/honeycrypt)** | `C99` · [DOI](https://doi.org/10.6084/m9.figshare.32537733) | DTE vault returning valid decoys on wrong passcodes — no offline brute-force feedback. <sub>(2026)</sub> |
-| **[KageAlloc](https://github.com/effjy/kagealloc)** | Intel MPK · [DOI](https://doi.org/10.6084/m9.figshare.32529792) | MPK-backed allocator with temporal safety and control-flow isolation at 3.8% overhead. <sub>(2026)</sub> |
-| **[OpSec Linux](https://github.com/effjy/opsec-linux/)** | Hardening Guide · Linux | Paranoid-grade hardening playbook — LUKS2, nftables, MAC, auditd, anti-forensics, copy-paste commands. |
-| **[OpSec Windows](https://github.com/effjy/opsec-windows/)** | Hardening Guide · Windows | Win 10/11 &amp; Server playbook — BitLocker, Credential Guard, ASR, AppLocker/WDAC, PowerShell. |
-| **[TIDS](https://github.com/effjy/tids)** | `C99` · [DOI](https://doi.org/10.6084/m9.figshare.32536887) | Topological IDS using persistent homology on 5D flow clouds — 0.03% FPR on CIC-IDS2017. <sub>(2026)</sub> |
-
-<br>
+| **[HoneyCrypt](https://github.com/effjy/honeycrypt)** | ![C99](https://img.shields.io/badge/C99-555?style=flat-square&logo=c&logoColor=white) ![DOI](https://img.shields.io/badge/DOI-8a2be2?style=flat-square) | DTE vault returning valid decoys on wrong passcodes — no offline brute-force feedback. <sub>(2026)</sub> |
+| **[KageAlloc](https://github.com/effjy/kagealloc)** | ![MPK](https://img.shields.io/badge/Intel_MPK-0071c5?style=flat-square&logo=intel&logoColor=white) ![DOI](https://img.shields.io/badge/DOI-8a2be2?style=flat-square) | MPK-backed allocator with temporal safety and control-flow isolation at 3.8% overhead. <sub>(2026)</sub> |
+| **[OpSec Linux](https://github.com/effjy/opsec-linux/)** | ![Linux](https://img.shields.io/badge/Linux-555?style=flat-square&logo=linux&logoColor=white) ![Guide](https://img.shields.io/badge/Guide-teal?style=flat-square) | Paranoid-grade hardening playbook — LUKS2, nftables, MAC, auditd, anti-forensics, copy-paste commands. |
+| **[OpSec Windows](https://github.com/effjy/opsec-windows/)** | ![Windows](https://img.shields.io/badge/Windows-0078d6?style=flat-square&logo=windows&logoColor=white) ![Guide](https://img.shields.io/badge/Guide-teal?style=flat-square) | Win 10/11 &amp; Server playbook — BitLocker, Credential Guard, ASR, AppLocker/WDAC, PowerShell. |
+| **[TIDS](https://github.com/effjy/tids)** | ![C99](https://img.shields.io/badge/C99-555?style=flat-square&logo=c&logoColor=white) ![DOI](https://img.shields.io/badge/DOI-8a2be2?style=flat-square) | Topological IDS using persistent homology on 5D flow clouds — 0.03% FPR on CIC-IDS2017. <sub>(2026)</sub> |
 
 ---
 
@@ -123,26 +116,22 @@ I build high-assurance security tools and design symmetric primitives.
 
 <sub>Symmetric permutations &amp; cryptanalysis.</sub>
 
-| Project | Stack | What it does |
+| Project | Tech | What it does |
 |:---|:---|:---|
-| **[Krakken-2048 Abyssal](https://github.com/effjy/krakken)** | `C` · [DOI](https://doi.org/10.6084/m9.figshare.32527359) | 2048-bit SPN–ARX hybrid permutation for high-assurance sponge constructions. <sub>(2026)</sub> |
-| **[Krakken-2048 Butterfly](https://github.com/effjy/krakken-butterfly)** | `C` · [DOI](https://doi.org/10.6084/m9.figshare.32527287) | Adds the XRBD layer — full avalanche in 8 rounds, stronger margins than the original 10. <sub>(2026)</sub> |
-| **[Krakken-2048 Bounds](https://github.com/effjy/krakken-butterfly-bounds)** | `Python/MILP` · [DOI](https://doi.org/10.6084/m9.figshare.32599689) | MILP-proven bounds for XRBD — 229 active S-boxes / 8 rounds, single-char bound 2⁻¹³⁷⁴. <sub>(2026)</sub> |
-| **[Krakken Harness](https://github.com/effjy/krakken-harness/)** | `C` · 18/18 tests | Regression harness for Krakken-2048 and the Disk V5 format — KAT, avalanche, tamper checks. |
-| **[Krakken Cryptanalysis](https://github.com/effjy/krakken-cryptanalysis)** | `C` · SAC · NIST · Collision | The validation battery — SAC/diffusion, NIST SP 800-22, sponge-hash collision tests + MILP bounds. <sub>(2026)</sub> |
-
-<br>
+| **[Krakken-2048 Abyssal](https://github.com/effjy/krakken)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![DOI](https://img.shields.io/badge/DOI-8a2be2?style=flat-square) | 2048-bit SPN–ARX hybrid permutation for high-assurance sponge constructions. <sub>(2026)</sub> |
+| **[Krakken-2048 Butterfly](https://github.com/effjy/krakken-butterfly)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![DOI](https://img.shields.io/badge/DOI-8a2be2?style=flat-square) | Adds the XRBD layer — full avalanche in 8 rounds, stronger margins than the original 10. <sub>(2026)</sub> |
+| **[Krakken-2048 Bounds](https://github.com/effjy/krakken-butterfly-bounds)** | ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white) ![MILP](https://img.shields.io/badge/MILP-teal?style=flat-square) | MILP-proven bounds for XRBD — 229 active S-boxes / 8 rounds, single-char bound 2⁻¹³⁷⁴. <sub>(2026)</sub> |
+| **[Krakken Harness](https://github.com/effjy/krakken-harness/)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![Tests](https://img.shields.io/badge/18%2F18-teal?style=flat-square) | Regression harness for Krakken-2048 and the Disk V5 format — KAT, avalanche, tamper checks. |
+| **[Krakken Cryptanalysis](https://github.com/effjy/krakken-cryptanalysis)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![NIST](https://img.shields.io/badge/NIST_800--22-36454F?style=flat-square) | The validation battery — SAC/diffusion, NIST SP 800-22, sponge-hash collision tests + MILP bounds. <sub>(2026)</sub> |
 
 ---
 
 ## 📚 Learning
 
-| Project | Stack | What it does |
+| Project | Tech | What it does |
 |:---|:---|:---|
-| **[Learning C](https://github.com/effjy/learning-c/)** | `C` · Tutorial | From-scratch guide — compilation, pointers, structs, manual memory + 5 hands-on exercises. |
-| **[Learning Python](https://github.com/effjy/learning-python/)** | `Python` · Tutorial | From-scratch guide — types, collections, functions, files + 5 hands-on exercises. |
-
-<br>
+| **[Learning C](https://github.com/effjy/learning-c/)** | ![C](https://img.shields.io/badge/C-555?style=flat-square&logo=c&logoColor=white) ![Tutorial](https://img.shields.io/badge/Tutorial-teal?style=flat-square) | From-scratch guide — compilation, pointers, structs, manual memory + 5 hands-on exercises. |
+| **[Learning Python](https://github.com/effjy/learning-python/)** | ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white) ![Tutorial](https://img.shields.io/badge/Tutorial-teal?style=flat-square) | From-scratch guide — types, collections, functions, files + 5 hands-on exercises. |
 
 ---
 
