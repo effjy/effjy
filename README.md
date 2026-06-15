@@ -74,7 +74,6 @@ I build high-assurance security tools and design symmetric primitives.
 
   <a href="https://github.com/effjy/ciphers"><img src="titles/ciphers-title.svg" height="56" alt="Ciphers"></a>
 
-  <br>
   <sub>v1.0.3</sub>
 
   <br><br>
