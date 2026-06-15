@@ -75,28 +75,28 @@ I build high-assurance security tools and design symmetric primitives.
 <div align="center">
   <br>
 
-  ### ⛨ PQPMan · v1.1.0
+  ### ❖ Ciphers · v1.0.3
 
-  <a href="https://github.com/effjy/pqpman"><img src="https://img.shields.io/badge/License-MIT-teal?style=flat-square&labelColor=1a1a1a" alt="MIT License"></a>
-  <a href="https://github.com/effjy/pqpman"><img src="https://img.shields.io/badge/Language-C-teal?style=flat-square&labelColor=1a1a1a" alt="C"></a>
-  <a href="https://github.com/effjy/pqpman"><img src="https://img.shields.io/badge/Platform-Linux-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Linux"></a>
-  <a href="https://github.com/effjy/pqpman"><img src="https://img.shields.io/badge/Security-AES--256--GCM-teal?style=flat-square&labelColor=1a1a1a" alt="AES-256-GCM"></a>
-  <a href="https://github.com/effjy/pqpman"><img src="https://img.shields.io/badge/PQC-Kyber--1024%20%2B%20X448-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Kyber-1024 + X448"></a>
+  <a href="https://github.com/effjy/ciphers"><img src="https://img.shields.io/badge/License-MIT-teal?style=flat-square&labelColor=1a1a1a" alt="MIT License"></a>
+  <a href="https://github.com/effjy/ciphers"><img src="https://img.shields.io/badge/Language-C-teal?style=flat-square&labelColor=1a1a1a" alt="C"></a>
+  <a href="https://github.com/effjy/ciphers"><img src="https://img.shields.io/badge/Platform-Linux-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Linux"></a>
+  <a href="https://github.com/effjy/ciphers"><img src="https://img.shields.io/badge/Security-AES--256--GCM-teal?style=flat-square&labelColor=1a1a1a" alt="AES-256-GCM"></a>
+  <a href="https://github.com/effjy/ciphers"><img src="https://img.shields.io/badge/PQC-Kyber--1024%20%2B%20X448-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Kyber-1024 + X448"></a>
 
   <br><br>
-  <b>The first password manager built on post-quantum cryptography.</b>
+  <b>A simple, secure GTK3 app for file encryption — now with post-quantum hybrid key encapsulation.</b>
   <br>
-  <sub>Kyber-1024 + X448 hybrid KEM · AES-256-GCM / XChaCha20-Poly1305 · Argon2id · locked non-dumpable memory · one master password.</sub>
+  <sub>Kyber-1024 + X448 hybrid KEM · AES-256-GCM / XChaCha20-Poly1305 · Argon2id · chunked authenticated streaming · locked non-dumpable memory.</sub>
 
   <br><br>
-  <a href="https://github.com/effjy/pqpman">
-    <img src="https://github.com/effjy/pqpman/raw/main/screenshot_1.png" width="100%" alt="PQPMan main window">
+  <a href="https://github.com/effjy/ciphers">
+    <img src="https://github.com/effjy/ciphers/raw/main/data/screenshot.png" width="100%" alt="Ciphers main window">
   </a>
   <br>
-  <sub><i>The vault view — entry list, credential editor and built-in password generator in one cyber-styled window</i></sub>
+  <sub><i>The Ciphers main window — pick a cipher, key strength and the optional post-quantum hybrid layer, then encrypt or decrypt with a single password</i></sub>
 
   <br><br>
-  <a href="https://github.com/effjy/pqpman"><b>Explore the repository →</b></a>
+  <a href="https://github.com/effjy/ciphers"><b>Explore the repository →</b></a>
 </div>
 
 <br>
