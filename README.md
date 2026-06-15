@@ -56,7 +56,7 @@ I build high-assurance security tools and design symmetric primitives.
 | **[Memscan](https://github.com/effjy/memscan/)** | `C` · Linux | Scans a live process's memory for byte patterns or file magic via `/proc/<pid>/mem`. |
 | **[Network Speed Limiter](https://github.com/effjy/limiter/)** | `C` · GTK3 | Bandwidth limiter capping combined up/down speed on any interface via Linux `tc`, with a one-click systemd service to reapply at boot. |
 | **[Password Toolkit](https://github.com/effjy/entropy/)** | `C` · getrandom() | CSPRNG password generator with an entropy analyzer that penalizes repeats, sequences and dictionary words. |
-| **[Password Toolkit GUI](https://github.com/effjy/entropy-gui/)** | `C` · GTK3 | Desktop edition — naive vs. realistic entropy, color-coded strength meter, one-click copy. |
+| **[Password Toolkit GUI](https://github.com/effjy/entropy-gui/)** ⭐ | `C` · GTK3 | Desktop edition — naive vs. realistic entropy, color-coded strength meter, one-click copy. |
 | **[RAM Visualizer](https://github.com/effjy/ram/)** | `C` · GTK3 | RAM analyzer — top memory-consuming processes, live Cairo ring gauges and bar charts, verified `SIGTERM`/`SIGKILL` process kills. |
 | **[Secure Mount](https://github.com/effjy/secure_mount/)** | `C` · GTK3 | GTK3 frontend for **gocryptfs** — mount, unmount and init encrypted volumes. |
 | **[Sizer](https://github.com/effjy/sizer)** ⭐ | `C` · GTK3 | Threaded disk-space analyzer with live percentage bars, an interactive donut and drill-down. |
