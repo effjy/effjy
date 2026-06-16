@@ -30,14 +30,14 @@ I build high-assurance security tools and design symmetric primitives.
 
 | Project | What it does |
 |:---|:---|
-| <div align="center"><a href="https://github.com/effjy/axis/"><img src="titles/axis-title.svg" height="44" alt="Axis"></a></div> | Ultra-secure encrypted disk manager with Kyber-1024/X448 hybrid KEM and plausible deniability. ⭐ |
+| <div align="center"><a href="https://github.com/effjy/axis/"><img src="titles/axis-title.svg" height="52" alt="Axis"></a></div> | Ultra-secure encrypted disk manager with Kyber-1024/X448 hybrid KEM and plausible deniability. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/axis-secret/"><img src="titles/calculator-vault-title.svg" height="52" alt="Calculator Vault"></a></div> | A working GTK3 calculator that launches Axis on a secret code — hiding that encryption is installed. |
-| <div align="center"><a href="https://github.com/effjy/ciphers/"><img src="titles/ciphers-title.svg" height="44" alt="Ciphers"></a></div> | File encryption with Kyber-1024/X448 hybrid KEM over AES-256-GCM & XChaCha20-Poly1305. |
-| <div align="center"><a href="https://github.com/effjy/czip/"><img src="titles/czip-title.svg" height="44" alt="Czip"></a></div> | First archiver fusing multithreaded zstd with XChaCha20-Poly1305 and file splitting. |
+| <div align="center"><a href="https://github.com/effjy/ciphers/"><img src="titles/ciphers-title.svg" height="52" alt="Ciphers"></a></div> | File encryption with Kyber-1024/X448 hybrid KEM over AES-256-GCM & XChaCha20-Poly1305. |
+| <div align="center"><a href="https://github.com/effjy/czip/"><img src="titles/czip-title.svg" height="52" alt="Czip"></a></div> | First archiver fusing multithreaded zstd with XChaCha20-Poly1305 and file splitting. |
 | <div align="center"><a href="https://github.com/effjy/multi-ciphers/"><img src="titles/multi-ciphers-title.svg" height="52" alt="Multi Ciphers"></a></div> | Dependency-free encryption CLI with four AEAD ciphers and an Argon2id KDF. |
-| <div align="center"><a href="https://github.com/effjy/pq-sign/"><img src="titles/pq-sign-title.svg" height="44" alt="PQ-SIGN"></a></a></div> | **Post-quantum detached file signing** — ML-DSA (FIPS 204) & SLH-DSA (FIPS 205). ⭐ |
+| <div align="center"><a href="https://github.com/effjy/pq-sign/"><img src="titles/pq-sign-title.svg" height="52" alt="PQ-SIGN"></a></a></div> | **Post-quantum detached file signing** — ML-DSA (FIPS 204) & SLH-DSA (FIPS 205). ⭐ |
 | <div align="center"><a href="https://github.com/effjy/pqotp/"><img src="titles/pqotp-title.svg" height="52" alt="PQOTP"></a></div> | **Post-quantum 2FA authenticator** — TOTP/HOTP seeds sealed behind one master password. ⭐ |
-| <div align="center"><a href="https://github.com/effjy/pqpman/"><img src="titles/pqpman-title.svg" height="44" alt="PQPMan"></a></div> | **Password manager on post-quantum cryptography** — hybrid KEM behind one master password. ⭐ |
+| <div align="center"><a href="https://github.com/effjy/pqpman/"><img src="titles/pqpman-title.svg" height="52" alt="PQPMan"></a></div> | **Password manager on post-quantum cryptography** — hybrid KEM behind one master password. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/pqtransfer/"><img src="titles/pq-transfer-title.svg" height="80" alt="PQ Transfer"></a></div> | **Peer-to-peer file transfer** — end-to-end encrypted over a hybrid KEM with a CPace PAKE. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/swipe"><img src="titles/secure-wipe-title.svg" height="52" alt="Secure Wipe"></a></div> | Lightweight CLI sanitizer for files, directories, free space and RAM. |
 | <div align="center"><a href="https://github.com/effjy/vwipe"><img src="titles/virtual-wipe-turbo-title.svg" height="52" alt="Virtual Wipe Turbo"></a></div> | High-performance secure-erasure suite for storage and memory, with a GTK3 UI. |
