@@ -110,11 +110,11 @@ I build high-assurance security tools and design symmetric primitives.
 
 | Project | What it does |
 |:---|:---|
-| <div align="center"><a href="https://github.com/effjy/honeycrypt"><img src="titles/honeycrypt-title.svg" height="40" alt="HoneyCrypt"></a></div> | DTE vault returning valid decoys on wrong passcodes. <sub>(2026)</sub> |
-| <div align="center"><a href="https://github.com/effjy/kagealloc"><img src="titles/kagealloc-title.svg" height="40" alt="KageAlloc"></a></div> | MPK-backed allocator with temporal safety at 3.8% overhead. <sub>(2026)</sub> |
+| <div align="center"><a href="https://github.com/effjy/honeycrypt"><img src="titles/honeycrypt-title.svg" height="52" alt="HoneyCrypt"></a></div> | DTE vault returning valid decoys on wrong passcodes. <sub>(2026)</sub> |
+| <div align="center"><a href="https://github.com/effjy/kagealloc"><img src="titles/kagealloc-title.svg" height="52" alt="KageAlloc"></a></div> | MPK-backed allocator with temporal safety at 3.8% overhead. <sub>(2026)</sub> |
 | <div align="center"><a href="https://github.com/effjy/opsec-linux/"><img src="titles/opsec-linux-title.svg" height="52" alt="OpSec Linux"></a></div> | Paranoid-grade hardening playbook — LUKS2, nftables, auditd, anti-forensics. |
 | <div align="center"><a href="https://github.com/effjy/opsec-windows/"><img src="titles/opsec-windows-title.svg" height="52" alt="OpSec Windows"></a></div> | Win 10/11 &amp; Server playbook — BitLocker, Credential Guard, AppLocker/WDAC. |
-| <div align="center"><a href="https://github.com/effjy/tids"><img src="titles/tids-title.svg" height="44" alt="TIDS"></a></div> | Topological IDS using persistent homology — 0.03% FPR on CIC-IDS2017. <sub>(2026)</sub> |
+| <div align="center"><a href="https://github.com/effjy/tids"><img src="titles/tids-title.svg" height="52" alt="TIDS"></a></div> | Topological IDS using persistent homology — 0.03% FPR on CIC-IDS2017. <sub>(2026)</sub> |
 
 ---
 
