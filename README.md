@@ -155,20 +155,20 @@ I build high-assurance security tools and design symmetric primitives.
 
 <sub><b>Tech &amp; tooling</b></sub>
 <br>
-<img src="C.svg" width="42" alt="C" title="C">&nbsp;
-<img src="CPP.svg" width="42" alt="C++" title="C++">&nbsp;
-<img src="Python-Dark.svg" width="42" alt="Python" title="Python">&nbsp;
-<img src="Bash-Dark.svg" width="42" alt="Bash" title="Bash">&nbsp;
-<img src="JavaScript.svg" width="42" alt="JavaScript" title="JavaScript">&nbsp;
-<img src="Java-Dark.svg" width="42" alt="Java" title="Java">&nbsp;
-<img src="Perl.svg" width="42" alt="Perl" title="Perl">
+<img src="titles/C.svg" width="42" alt="C" title="C">&nbsp;
+<img src="titles/CPP.svg" width="42" alt="C++" title="C++">&nbsp;
+<img src="titles/Python-Dark.svg" width="42" alt="Python" title="Python">&nbsp;
+<img src="titles/Bash-Dark.svg" width="42" alt="Bash" title="Bash">&nbsp;
+<img src="titles/JavaScript.svg" width="42" alt="JavaScript" title="JavaScript">&nbsp;
+<img src="titles/Java-Dark.svg" width="42" alt="Java" title="Java">&nbsp;
+<img src="titles/Perl.svg" width="42" alt="Perl" title="Perl">
 <br>
-<img src="Linux-Dark.svg" width="42" alt="Linux" title="Linux">&nbsp;
-<img src="Ubuntu-Dark.svg" width="42" alt="Ubuntu" title="Ubuntu">&nbsp;
-<img src="Git.svg" width="42" alt="Git" title="Git">&nbsp;
-<img src="CMake-Dark.svg" width="42" alt="CMake" title="CMake">&nbsp;
-<img src="HTML.svg" width="42" alt="HTML" title="HTML">&nbsp;
-<img src="CSS.svg" width="42" alt="CSS" title="CSS">&nbsp;
-<img src="SVG-Dark.svg" width="42" alt="SVG" title="SVG">
+<img src="titles/Linux-Dark.svg" width="42" alt="Linux" title="Linux">&nbsp;
+<img src="titles/Ubuntu-Dark.svg" width="42" alt="Ubuntu" title="Ubuntu">&nbsp;
+<img src="titles/Git.svg" width="42" alt="Git" title="Git">&nbsp;
+<img src="titles/CMake-Dark.svg" width="42" alt="CMake" title="CMake">&nbsp;
+<img src="titles/HTML.svg" width="42" alt="HTML" title="HTML">&nbsp;
+<img src="titles/CSS.svg" width="42" alt="CSS" title="CSS">&nbsp;
+<img src="titles/SVG-Dark.svg" width="42" alt="SVG" title="SVG">
 
 </div>
