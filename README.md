@@ -28,7 +28,7 @@ I build high-assurance security tools and design symmetric primitives.
 
 Currently working on... 
 <br><br>
-<a href="https://github.com/effjy/pq-transfer/"><img src="titles/pq-transfer.svg" height="60" alt="PQ Transfer"></a>
+<a href="https://github.com/effjy/pqtransfer/"><img src="titles/pq-transfer.svg" height="60" alt="PQ Transfer"></a>
 
 A peer-to-peer post-quantum file transfer utility using AES-256-GCM or XChaCha20-Poly1305
 
