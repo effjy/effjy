@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://github.com/effjy/effjy/"><img src="titles/lachance-title.svg" height="44" alt="Jean-Francois Lachance-Caumartin"></a>
+<a href="https://github.com/effjy/effjy/"><img src="titles/lachance-title.svg" height="52" alt="Jean-Francois Lachance-Caumartin"></a>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FFCC&center=true&vCenter=true&width=560&lines=Symmetric+Primitive+Design;Advanced+Cryptanalysis;Post-Quantum+Secured+Systems;Forensic-Grade+Sanitization)](https://git.io/typing-svg)
 
