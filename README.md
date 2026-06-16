@@ -136,8 +136,8 @@ I build high-assurance security tools and design symmetric primitives.
 
 | Project | Tech | What it does |
 |:---|:---|:---|
-| <a href="https://github.com/effjy/learning-c/"><img src="titles/learning-c-title.svg" height="52" alt="Learning C"></a> | ![C](https://img.shields.io/badge/Language-C-teal?style=flat-square&labelColor=1a1a1a) ![Tutorial](https://img.shields.io/badge/Tutorial-teal?style=flat-square) | From-scratch guide — compilation, pointers, structs, manual memory + 5 hands-on exercises. |
-| <a href="https://github.com/effjy/learning-python/"><img src="titles/learning-python-title.svg" height="52" alt="Learning Python"></a> | ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white) ![Tutorial](https://img.shields.io/badge/Tutorial-teal?style=flat-square) | From-scratch guide — types, collections, functions, files + 5 hands-on exercises. |
+| <div align="center"><a href="https://github.com/effjy/learning-c/"><img src="titles/learning-c-title.svg" height="52" alt="Learning C"></a></div> | ![C](https://img.shields.io/badge/Language-C-teal?style=flat-square&labelColor=1a1a1a) ![Tutorial](https://img.shields.io/badge/Tutorial-teal?style=flat-square) | From-scratch guide — compilation, pointers, structs, manual memory + 5 hands-on exercises. |
+| <div align="center"><a href="https://github.com/effjy/learning-python/"><img src="titles/learning-python-title.svg" height="52" alt="Learning Python"></a></div> | ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white) ![Tutorial](https://img.shields.io/badge/Tutorial-teal?style=flat-square) | From-scratch guide — types, collections, functions, files + 5 hands-on exercises. |
 
 ---
 
