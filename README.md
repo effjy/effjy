@@ -142,12 +142,12 @@ I build high-assurance security tools and design symmetric primitives.
 | <div align="center"><a href="https://github.com/effjy/learning-python/"><img src="titles/learning-python-title.svg" height="52" alt="Learning Python"></a></div> | ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white) ![Tutorial](https://img.shields.io/badge/Tutorial-teal?style=flat-square) | From-scratch guide — types, collections, functions, files + 5 hands-on exercises. |
 
 ---
-
+<div align="center">
 <a href="mailto:effjy@protonmail.com"><img src="titles/email-me-suggestions-title.svg" height="52" alt="Email me suggestions"></a>
 <br><br>
 I'm offering to develop security software at no cost. If there's a specific security-related tool you need, email me your idea and I'll get to work on it.
 <br>
-
+</div>
 ---
 
 ## 📬 Contact
