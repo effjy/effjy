@@ -12,7 +12,7 @@ I build high-assurance security tools and design symmetric primitives.
 
 <div align="center">
 
-# COMING SOON
+<a href="https://github.com/effjy/effjy/"><img src="titles/coming-soon-title.svg" height="44" alt="Coming soon"></a>
 
 PQ-Audit <br>
 **Tamper-evident audit logging for Linux — the record you can prove.**
