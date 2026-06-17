@@ -65,7 +65,7 @@ I build high-assurance security tools and design symmetric primitives.
 | <div align="center"><a href="https://github.com/effjy/scrub/"><img src="titles/scrub-title.svg" height="44" alt="Scrub"></a></div> | Dependency-free metadata scrubber — strips Exif/XMP/IPTC from JPEGs and PNGs. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/secure_mount/"><img src="titles/secure-mount-title.svg" height="44" alt="Secure Mount"></a></div> | GTK3 frontend for **gocryptfs** — mount, unmount and init encrypted volumes. |
 | <div align="center"><a href="https://github.com/effjy/sizer"><img src="titles/sizer-title.svg" height="44" alt="Sizer"></a></div> | Threaded disk-space analyzer with live bars, an interactive donut and drill-down. |
-| <div align="center"><a href="https://github.com/effjy/syshash/"><img src="titles/syshash-title.svg" height="44" alt="Syshash"></a></div> | File-integrity monitor that recursively hashes a directory and flags any change. |
+| <div align="center"><a href="https://github.com/effjy/syshash/"><img src="titles/syshash-title.svg" height="20" alt="Syshash"></a></div> | File-integrity monitor that recursively hashes a directory and flags any change. |
 | <div align="center"><a href="https://github.com/effjy/usage/"><img src="titles/usage-title.svg" height="44" alt="Usage"></a></div> | Real-time network monitor with live speeds and a Tokyo Night graph. |
 | <div align="center"><a href="https://github.com/effjy/viewer"><img src="titles/viewer-title.svg" height="44" alt="Viewer"></a></div> | RAM-only image viewer — locks pixels in physical memory, zeroes on teardown. |
 
