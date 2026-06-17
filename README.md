@@ -10,17 +10,6 @@ I build high-assurance security tools and design symmetric primitives.
 
 ---
 
-<div align="center">
-
-<a href="https://github.com/effjy/effjy/"><img src="titles/coming-soon-title.svg" height="44" alt="Coming soon"></a>
-
-PQ-Audit <br>
-**Tamper-evident audit logging for Linux — the record you can prove.**
-
-</div>
-
----
-
 <a href="#-applications"><b>Applications</b></a> &nbsp;·&nbsp;
 <a href="#-featured"><b>Featured</b></a> &nbsp;·&nbsp;
 <a href="#-systems-security"><b>Systems Security</b></a> &nbsp;·&nbsp;
