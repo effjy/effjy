@@ -53,21 +53,21 @@ I build high-assurance security tools and design symmetric primitives.
 |:---|:---|
 | <div align="center"><a href="https://github.com/effjy/chkrootkit-gui/"><img src="titles/chkrootkit-gui-title.svg" height="52" alt="Chkrootkit GUI"></a></div> | GTK3 front-end for **chkrootkit** with live output and false-positive filtering. |
 | <div align="center"><a href="https://github.com/effjy/connmon/"><img src="titles/connection-monitor-title.svg" height="52" alt="Connection Monitor"></a></div> | Real-time TCP monitor reading `/proc/net/tcp`, resolving the owning process per socket. |
-| <div align="center"><a href="https://github.com/effjy/entropy/"><img src="titles/entropy-title.svg" height="44" alt="Entropy"></a></div> | CSPRNG password generator with an entropy analyzer penalizing repeats and sequences. |
+| <div align="center"><a href="https://github.com/effjy/entropy/"><img src="titles/entropy-title.svg" height="52" alt="Entropy"></a></div> | CSPRNG password generator with an entropy analyzer penalizing repeats and sequences. |
 | <div align="center"><a href="https://github.com/effjy/entropy-gui/"><img src="titles/entropy-gui-title.svg" height="52" alt="Entropy GUI"></a></div> | Desktop edition — naive vs. realistic entropy with a color-coded strength meter. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/fordump"><img src="titles/forensic-dump-title.svg" height="52" alt="Forensic Dump"></a></div> | Multithreaded disk acquisition with file carving and key/credential search. |
 | <div align="center"><a href="https://github.com/effjy/lynis-gui/"><img src="titles/lynis-gui-title.svg" height="52" alt="Lynis GUI"></a></div> | GTK3 front-end for the **Lynis** auditor with live output and one-click reports. |
-| <div align="center"><a href="https://github.com/effjy/memscan/"><img src="titles/memscan-title.svg" height="44" alt="Memscan"></a></div> | Scans a live process's memory for byte patterns or file magic via `/proc/<pid>/mem`. |
-| <div align="center"><a href="https://github.com/effjy/mole/"><img src="titles/mole-title.svg" height="44" alt="Mole"></a></div> | Recursively scans a tree for leaked credentials, with a CLI and GTK3 triage UI. ⭐ |
+| <div align="center"><a href="https://github.com/effjy/memscan/"><img src="titles/memscan-title.svg" height="52" alt="Memscan"></a></div> | Scans a live process's memory for byte patterns or file magic via `/proc/<pid>/mem`. |
+| <div align="center"><a href="https://github.com/effjy/mole/"><img src="titles/mole-title.svg" height="52" alt="Mole"></a></div> | Recursively scans a tree for leaked credentials, with a CLI and GTK3 triage UI. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/limiter/"><img src="titles/network-speed-limiter-title.svg" height="52" alt="Network Speed Limiter"></a></div> | Bandwidth limiter capping up/down speed on any interface via Linux `tc`. |
 | <div align="center"><a href="https://github.com/effjy/ram/"><img src="titles/ram-vizualizer-title.svg" height="52" alt="RAM Vizualizer"></a></div> | RAM analyzer — top processes, live Cairo ring gauges and verified kills. |
 | <div align="center"><a href="https://github.com/effjy/rkhunter-gui/"><img src="titles/rkhunter-gui-title.svg" height="52" alt="rkhunter GUI"></a></div> | GTK3 front-end for **rkhunter** with live, color-coded output and false-positive filtering. |
-| <div align="center"><a href="https://github.com/effjy/scrub/"><img src="titles/scrub-title.svg" height="44" alt="Scrub"></a></div> | Dependency-free metadata scrubber — strips Exif/XMP/IPTC from JPEGs and PNGs. ⭐ |
+| <div align="center"><a href="https://github.com/effjy/scrub/"><img src="titles/scrub-title.svg" height="52" alt="Scrub"></a></div> | Dependency-free metadata scrubber — strips Exif/XMP/IPTC from JPEGs and PNGs. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/secure_mount/"><img src="titles/secure-mount-title.svg" height="52" alt="Secure Mount"></a></div> | GTK3 frontend for **gocryptfs** — mount, unmount and init encrypted volumes. |
-| <div align="center"><a href="https://github.com/effjy/sizer"><img src="titles/sizer-title.svg" height="44" alt="Sizer"></a></div> | Threaded disk-space analyzer with live bars, an interactive donut and drill-down. |
-| <div align="center"><a href="https://github.com/effjy/syshash/"><img src="titles/syshash-title.svg" height="44" alt="Syshash"></a></div> | File-integrity monitor that recursively hashes a directory and flags any change. |
-| <div align="center"><a href="https://github.com/effjy/usage/"><img src="titles/usage-title.svg" height="44" alt="Usage"></a></div> | Real-time network monitor with live speeds and a Tokyo Night graph. |
-| <div align="center"><a href="https://github.com/effjy/viewer"><img src="titles/viewer-title.svg" height="44" alt="Viewer"></a></div> | RAM-only image viewer — locks pixels in physical memory, zeroes on teardown. |
+| <div align="center"><a href="https://github.com/effjy/sizer"><img src="titles/sizer-title.svg" height="52" alt="Sizer"></a></div> | Threaded disk-space analyzer with live bars, an interactive donut and drill-down. |
+| <div align="center"><a href="https://github.com/effjy/syshash/"><img src="titles/syshash-title.svg" height="52" alt="Syshash"></a></div> | File-integrity monitor that recursively hashes a directory and flags any change. |
+| <div align="center"><a href="https://github.com/effjy/usage/"><img src="titles/usage-title.svg" height="52" alt="Usage"></a></div> | Real-time network monitor with live speeds and a Tokyo Night graph. |
+| <div align="center"><a href="https://github.com/effjy/viewer"><img src="titles/viewer-title.svg" height="52" alt="Viewer"></a></div> | RAM-only image viewer — locks pixels in physical memory, zeroes on teardown. |
 
 </details>
 
