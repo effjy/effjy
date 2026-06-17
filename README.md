@@ -18,13 +18,6 @@ I build high-assurance security tools and design symmetric primitives.
 
 **Tamper-evident audit logging for Linux — the record you can prove.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-teal?style=flat-square
-&labelColor=1a1a1a)](LICENSE)
-[![Language: C](https://img.shields.io/badge/Language-C11-teal?style=flat-square
-&labelColor=1a1a1a)](#)
-[![Platform: Linux](https://img.shields.io/badge/Platform-Linux-8a2be2?style=fla
-t-square&labelColor=1a1a1a)](#)
-
 </div>
 
 ---
