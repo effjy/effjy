@@ -112,11 +112,11 @@ I build high-assurance security tools and design symmetric primitives.
 
 | Project | What it does |
 |:---|:---|
-| <div align="center"><a href="https://github.com/effjy/honeycrypt"><img src="titles/honeycrypt-title.svg" height="52" alt="HoneyCrypt"></a></div> | DTE vault returning valid decoys on wrong passcodes. <sub>(2026)</sub> |
-| <div align="center"><a href="https://github.com/effjy/kagealloc"><img src="titles/kagealloc-title.svg" height="52" alt="KageAlloc"></a></div> | MPK-backed allocator with temporal safety at 3.8% overhead. <sub>(2026)</sub> |
-| <div align="center"><a href="https://github.com/effjy/opsec-linux/"><img src="titles/opsec-linux-title.svg" height="52" alt="OpSec Linux"></a></div> | Paranoid-grade hardening playbook — LUKS2, nftables, auditd, anti-forensics. |
-| <div align="center"><a href="https://github.com/effjy/opsec-windows/"><img src="titles/opsec-windows-title.svg" height="52" alt="OpSec Windows"></a></div> | Win 10/11 &amp; Server playbook — BitLocker, Credential Guard, AppLocker/WDAC. |
-| <div align="center"><a href="https://github.com/effjy/tids"><img src="titles/tids-title.svg" height="52" alt="TIDS"></a></div> | Topological IDS using persistent homology — 0.03% FPR on CIC-IDS2017. <sub>(2026)</sub> |
+| <div align="center"><a href="https://github.com/effjy/honeycrypt"><img src="titles/honeycrypt-title.svg" height="52" alt="HoneyCrypt"></a></div> | **GTK3 decoy-encryption vault** — **DTE** turns every wrong passcode into a plausible fake plaintext, neutralizing offline brute force. <sub>(2026)</sub> |
+| <div align="center"><a href="https://github.com/effjy/kagealloc"><img src="titles/kagealloc-title.svg" height="52" alt="KageAlloc"></a></div> | **Hardware-assisted memory allocator** — Intel **MPK/PKU** for temporal safety and metadata integrity at just **3.8%** overhead over ptmalloc. <sub>(2026)</sub> |
+| <div align="center"><a href="https://github.com/effjy/opsec-linux/"><img src="titles/opsec-linux-title.svg" height="52" alt="OpSec Linux"></a></div> | **Paranoid-grade Linux hardening guide** — disk encryption, SSH, firewall, MAC, auditing and anti-forensics, with defense-in-depth and real commands. |
+| <div align="center"><a href="https://github.com/effjy/opsec-windows/"><img src="titles/opsec-windows-title.svg" height="52" alt="OpSec Windows"></a></div> | **Paranoid-grade Windows 10/11 &amp; Server hardening guide** — BitLocker, Defender ASR, AppLocker/WDAC and firewall lockdown in PowerShell, on CIS baselines. |
+| <div align="center"><a href="https://github.com/effjy/tids"><img src="titles/tids-title.svg" height="52" alt="TIDS"></a></div> | **Topological intrusion detector** — flags DDoS, port scans and exfiltration by their **persistent-homology** shape, not signatures; **0.03% FPR** on CIC-IDS2017. <sub>(2026)</sub> |
 
 ---
 
@@ -126,14 +126,14 @@ I build high-assurance security tools and design symmetric primitives.
 
 | Project | What it does |
 |:---|:---|
-| <div align="center"><a href="https://github.com/effjy/krakken"><img src="titles/krakken-abyssal-title.svg" height="52" alt="Krakken-2048 Abyssal"></a></div> | 2048-bit SPN–ARX hybrid permutation for sponge constructions. <sub>(2026)</sub> |
-| <div align="center"><a href="https://github.com/effjy/krakken-butterfly"><img src="titles/krakken-butterfly-title.svg" height="52" alt="Krakken-2048 Butterfly"></a></div> | Adds the XRBD layer — full avalanche in 8 rounds. <sub>(2026)</sub> |
-| <div align="center"><a href="https://github.com/effjy/krakken-butterfly-bounds"><img src="titles/krakken-bounds-title.svg" height="52" alt="Krakken-2048 Bounds"></a></div> | MILP-proven bounds for XRBD — 229 active S-boxes / 8 rounds. <sub>(2026)</sub> |
-| <div align="center"><a href="https://github.com/effjy/krakken-harness/"><img src="titles/krakken-harness-title.svg" height="52" alt="Krakken Harness"></a></div> | Regression harness for Krakken-2048 — KAT, avalanche, tamper checks. |
-| <div align="center"><a href="https://github.com/effjy/krakken-cryptanalysis"><img src="titles/krakken-cryptanalysis-title.svg" height="52" alt="Krakken Cryptanalysis"></a></div> | Validation battery — SAC/diffusion, NIST SP 800-22, collision tests. <sub>(2026)</sub> |
-| <div align="center"><a href="https://github.com/effjy/krakken-disk/"><img src="titles/krakken-disk-title.svg" height="52" alt="Krakken-Disk"></a></div> | Encrypted disk manager driven by the **Krakken-2048** permutation. |
-| <div align="center"><a href="https://github.com/effjy/krakken-disk-butterfly/"><img src="titles/krakken-disk-butterfly-title.svg" height="52" alt="Krakken-Disk Butterfly"></a></div> | Krakken-Disk on the **Butterfly** permutation — faster, stronger margins. ⭐ |
-| <div align="center"><a href="https://github.com/effjy/krakken-disk-butterfly-cli/"><img src="titles/krakken-disk-butterfly-title.svg" height="52" alt="Krakken-Disk Butterfly CLI"></a></div> | Command-line Krakken-Disk Butterfly — for servers and automation. |
+| <div align="center"><a href="https://github.com/effjy/krakken"><img src="titles/krakken-abyssal-title.svg" height="52" alt="Krakken-2048 Abyssal"></a></div> | **2048-bit SPN-ARX permutation** — the wide-trail Krakken-2048 Abyssal core for sponge AEAD and hashing. <sub>(2026)</sub> |
+| <div align="center"><a href="https://github.com/effjy/krakken-butterfly"><img src="titles/krakken-butterfly-title.svg" height="52" alt="Krakken-2048 Butterfly"></a></div> | **Krakken-2048 + XRBD** — an XOR-rotation butterfly-diffusion layer reaching full word-level avalanche in **8 rounds**. <sub>(2026)</sub> |
+| <div align="center"><a href="https://github.com/effjy/krakken-butterfly-bounds"><img src="titles/krakken-bounds-title.svg" height="52" alt="Krakken-2048 Bounds"></a></div> | **MILP-proven bounds for XRBD** — ≥**229 active S-boxes** over 8 rounds, bounding every differential/linear characteristic below **2⁻¹³⁷⁴**. <sub>(2026)</sub> |
+| <div align="center"><a href="https://github.com/effjy/krakken-harness/"><img src="titles/krakken-harness-title.svg" height="52" alt="Krakken Harness"></a></div> | **Engineering-correctness harness** — KAT-pinned regression, invertibility, avalanche and tamper checks for Krakken-2048 and Krakken-Disk V5. |
+| <div align="center"><a href="https://github.com/effjy/krakken-cryptanalysis"><img src="titles/krakken-cryptanalysis-title.svg" height="52" alt="Krakken Cryptanalysis"></a></div> | **Cryptanalysis & verification suite** — SAC/diffusion, NIST SP 800-22, division-property MILP and collision tests. <sub>(2026)</sub> |
+| <div align="center"><a href="https://github.com/effjy/krakken-disk/"><img src="titles/krakken-disk-title.svg" height="52" alt="Krakken-Disk"></a></div> | **GTK3 encrypted disk manager** driven by the **Krakken-2048 Abyssal** permutation — 256-bit post-Grover margin with a Kyber-1024/X448 hybrid KEM. |
+| <div align="center"><a href="https://github.com/effjy/krakken-disk-butterfly/"><img src="titles/krakken-disk-butterfly-title.svg" height="52" alt="Krakken-Disk Butterfly"></a></div> | **Krakken-Disk on the Butterfly permutation** — a faster 8-round XRBD core with stronger security margins. ⭐ |
+| <div align="center"><a href="https://github.com/effjy/krakken-disk-butterfly-cli/"><img src="titles/krakken-disk-butterfly-title.svg" height="52" alt="Krakken-Disk Butterfly CLI"></a></div> | **Command-line Krakken-Disk Butterfly** — the same post-quantum core, GUI-free for servers and automation. |
 
 ---
 
