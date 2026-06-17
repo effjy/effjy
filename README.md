@@ -30,7 +30,7 @@ I build high-assurance security tools and design symmetric primitives.
 
 | Project | What it does |
 |:---|:---|
-| <div align="center"><a href="https://github.com/effjy/axis/"><img src="titles/axis-title.svg" height="52" alt="Axis"></a></div> | Ultra-secure encrypted disk manager with Kyber-1024/X448 hybrid KEM and plausible deniability. ⭐ |
+| <div align="center"><a href="https://github.com/effjy/axis/">AXIS</a></div> | Ultra-secure encrypted disk manager with Kyber-1024/X448 hybrid KEM and plausible deniability. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/axis-secret/"><img src="titles/calculator-vault-title.svg" height="52" alt="Calculator Vault"></a></div> | A working GTK3 calculator that launches Axis on a secret code — hiding that encryption is installed. |
 | <div align="center"><a href="https://github.com/effjy/ciphers/"><img src="titles/ciphers-title.svg" height="52" alt="Ciphers"></a></div> | File encryption with Kyber-1024/X448 hybrid KEM over AES-256-GCM & XChaCha20-Poly1305. |
 | <div align="center"><a href="https://github.com/effjy/czip/"><img src="titles/czip-title.svg" height="52" alt="Czip"></a></div> | First archiver fusing multithreaded zstd with XChaCha20-Poly1305 and file splitting. |
