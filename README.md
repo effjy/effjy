@@ -14,8 +14,7 @@ I build high-assurance security tools and design symmetric primitives.
 
 # COMING SOON
 
-# pq-audit
-
+PQ-Audit
 **Tamper-evident audit logging for Linux — the record you can prove.**
 
 </div>
