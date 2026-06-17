@@ -65,8 +65,8 @@ I build high-assurance security tools and design symmetric primitives.
 | <div align="center"><a href="https://github.com/effjy/scrub/"><img src="titles/scrub-title.svg" height="52" alt="Scrub"></a></div> | Dependency-free metadata scrubber — strips Exif/XMP/IPTC from JPEGs and PNGs. |
 | <div align="center"><a href="https://github.com/effjy/secure_mount/"><img src="titles/secure-mount-title.svg" height="52" alt="Secure Mount"></a></div> | GTK3 frontend for gocryptfs — mount, unmount and init encrypted volumes. |
 | <div align="center"><a href="https://github.com/effjy/sizer"><img src="titles/sizer-title.svg" height="52" alt="Sizer"></a></div> | Threaded disk-space analyzer with live bars, an interactive donut and drill-down. |
-| <div align="center"><a href="https://github.com/effjy/syshash/"><img src="titles/syshash-title.svg" height="52" alt="Syshash"></a></div> | File-integrity monitor that recursively hashes a directory and flags any change. |
-| <div align="center"><a href="https://github.com/effjy/usage/"><img src="titles/usage-title.svg" height="52" alt="Usage"></a></div> | Real-time network monitor with live speeds and a Tokyo Night graph. |
+| <div align="center"><a href="https://github.com/effjy/syshash/"><img src="titles/syshash-title.svg" height="52" alt="Syshash"></a></div> | File-integrity monitor that recursively hashes every file in a directory tree, stores a signed baseline, and flags any addition, deletion, or modification on re-scan. |
+| <div align="center"><a href="https://github.com/effjy/usage/"><img src="titles/usage-title.svg" height="52" alt="Usage"></a></div> | A GTK3 network monitor that tracks bandwidth in real time — live speeds, a scrolling Tokyo Night graph, and a settable download limit that flags when you've exceeded your allotted usage. |
 | <div align="center"><a href="https://github.com/effjy/viewer"><img src="titles/viewer-title.svg" height="52" alt="Viewer"></a></div> | RAM-only image viewer — locks pixels in physical memory, zeroes on teardown. |
 
 </details>
