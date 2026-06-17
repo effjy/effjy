@@ -49,7 +49,7 @@ I build high-assurance security tools and design symmetric primitives.
 
 | Project | What it does |
 |:---|:---|
-| <div align="center"><a href="https://github.com/effjy/chkrootkit-gui/"><img src="titles/chkrootkit-gui-title.svg" height="80" alt="Chkrootkit GUI"></a></div> | GTK3 front-end for **chkrootkit** with live output and false-positive filtering. |
+| <div align="center"><a href="https://github.com/effjy/chkrootkit-gui/"><img src="titles/chkrootkit-gui-title.svg" height="52" alt="Chkrootkit GUI"></a></div> | GTK3 front-end for **chkrootkit** with live output and false-positive filtering. |
 | <div align="center"><a href="https://github.com/effjy/connmon/"><img src="titles/connection-monitor-title.svg" height="52" alt="Connection Monitor"></a></div> | Real-time TCP monitor reading `/proc/net/tcp`, resolving the owning process per socket. |
 | <div align="center"><a href="https://github.com/effjy/entropy/"><img src="titles/entropy-title.svg" height="52" alt="Entropy"></a></div> | CSPRNG password generator with an entropy analyzer penalizing repeats and sequences. |
 | <div align="center"><a href="https://github.com/effjy/entropy-gui/"><img src="titles/entropy-gui-title.svg" height="52" alt="Entropy GUI"></a></div> | Desktop edition — naive vs. realistic entropy with a color-coded strength meter. ⭐ |
