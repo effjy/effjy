@@ -147,7 +147,7 @@ I build high-assurance security tools and design symmetric primitives.
 
 <div align="center">
 
-<a href="mailto:effjy@protonmail.com"><img src="titles/email-me-suggestions-title.svg" height="52" alt="Email me suggestions"></a>
+<a href="mailto:effjy@protonmail.com"><img src="titles/email.svg" height="52" alt="Email me suggestions"></a>
 <br><br>
 I'm offering to develop security software at no cost. If there's a specific security-related tool you need, email me your idea and I'll get to work on it.
 <br>
