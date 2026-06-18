@@ -1,191 +1,153 @@
 <div align="center">
 
-  <a href="https://github.com/effjy/effjy/"><img src="titles/jean-francois-title.svg" height="100%" alt="Jean-Francois Lachance-Caumartin"></a>
+# Jean-François Lachance-Caumartin
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FFCC&center=true&vCenter=true&width=560&lines=Symmetric+Primitive+Design;Advanced+Cryptanalysis;Post-Quantum+Secured+Systems;Forensic-Grade+Sanitization)](https://git.io/typing-svg)
+### 🛡️ Systems & Cryptography Engineer · Post-Quantum Security · Low-Level C
 
-**Security analyst by day · cryptographic researcher by night.**
+*I build security tools in C — from original cryptographic permutations and post-quantum
+vaults to forensic utilities and hardened Linux desktop apps. Close to the metal, paranoid by design.*
 
-I build high-assurance security tools and design symmetric primitives.
-
----
-
-<a href="#-applications"><b>Applications</b></a> &nbsp;·&nbsp;
-<a href="#-featured"><b>Featured</b></a> &nbsp;·&nbsp;
-<a href="#-systems-security"><b>Systems Security</b></a> &nbsp;·&nbsp;
-<a href="#-cryptography"><b>Cryptography</b></a> &nbsp;·&nbsp;
-<a href="#-learning"><b>Learning</b></a> &nbsp;·&nbsp;
-<a href="#-contact"><b>Contact</b></a>
-
-</div>
-
-> [!TIP]
-> ⭐ **A star goes a long way** — it helps others find the work and keeps me building. Thank you.
-
----
-
-## 🛠️ Applications
-
-<sub>Production-ready security tools for Linux.</sub>
-
-| Project | What it does |
-|:---|:---|
-| <div align="center"><a href="https://github.com/effjy/axis/"><img src="titles/axis-title.svg" height="52" alt="Axis"></a></div> | **GTK3 encrypted disk manager** — AES-256-GCM volumes behind a **Kyber-1024/X448 hybrid KEM**, with FUSE mounting and **IND-RND plausible deniability**. ⭐ |
-| <div align="center"><a href="https://github.com/effjy/axis-secret/"><img src="titles/calculator-vault-title.svg" height="52" alt="Calculator Vault"></a></div> | **Working GTK3 calculator** that secretly launches **Axis** on a passcode — hiding that an encrypted disk manager is even installed. |
-| <div align="center"><a href="https://github.com/effjy/ciphers/"><img src="titles/ciphers-title.svg" height="52" alt="Ciphers"></a></div> | **GTK3 file encryptor** — **AEAD** ciphers (AES-256-GCM, XChaCha20-Poly1305) with an optional **Kyber-1024/X448 hybrid KEM** and Argon2id. |
-| <div align="center"><a href="https://github.com/effjy/pq-audit/"><img src="titles/pq-audit-title.svg" height="52" alt="PQ-AUDIT"></a></div> | **Tamper-evident audit log** — append-only, hash-chained and forward-secure, sealed with post-quantum **ML-DSA/SLH-DSA** and Merkle proofs. |
-| <div align="center"><a href="https://github.com/effjy/pq-note/"><img src="titles/pq-note-title.svg" height="52" alt="PQ-Note"></a></div> | **GTK3 encrypted notes app** — free-form notes sealed as one AEAD blob (AES-256-GCM / XChaCha20-Poly1305) behind a **Kyber-1024/X448 hybrid KEM** and Argon2id, unlocked by one master password. |
-| <div align="center"><a href="https://github.com/effjy/pq-sealed/"><img src="titles/pq-sealed-title.svg" height="52" alt="PQ-Sealed"></a></div> | **Incremental encrypted backups** — deduplicating, content-addressed snapshots under a **Kyber-1024/X448 hybrid KEM**, manifests signed with **ML-DSA-65**. ⭐ |
-| <div align="center"><a href="https://github.com/effjy/pq-sign/"><img src="titles/pq-sign-title.svg" height="52" alt="PQ-SIGN"></a></a></div> | **Post-quantum file signing** — detached **ML-DSA (FIPS 204)** & **SLH-DSA (FIPS 205)** signatures; secret keys sealed with Argon2id + AES-256-GCM. |
-| <div align="center"><a href="https://github.com/effjy/pqotp/"><img src="titles/pqotp-title.svg" height="52" alt="PQOTP"></a></div> | **2FA authenticator** (GTK3 + CLI) — **TOTP/HOTP** seeds in a post-quantum hybrid-KEM vault behind one master password. |
-| <div align="center"><a href="https://github.com/effjy/pqpman/"><img src="titles/pqpman-title.svg" height="52" alt="PQPMan"></a></div> | **GTK3 password manager** — vault sealed with AEAD and a **Kyber-1024/X448 hybrid KEM** behind one master password. |
-| <div align="center"><a href="https://github.com/effjy/pqtransfer/"><img src="titles/pq-transfer-title.svg" height="80" alt="PQ Transfer"></a></div> | **Peer-to-peer file transfer** — serverless, end-to-end encrypted over a **Kyber-1024/X448 hybrid KEM**, with an optional passphrase to defeat MITM. ⭐ |
-
-<details open>
-<summary><b>More utilities &amp; tools</b></summary>
-
-<br>
-
-| Project | What it does |
-|:---|:---|
-| <div align="center"><a href="https://github.com/effjy/chkrootkit-gui/"><img src="titles/chkrootkit-gui-title.svg" height="52" alt="Chkrootkit GUI"></a></div> | **GTK3 front-end for chkrootkit** — live, color-coded rootkit scans with one-click false-positive filtering. |
-| <div align="center"><a href="https://github.com/effjy/connmon/"><img src="titles/connection-monitor-title.svg" height="52" alt="Connection Monitor"></a></div> | **Real-time TCP monitor** (GTK3) — reads `/proc/net/tcp` and maps every live connection to its owning process. |
-| <div align="center"><a href="https://github.com/effjy/czip/"><img src="titles/czip-title.svg" height="52" alt="Czip"></a></div> | **Compress-and-encrypt archiver** — multithreaded **zstd** streamed through **XChaCha20-Poly1305**, with Argon2id keys and file splitting. |
-| <div align="center"><a href="https://github.com/effjy/entropy/"><img src="titles/entropy-title.svg" height="52" alt="Entropy"></a></div> | **CLI password generator** — `getrandom()` CSPRNG with an entropy analyzer that penalizes repeats, sequences and dictionary words. |
-| <div align="center"><a href="https://github.com/effjy/entropy-gui/"><img src="titles/entropy-gui-title.svg" height="52" alt="Entropy GUI"></a></div> | **GTK3 edition of Entropy** — naive vs. realistic password entropy with a color-coded strength meter and one-click copy. |
-| <div align="center"><a href="https://github.com/effjy/fordump"><img src="titles/forensic-dump-title.svg" height="52" alt="Forensic Dump"></a></div> | **GTK3 forensics tool** — multithreaded block-level disk imaging with file carving (JPEG/PNG/PDF/ZIP) and credential/key search. ⭐ |
-| <div align="center"><a href="https://github.com/effjy/lynis-gui/"><img src="titles/lynis-gui-title.svg" height="52" alt="Lynis GUI"></a></div> | **GTK3 front-end for Lynis** — live, color-coded security audits with a one-click pentest mode. |
-| <div align="center"><a href="https://github.com/effjy/memscan/"><img src="titles/memscan-title.svg" height="52" alt="Memscan"></a></div> | **Live-memory scanner** (CLI) — searches a running process's `/proc/<pid>/mem` for byte patterns or file-magic headers. |
-| <div align="center"><a href="https://github.com/effjy/mole/"><img src="titles/mole-title.svg" height="52" alt="Mole"></a></div> | **Secret scanner** — recursively greps a tree for leaked credentials via **regex + Shannon entropy**, with a CLI and a GTK3 triage UI. ⭐ |
-| <div align="center"><a href="https://github.com/effjy/multi-ciphers/"><img src="titles/multi-ciphers-title.svg" height="52" alt="Multi Ciphers"></a></div> | **Dependency-free encryption CLI** — four **AEAD ciphers** (AES-256-GCM, XChaCha20, Serpent, Twofish) over an Argon2id KDF. |
-| <div align="center"><a href="https://github.com/effjy/limiter/"><img src="titles/network-speed-limiter-title.svg" height="52" alt="Network Speed Limiter"></a></div> | **Bandwidth limiter** (GTK3 + CLI) — caps combined up/down speed on any interface via Linux `tc`, optionally as a boot-time service. |
-| <div align="center"><a href="https://github.com/effjy/ram/"><img src="titles/ram-vizualizer-title.svg" height="52" alt="RAM Vizualizer"></a></div> | **GTK3 + Cairo RAM analyzer** — top memory hogs, live ring gauges and bar charts, and verified-kill process termination. ⭐ |
-| <div align="center"><a href="https://github.com/effjy/rkhunter-gui/"><img src="titles/rkhunter-gui-title.svg" height="52" alt="rkhunter GUI"></a></div> | **GTK3 front-end for rkhunter** — live, color-coded rootkit scans with a problems-only filter. |
-| <div align="center"><a href="https://github.com/effjy/scrub/"><img src="titles/scrub-title.svg" height="52" alt="Scrub"></a></div> | **Dependency-free metadata scrubber** — natively strips Exif/XMP/IPTC (and C2PA) from JPEGs and PNGs before you share them. |
-| <div align="center"><a href="https://github.com/effjy/secure_mount/"><img src="titles/secure-mount-title.svg" height="52" alt="Secure Mount"></a></div> | **GTK3 front-end for gocryptfs** — initialize, mount and unmount encrypted volumes without touching the command line. |
-| <div align="center"><a href="https://github.com/effjy/swipe"><img src="titles/secure-wipe-title.svg" height="52" alt="Secure Wipe"></a></div> | **CLI data sanitizer** — irrecoverably wipes files, directories, free space and RAM to **NIST SP 800-88 / FIPS 140-3**, with SSD TRIM. |
-| <div align="center"><a href="https://github.com/effjy/sizer"><img src="titles/sizer-title.svg" height="52" alt="Sizer"></a></div> | **GTK3 disk-space analyzer** — threaded scan from `/` with live percentage bars, an interactive donut and folder drill-down. |
-| <div align="center"><a href="https://github.com/effjy/syshash/"><img src="titles/syshash-title.svg" height="52" alt="Syshash"></a></div> | **File-integrity monitor** (CLI + GTK3) — recursively hashes a tree with **SHA3-512**, baselines it, and flags any changed file on re-scan. |
-| <div align="center"><a href="https://github.com/effjy/usage/"><img src="titles/usage-title.svg" height="52" alt="Usage"></a></div> | **Real-time network monitor** (GTK3) — live up/down speeds and a **Tokyo Night** Cairo graph, with a settable usage limit that counts down and turns red when exceeded. |
-| <div align="center"><a href="https://github.com/effjy/viewer"><img src="titles/viewer-title.svg" height="52" alt="Viewer"></a></div> | **RAM-only image viewer** (X11) — `mlock`s pixels in physical memory and zeroes them on teardown; JPEG/PNG, no swap leaks. |
-| <div align="center"><a href="https://github.com/effjy/vwipe"><img src="titles/virtual-wipe-turbo-title.svg" height="52" alt="Virtual Wipe Turbo"></a></div> | **Multi-core secure-erase suite** (GTK3) — saturates NVMe/SSD throughput wiping disks, free space and RAM to **NIST/FIPS** standards. |
-
-</details>
-
----
-
-## ⭐ Featured
-
-<div align="center">
-  <br>
-
-  <a href="https://github.com/effjy/axis"><img src="titles/axis-title.svg" height="56" alt="Axis"></a>
-
-<br>
-
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/License-MIT-teal?style=flat-square&labelColor=1a1a1a" alt="MIT License"></a>
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Language-C-teal?style=flat-square&labelColor=1a1a1a" alt="C"></a>
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Platform-Linux-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Linux"></a>
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Security-AES--256--GCM-teal?style=flat-square&labelColor=1a1a1a" alt="AES-256-GCM"></a>
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/PQC-Kyber--1024%20%2B%20X448-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Kyber-1024 + X448"></a>
-
-  <br><br>
-  <b>Ultra-secure encrypted disk manager — hybrid post-quantum key encapsulation with plausible deniability.</b>
-  <br>
-  <sub>Kyber-1024 + X448 hybrid KEM · AES-256-GCM · Argon2id (1 GB) · FUSE 3 mounting · IND-RND plausible deniability · locked non-dumpable memory.</sub>
-
-  <br><br>
-  <a href="https://github.com/effjy/axis">
-    <img src="https://github.com/effjy/axis/raw/main/screenshot.png" width="700px" alt="Axis main window">
-  </a>
-  <br>
-  <sub><i>The Axis dashboard — create or open an encrypted volume, then mount it as a transparent FUSE filesystem with a single password</i></sub>
-
-  <br><br>
-  <a href="https://github.com/effjy/axis"><b>Explore the repository →</b></a>
-</div>
-
----
-
-## 🔬 Systems Security
-
-<sub>Hardware-assisted memory safety &amp; defensive systems.</sub>
-
-| Project | What it does |
-|:---|:---|
-| <div align="center"><a href="https://github.com/effjy/honeycrypt"><img src="titles/honeycrypt-title.svg" height="52" alt="HoneyCrypt"></a></div> | **GTK3 decoy-encryption vault** — **DTE** turns every wrong passcode into a plausible fake plaintext, neutralizing offline brute force. <sub>(2026)</sub> |
-| <div align="center"><a href="https://github.com/effjy/kagealloc"><img src="titles/kagealloc-title.svg" height="52" alt="KageAlloc"></a></div> | **Hardware-assisted memory allocator** — Intel **MPK/PKU** for temporal safety and metadata integrity at just **3.8%** overhead over ptmalloc. ⭐ <sub>(2026)</sub> |
-| <div align="center"><a href="https://github.com/effjy/opsec-linux/"><img src="titles/opsec-linux-title.svg" height="52" alt="OpSec Linux"></a></div> | **Paranoid-grade Linux hardening guide** — disk encryption, SSH, firewall, MAC, auditing and anti-forensics, with defense-in-depth and real commands. |
-| <div align="center"><a href="https://github.com/effjy/opsec-windows/"><img src="titles/opsec-windows-title.svg" height="52" alt="OpSec Windows"></a></div> | **Paranoid-grade Windows 10/11 &amp; Server hardening guide** — BitLocker, Defender ASR, AppLocker/WDAC and firewall lockdown in PowerShell, on CIS baselines. |
-| <div align="center"><a href="https://github.com/effjy/tids"><img src="titles/tids-title.svg" height="52" alt="TIDS"></a></div> | **Topological intrusion detector** — flags DDoS, port scans and exfiltration by their **persistent-homology** shape, not signatures; **0.03% FPR** on CIC-IDS2017. ⭐ <sub>(2026)</sub> |
-
----
-
-## 🧬 Cryptography
-
-<sub>Symmetric permutations, cryptanalysis &amp; permutation-driven tools.</sub>
-
-| Project | What it does |
-|:---|:---|
-| <div align="center"><a href="https://github.com/effjy/krakken"><img src="titles/krakken-abyssal-title.svg" height="52" alt="Krakken-2048 Abyssal"></a></div> | **2048-bit SPN-ARX permutation** — the wide-trail Krakken-2048 Abyssal core for sponge AEAD and hashing. <sub>(2026)</sub> |
-| <div align="center"><a href="https://github.com/effjy/krakken-butterfly"><img src="titles/krakken-butterfly-title.svg" height="52" alt="Krakken-2048 Butterfly"></a></div> | **Krakken-2048 + XRBD** — an XOR-rotation butterfly-diffusion layer reaching full word-level avalanche in **8 rounds**. ⭐ <sub>(2026)</sub> |
-| <div align="center"><a href="https://github.com/effjy/krakken-butterfly-bounds"><img src="titles/krakken-bounds-title.svg" height="52" alt="Krakken-2048 Bounds"></a></div> | **MILP-proven bounds for XRBD** — ≥**229 active S-boxes** over 8 rounds, bounding every differential/linear characteristic below **2⁻¹³⁷⁴**. <sub>(2026)</sub> |
-| <div align="center"><a href="https://github.com/effjy/krakken-harness/"><img src="titles/krakken-harness-title.svg" height="52" alt="Krakken Harness"></a></div> | **Engineering-correctness harness** — KAT-pinned regression, invertibility, avalanche and tamper checks for Krakken-2048 and Krakken-Disk V5. |
-| <div align="center"><a href="https://github.com/effjy/krakken-cryptanalysis"><img src="titles/krakken-cryptanalysis-title.svg" height="52" alt="Krakken Cryptanalysis"></a></div> | **Cryptanalysis & verification suite** — SAC/diffusion, NIST SP 800-22, division-property MILP and collision tests. <sub>(2026)</sub> |
-| <div align="center"><a href="https://github.com/effjy/krakken-disk/"><img src="titles/krakken-disk-title.svg" height="52" alt="Krakken-Disk"></a></div> | **GTK3 encrypted disk manager** driven by the **Krakken-2048 Abyssal** permutation — 256-bit post-Grover margin with a Kyber-1024/X448 hybrid KEM. |
-| <div align="center"><a href="https://github.com/effjy/krakken-disk-butterfly/"><img src="titles/krakken-disk-butterfly-title.svg" height="52" alt="Krakken-Disk Butterfly"></a></div> | **Krakken-Disk on the Butterfly permutation** — a faster 8-round XRBD core with stronger security margins. ⭐ |
-| <div align="center"><a href="https://github.com/effjy/krakken-disk-butterfly-cli/"><img src="titles/krakken-disk-butterfly-title.svg" height="52" alt="Krakken-Disk Butterfly CLI"></a></div> | **Command-line Krakken-Disk Butterfly** — the same post-quantum core, GUI-free for servers and automation. |
-
----
-
-## 📚 Learning
-
-| Project | What it does |
-|:---|:---|
-| <div align="center"><a href="https://github.com/effjy/learning-c/"><img src="titles/learning-c-title.svg" height="52" alt="Learning C"></a></div> | **Complete beginner's guide to C** — assumes zero prior code and builds up from compilation and variables through control flow, functions, arrays, **pointers, structs, and stack/heap memory**, closing with **5 graded exercises** and where to go next. |
-| <div align="center"><a href="https://github.com/effjy/learning-python/"><img src="titles/learning-python-title.svg" height="52" alt="Learning Python"></a></div> | **Complete beginner's guide to Python** — from your first line through data types, control flow, functions, **lists/dicts/sets, strings, exceptions, and files & modules**, with PEP 8 style and **5 graded exercises**; a natural follow-on to the C guide. |
-
----
-
-<div align="center">
-
-<a href="mailto:effjy@protonmail.com"><img src="titles/email.svg" height="52" alt="Email me suggestions"></a>
-<br><br>
-I'm offering to develop security software at no cost. If there's a specific security-related tool you need, email me your idea and I'll get to work on it.
-<br>
+![C](https://img.shields.io/badge/C-555555?style=for-the-badge&logo=c&logoColor=white)
+![GTK3](https://img.shields.io/badge/GTK3-4A90D9?style=for-the-badge&logo=gnome&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-1793D1?style=for-the-badge&logo=linux&logoColor=white)
+![Post-Quantum](https://img.shields.io/badge/Post--Quantum-8A2BE2?style=for-the-badge)
+![Cryptanalysis](https://img.shields.io/badge/Cryptanalysis-teal?style=for-the-badge)
 
 </div>
 
 ---
 
-## 📬 Contact
+## 👋 About
+
+I'm a security-focused engineer who works almost entirely in **C** — by choice. My projects
+span original **cryptographic design and cryptanalysis**, **post-quantum** applications built
+on NIST standards (Kyber/ML-KEM, ML-DSA, SLH-DSA), **digital forensics**, and clean **GTK3**
+desktop front-ends that make serious security tooling actually pleasant to use.
+
+A few themes run through everything I build:
+
+- 🔬 **Original research** — I designed *Krakken-2048*, a 2048-bit SPN-ARX permutation, and
+  wrote the papers, the MILP proofs, and the cryptanalysis suites behind it.
+- 🧬 **Post-quantum by default** — hybrid Kyber-1024 + X448 KEMs, AES-256-GCM / XChaCha20-Poly1305
+  AEADs, and Argon2id hardening across a whole family of tools.
+- ⚙️ **No dependencies, close to the metal** — primitives implemented from scratch, AVX2/AES-NI
+  hand-tuning, `/proc` parsing, `mlock()`'d secrets, and `ioctl()` block-level I/O.
+
+---
+
+## 🔐 Cryptographic Research — The *Krakken* Project
+
+My flagship work: an original wide-state cryptographic permutation, its evolution, and the full
+provable-security apparatus around it.
+
+| Project | What it is |
+|---|---|
+| **[krakken](https://github.com/effjy/krakken)** | **Krakken-2048 Abyssal** — a 2048-bit SPN-ARX hybrid permutation for sponge hashing & AEAD. Full paper: spec, differential/linear/rebound/invariant-subspace analysis, MILP bounds, AVX2 benchmarks. |
+| **[krakken-butterfly](https://github.com/effjy/krakken-butterfly)** | The evolution: **XOR-Rotation Butterfly Diffusion (XRBD)** — a 5-stage logarithmic butterfly network giving full avalanche in one pass, cutting 10 rounds down to 8. |
+| **[krakken-butterfly-bounds](https://github.com/effjy/krakken-butterfly-bounds)** | Reproducible MILP models proving a minimum of **229 active S-boxes** over 8 rounds, bounding any characteristic to **2⁻¹³⁷⁴** — with a closed optimality gap. |
+| **[krakken-cryptanalysis](https://github.com/effjy/krakken-cryptanalysis)** | The empirical + provable analysis suite for the wide-trail permutation and its sponge hash. |
+| **[krakken-harness](https://github.com/effjy/krakken-harness)** | Standalone, drop-anywhere CI test package — determinism, invertibility, tamper-evidence, KAT drift-lock. |
+
+---
+
+## 💾 Encrypted Storage & Disk Managers
+
+Post-quantum encrypted volumes with plausible deniability — volumes mathematically
+indistinguishable from random noise (IND-RND).
+
+| Project | What it is |
+|---|---|
+| **[axis](https://github.com/effjy/axis)** | Ultra-secure encrypted disk manager — AES-256-GCM + hybrid Kyber-1024/X448 KEM, AES-NI/AVX2 accelerated, Argon2id (1 GB) hardened, full plausible deniability. |
+| **[axis-secret](https://github.com/effjy/axis-secret)** | A beautiful GTK3 calculator… with the entire Axis disk manager hidden behind a secret passcode. |
+| **[krakken-disk](https://github.com/effjy/krakken-disk)** | Encrypted volume manager powered by the Krakken-2048 permutation — uniform 256-bit post-Grover margin. |
+| **[krakken-disk-butterfly](https://github.com/effjy/krakken-disk-butterfly)** | The faster 8-round XRBD edition of Krakken-Disk. |
+| **[krakken-disk-butterfly-cli](https://github.com/effjy/krakken-disk-butterfly-cli)** | CLI build with **FUSE 3** mounting — encrypted containers as transparent filesystem directories. |
+| **[honeycrypt](https://github.com/effjy/honeycrypt)** | DTE-based decoy encryption vault — neutralizes offline brute-force by replacing auth errors with *plausible decoys*. |
+| **[secure_mount](https://github.com/effjy/secure_mount)** | GTK3 manager for `gocryptfs` encrypted volumes — init, mount, unmount without the command line. |
+
+---
+
+## 🧬 Post-Quantum Application Suite
+
+A coherent family of NIST-standard PQC tools sharing a common crypto core.
+
+| Project | What it is |
+|---|---|
+| **[pqpman](https://github.com/effjy/pqpman)** | Post-quantum password manager — single-master-password vault sealed with Kyber-1024 + X448 hybrid KEM. |
+| **[pqotp](https://github.com/effjy/pqotp)** | Post-quantum TOTP/HOTP authenticator (GTK3 + CLI) — the PQ answer to Google Authenticator. |
+| **[pq-note](https://github.com/effjy/pq-note)** | Encrypted notes — nothing decrypted ever touches disk. |
+| **[pq-sealed](https://github.com/effjy/pq-sealed)** | Incremental encrypted backups with ML-DSA-65-signed, tamper-evident snapshots. |
+| **[pq-sign](https://github.com/effjy/pq-sign)** | Detached file signing with ML-DSA (FIPS 204) & SLH-DSA (FIPS 205). |
+| **[pq-audit](https://github.com/effjy/pq-audit)** | Tamper-evident, hash-chained, PQ-sealed audit logging — the record you can *prove*. |
+| **[pqtransfer](https://github.com/effjy/pqtransfer)** | Serverless peer-to-peer file transfer over an end-to-end PQ-encrypted channel. |
+
+---
+
+## 🔏 Encryption & Password Tooling
+
+| Project | What it is |
+|---|---|
+| **[ciphers](https://github.com/effjy/ciphers)** | GTK3 file encryption with modern AEAD + post-quantum hybrid key encapsulation. |
+| **[multi-ciphers](https://github.com/effjy/multi-ciphers)** | Dependency-free CLI authenticated encryption — four AEAD ciphers, Argon2id, every primitive bundled. |
+| **[czip](https://github.com/effjy/czip)** | First archiver to fuse multithreaded **zstd** compression with **XChaCha20-Poly1305** — streaming, flat memory, terabyte-ready. |
+| **[entropy](https://github.com/effjy/entropy)** | Terminal password generator + multi-factor entropy analyzer (`getrandom()`, dictionary & leet-speak penalties). |
+| **[entropy-gui](https://github.com/effjy/entropy-gui)** | The sleek GTK3 edition of Entropy. |
+
+---
+
+## 🕵️ Forensics, Memory Safety & Detection
+
+| Project | What it is |
+|---|---|
+| **[fordump](https://github.com/effjy/fordump)** | GTK3 forensic acquisition suite — multi-threaded block-level imaging, magic-byte carving, credential/signature detection. |
+| **[memscan](https://github.com/effjy/memscan)** | Scans live process memory (`/proc/<pid>/mem`) for byte patterns & magic headers. |
+| **[mole](https://github.com/effjy/mole)** | Recursively greps directory trees for leaked credentials — API keys, private keys, JWTs, cloud tokens. |
+| **[scrub](https://github.com/effjy/scrub)** | Forensic-grade metadata scrubber — strips Exif/XMP/IPTC natively in C, no libexif. |
+| **[viewer](https://github.com/effjy/viewer)** | Security-focused image viewer — pixel data `mlock()`'d into RAM and securely wiped, never swapped. |
+| **[syshash](https://github.com/effjy/syshash)** | File integrity monitor — SHA3-512 (Keccak from scratch), CLI + GTK3 over one core. |
+| **[tids](https://github.com/effjy/tids)** | **Topological** IDS — detects intrusions by their *shape* using persistent homology & Vietoris-Rips filtrations. |
+| **[kagealloc](https://github.com/effjy/kagealloc)** | Hardware-assisted temporal memory-safety allocator using Intel MPK/PKU — ~3.8% overhead over ptmalloc. Includes a paper. |
+| **[swipe](https://github.com/effjy/swipe)** | CLI secure-wipe — NIST SP 800-88 / FIPS 140-3, files, free space, RAM, SSD TRIM. |
+| **[vwipe](https://github.com/effjy/vwipe)** | Virtual Wipe Turbo — multi-core forensic data sanitization saturating NVMe/SSD throughput. |
+
+---
+
+## 🖥️ Linux Desktop Front-Ends & Monitors
+
+Color, live output, and a clean dark aesthetic for tools that usually scroll past in a terminal.
+
+| Project | What it is |
+|---|---|
+| **[chkrootkit-gui](https://github.com/effjy/chkrootkit-gui)** | GTK3 front-end for `chkrootkit` — live, color-coded rootkit scans. |
+| **[rkhunter-gui](https://github.com/effjy/rkhunter-gui)** | GTK3 front-end for Rootkit Hunter — `rkhunter --check` live, in color. |
+| **[lynis-gui](https://github.com/effjy/lynis-gui)** | GTK3 front-end for Lynis — security audits with color, live. |
+| **[connmon](https://github.com/effjy/connmon)** | Real-time TCP connection monitor — resolves owning process per connection via `/proc`. |
+| **[usage](https://github.com/effjy/usage)** | Live bandwidth monitor with a Cairo-drawn traffic graph and Tokyo Night theme. |
+| **[ram](https://github.com/effjy/ram)** | GTK3 + Cairo RAM analyzer with ring gauges and *verified* process kills. |
+| **[sizer](https://github.com/effjy/sizer)** | Disk-space analyzer with live percentages and an interactive donut diagram. |
+| **[limiter](https://github.com/effjy/limiter)** | Per-interface upload/download bandwidth cap — GTK3 + CLI. |
+
+---
+
+## 📚 Guides & Learning
+
+| Project | What it is |
+|---|---|
+| **[opsec-linux](https://github.com/effjy/opsec-linux)** | Paranoid-grade Linux hardening guide — defense-in-depth, real commands. |
+| **[opsec-windows](https://github.com/effjy/opsec-windows)** | The Windows 10/11/Server counterpart — PowerShell, CIS/Microsoft SCT baselines. |
+| **[learning-c](https://github.com/effjy/learning-c)** | From-scratch C beginner's guide with graduated exercises. |
+| **[learning-python](https://github.com/effjy/learning-python)** | From-scratch Python beginner's guide with graduated exercises. |
+
+---
 
 <div align="center">
 
-<a href="https://github.com/effjy"><img src="https://img.shields.io/badge/GitHub-%40effjy-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>&nbsp;
-<a href="https://orcid.org/0009-0005-6377-1675"><img src="https://img.shields.io/badge/ORCID-0009--0005--6377--1675-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"></a>&nbsp;
-<a href="https://figshare.com/authors/Jean-Francois_Lachance-Caumartin/24086388"><img src="https://img.shields.io/badge/Figshare-Publications-36454F?style=for-the-badge&logo=figshare&logoColor=white" alt="Figshare"></a>&nbsp;
-<a href="https://gravatar.com/effjy"><img src="https://img.shields.io/badge/Gravatar-effjy-1F8CEB?style=for-the-badge&logo=gravatar&logoColor=white" alt="Gravatar"></a>&nbsp;
-<a href="https://x.com/jfclachance"><img src="https://img.shields.io/badge/X-%40jfclachance-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+### 🧰 Toolbox
 
-<br><br>
+**Languages** · C (C11/C99) · Python · Bash · PowerShell
+**Crypto** · AES-256-GCM · XChaCha20/ChaCha20-Poly1305 · SHA3/Keccak · Argon2id · Kyber-1024 (ML-KEM) · X448 · ML-DSA · SLH-DSA
+**Systems** · GTK3 · Cairo · FUSE 3 · AVX2 / AES-NI · `/proc` & `ioctl` · `mlock` · MILP / SMT proofs
 
-<sub><b>Tech &amp; tooling</b></sub>
-<br>
-<img src="titles/C.svg" width="42" alt="C" title="C">&nbsp;
-<img src="titles/CPP.svg" width="42" alt="C++" title="C++">&nbsp;
-<img src="titles/Python-Dark.svg" width="42" alt="Python" title="Python">&nbsp;
-<img src="titles/Bash-Dark.svg" width="42" alt="Bash" title="Bash">&nbsp;
-<img src="titles/JavaScript.svg" width="42" alt="JavaScript" title="JavaScript">&nbsp;
-<img src="titles/Java-Dark.svg" width="42" alt="Java" title="Java">&nbsp;
-<img src="titles/Perl.svg" width="42" alt="Perl" title="Perl">
-<br>
-<img src="titles/Linux-Dark.svg" width="42" alt="Linux" title="Linux">&nbsp;
-<img src="titles/Ubuntu-Dark.svg" width="42" alt="Ubuntu" title="Ubuntu">&nbsp;
-<img src="titles/Git.svg" width="42" alt="Git" title="Git">&nbsp;
-<img src="titles/CMake-Dark.svg" width="42" alt="CMake" title="CMake">&nbsp;
-<img src="titles/HTML.svg" width="42" alt="HTML" title="HTML">&nbsp;
-<img src="titles/CSS.svg" width="42" alt="CSS" title="CSS">&nbsp;
-<img src="titles/SVG-Dark.svg" width="42" alt="SVG" title="SVG">
+*Close to the metal. Paranoid by design. Provable when it counts.*
 
 </div>
