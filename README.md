@@ -99,16 +99,16 @@ A coherent family of NIST-standard PQC tools sharing a common crypto core.
 
 | Project | What it is |
 |---|---|
-| **[fordump](https://github.com/effjy/fordump)** | GTK3 forensic acquisition suite — multi-threaded block-level imaging, magic-byte carving, credential/signature detection. |
-| **[memscan](https://github.com/effjy/memscan)** | Scans live process memory (`/proc/<pid>/mem`) for byte patterns & magic headers. |
-| **[mole](https://github.com/effjy/mole)** | Recursively greps directory trees for leaked credentials — API keys, private keys, JWTs, cloud tokens. |
-| **[scrub](https://github.com/effjy/scrub)** | Forensic-grade metadata scrubber — strips Exif/XMP/IPTC natively in C, no libexif. |
-| **[viewer](https://github.com/effjy/viewer)** | Security-focused image viewer — pixel data `mlock()`'d into RAM and securely wiped, never swapped. |
-| **[syshash](https://github.com/effjy/syshash)** | File integrity monitor — SHA3-512 (Keccak from scratch), CLI + GTK3 over one core. |
-| **[tids](https://github.com/effjy/tids)** | **Topological** IDS — detects intrusions by their *shape* using persistent homology & Vietoris-Rips filtrations. |
-| **[kagealloc](https://github.com/effjy/kagealloc)** | Hardware-assisted temporal memory-safety allocator using Intel MPK/PKU — ~3.8% overhead over ptmalloc. Includes a paper. |
-| **[swipe](https://github.com/effjy/swipe)** | CLI secure-wipe — NIST SP 800-88 / FIPS 140-3, files, free space, RAM, SSD TRIM. |
-| **[vwipe](https://github.com/effjy/vwipe)** | Virtual Wipe Turbo — multi-core forensic data sanitization saturating NVMe/SSD throughput. |
+| <div align="center"><a href="https://github.com/effjy/fordump"><img src="titles/forensic-dump-title.svg" height="52" alt="Forensic Dump"></a></div> | GTK3 forensic acquisition suite — multi-threaded block-level imaging, magic-byte carving, credential/signature detection. |
+| <div align="center"><a href="https://github.com/effjy/memscan/"><img src="titles/memscan-title.svg" height="52" alt="Memscan"></a></div> | Scans live process memory (`/proc/<pid>/mem`) for byte patterns & magic headers. |
+| <div align="center"><a href="https://github.com/effjy/mole/"><img src="titles/mole-title.svg" height="52" alt="Mole"></a></div> | Recursively greps directory trees for leaked credentials — API keys, private keys, JWTs, cloud tokens. |
+| <div align="center"><a href="https://github.com/effjy/scrub/"><img src="titles/scrub-title.svg" height="52" alt="Scrub"></a></div> | Forensic-grade metadata scrubber — strips Exif/XMP/IPTC natively in C, no libexif. |
+| <div align="center"><a href="https://github.com/effjy/viewer"><img src="titles/viewer-title.svg" height="52" alt="Viewer"></a></div> | Security-focused image viewer — pixel data `mlock()`'d into RAM and securely wiped, never swapped. |
+| <div align="center"><a href="https://github.com/effjy/syshash/"><img src="titles/syshash-title.svg" height="52" alt="Syshash"></a></div> | File integrity monitor — SHA3-512 (Keccak from scratch), CLI + GTK3 over one core. |
+| <div align="center"><a href="https://github.com/effjy/tids"><img src="titles/tids-title.svg" height="52" alt="TIDS"></a></div> | **Topological** IDS — detects intrusions by their *shape* using persistent homology & Vietoris-Rips filtrations. |
+| <div align="center"><a href="https://github.com/effjy/kagealloc"><img src="titles/kagealloc-title.svg" height="52" alt="KageAlloc"></a></div> | Hardware-assisted temporal memory-safety allocator using Intel MPK/PKU — ~3.8% overhead over ptmalloc. Includes a paper. |
+| <div align="center"><a href="https://github.com/effjy/swipe"><img src="titles/secure-wipe-title.svg" height="52" alt="Secure Wipe"></a></div> | CLI secure-wipe — NIST SP 800-88 / FIPS 140-3, files, free space, RAM, SSD TRIM. |
+| <div align="center"><a href="https://github.com/effjy/vwipe"><img src="titles/virtual-wipe-turbo-title.svg" height="52" alt="Virtual Wipe Turbo"></a></div> | Virtual Wipe Turbo — multi-core forensic data sanitization saturating NVMe/SSD throughput. |
 
 ---
 
@@ -118,14 +118,14 @@ Color, live output, and a clean dark aesthetic for tools that usually scroll pas
 
 | Project | What it is |
 |---|---|
-| **[chkrootkit-gui](https://github.com/effjy/chkrootkit-gui)** | GTK3 front-end for `chkrootkit` — live, color-coded rootkit scans. |
-| **[rkhunter-gui](https://github.com/effjy/rkhunter-gui)** | GTK3 front-end for Rootkit Hunter — `rkhunter --check` live, in color. |
-| **[lynis-gui](https://github.com/effjy/lynis-gui)** | GTK3 front-end for Lynis — security audits with color, live. |
-| **[connmon](https://github.com/effjy/connmon)** | Real-time TCP connection monitor — resolves owning process per connection via `/proc`. |
-| **[usage](https://github.com/effjy/usage)** | Live bandwidth monitor with a Cairo-drawn traffic graph and Tokyo Night theme. |
-| **[ram](https://github.com/effjy/ram)** | GTK3 + Cairo RAM analyzer with ring gauges and *verified* process kills. |
-| **[sizer](https://github.com/effjy/sizer)** | Disk-space analyzer with live percentages and an interactive donut diagram. |
-| **[limiter](https://github.com/effjy/limiter)** | Per-interface upload/download bandwidth cap — GTK3 + CLI. |
+| <div align="center"><a href="https://github.com/effjy/chkrootkit-gui/"><img src="titles/chkrootkit-gui-title.svg" height="52" alt="Chkrootkit GUI"></a></div> | GTK3 front-end for `chkrootkit` — live, color-coded rootkit scans. |
+| <div align="center"><a href="https://github.com/effjy/rkhunter-gui/"><img src="titles/rkhunter-gui-title.svg" height="52" alt="rkhunter GUI"></a></div> | GTK3 front-end for Rootkit Hunter — `rkhunter --check` live, in color. |
+| <div align="center"><a href="https://github.com/effjy/lynis-gui/"><img src="titles/lynis-gui-title.svg" height="52" alt="Lynis GUI"></a></div> | GTK3 front-end for Lynis — security audits with color, live. |
+| <div align="center"><a href="https://github.com/effjy/connmon/"><img src="titles/connection-monitor-title.svg" height="52" alt="Connection Monitor"></a></div> | Real-time TCP connection monitor — resolves owning process per connection via `/proc`. |
+| <div align="center"><a href="https://github.com/effjy/usage/"><img src="titles/usage-title.svg" height="52" alt="Usage"></a></div> | Live bandwidth monitor with a Cairo-drawn traffic graph and Tokyo Night theme. |
+| <div align="center"><a href="https://github.com/effjy/ram/"><img src="titles/ram-vizualizer-title.svg" height="52" alt="RAM Vizualizer"></a></div> | GTK3 + Cairo RAM analyzer with ring gauges and *verified* process kills. |
+| <div align="center"><a href="https://github.com/effjy/sizer"><img src="titles/sizer-title.svg" height="52" alt="Sizer"></a></div> | Disk-space analyzer with live percentages and an interactive donut diagram. |
+| <div align="center"><a href="https://github.com/effjy/limiter/"><img src="titles/network-speed-limiter-title.svg" height="52" alt="Network Speed Limiter"></a></div> | Per-interface upload/download bandwidth cap — GTK3 + CLI. |
 
 ---
 
@@ -133,10 +133,10 @@ Color, live output, and a clean dark aesthetic for tools that usually scroll pas
 
 | Project | What it is |
 |---|---|
-| **[opsec-linux](https://github.com/effjy/opsec-linux)** | Paranoid-grade Linux hardening guide — defense-in-depth, real commands. |
-| **[opsec-windows](https://github.com/effjy/opsec-windows)** | The Windows 10/11/Server counterpart — PowerShell, CIS/Microsoft SCT baselines. |
-| **[learning-c](https://github.com/effjy/learning-c)** | From-scratch C beginner's guide with graduated exercises. |
-| **[learning-python](https://github.com/effjy/learning-python)** | From-scratch Python beginner's guide with graduated exercises. |
+| <div align="center"><a href="https://github.com/effjy/opsec-linux/"><img src="titles/opsec-linux-title.svg" height="52" alt="OpSec Linux"></a></div> | Paranoid-grade Linux hardening guide — defense-in-depth, real commands. |
+| <div align="center"><a href="https://github.com/effjy/opsec-windows/"><img src="titles/opsec-windows-title.svg" height="52" alt="OpSec Windows"></a></div> | The Windows 10/11/Server counterpart — PowerShell, CIS/Microsoft SCT baselines. |
+| <div align="center"><a href="https://github.com/effjy/learning-c/"><img src="titles/learning-c-title.svg" height="52" alt="Learning C"></a></div> | From-scratch C beginner's guide with graduated exercises. |
+| <div align="center"><a href="https://github.com/effjy/learning-python/"><img src="titles/learning-python-title.svg" height="52" alt="Learning Python"></a></div> | From-scratch Python beginner's guide with graduated exercises. |
 
 ---
 
