@@ -6,13 +6,12 @@
 
 **Security analyst by day · cryptographic researcher by night.**
 
-I build high-assurance security tools and design symmetric primitives — with the cryptanalysis and **published, DOI-citable papers** to back them.
+I build high-assurance security tools and design symmetric primitives.
 
 ---
 
-<a href="#-research--publications"><b>Research</b></a> &nbsp;·&nbsp;
-<a href="#-featured"><b>Featured</b></a> &nbsp;·&nbsp;
 <a href="#-applications"><b>Applications</b></a> &nbsp;·&nbsp;
+<a href="#-featured"><b>Featured</b></a> &nbsp;·&nbsp;
 <a href="#-systems-security"><b>Systems Security</b></a> &nbsp;·&nbsp;
 <a href="#-cryptography"><b>Cryptography</b></a> &nbsp;·&nbsp;
 <a href="#-learning"><b>Learning</b></a> &nbsp;·&nbsp;
@@ -22,56 +21,6 @@ I build high-assurance security tools and design symmetric primitives — with t
 
 > [!TIP]
 > ⭐ **A star goes a long way** — it helps others find the work and keeps me building. Thank you.
-
----
-
-## 📄 Research &amp; Publications
-
-<sub>Original work published with citable DOIs on Figshare — implementations live in the repos below.</sub>
-
-| Paper | Contribution | Code |
-|:---|:---|:---:|
-| **Krakken-2048 Abyssal** — a 2048-bit SPN-ARX wide-trail permutation <br> [![DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.32527359-8a2be2?style=flat-square&labelColor=1a1a1a)](https://doi.org/10.6084/m9.figshare.32527359) | A new wide-state cryptographic permutation in the AES / Whirlpool / Keccak lineage, with a sponge AEAD and hash built on top. | [krakken](https://github.com/effjy/krakken) |
-| **XRBD: A Bijective Butterfly Diffusion Layer** with optimal dependency expansion <br> [![DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.32527287-8a2be2?style=flat-square&labelColor=1a1a1a)](https://doi.org/10.6084/m9.figshare.32527287) | A 5-stage logarithmic butterfly network reaching full 32-word avalanche in one pass using only XOR + rotation, cutting the round count 10 → 8. | [krakken-butterfly](https://github.com/effjy/krakken-butterfly) |
-| **Provable Differential &amp; Linear Bounds** for the XRBD permutation <br> [![DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.32599689-8a2be2?style=flat-square&labelColor=1a1a1a)](https://doi.org/10.6084/m9.figshare.32599689) | MILP proof (closed optimality gap) of **≥229 active S-boxes** over 8 rounds, bounding every characteristic below **2⁻¹³⁷⁴**. Fully reproducible models. | [krakken-butterfly-bounds](https://github.com/effjy/krakken-butterfly-bounds) |
-| **KageAlloc** — hardware-assisted temporal memory safety <br> [![DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.32529792-teal?style=flat-square&labelColor=1a1a1a)](https://doi.org/10.6084/m9.figshare.32529792) | An allocator using Intel **MPK/PKU** for temporal safety, metadata integrity and control-flow isolation at **3.8%** overhead over ptmalloc. | [kagealloc](https://github.com/effjy/kagealloc) |
-| **TIDS** — topological intrusion detection <br> [![DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.32536887-teal?style=flat-square&labelColor=1a1a1a)](https://doi.org/10.6084/m9.figshare.32536887) | Detects DDoS, port scans and exfiltration by their **persistent-homology** shape (Vietoris–Rips filtrations) — **0.03% FPR** on CIC-IDS2017. | [tids](https://github.com/effjy/tids) |
-| **HoneyCrypt** — DTE-based plausible-decoy encryption <br> [![DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.32537733-teal?style=flat-square&labelColor=1a1a1a)](https://doi.org/10.6084/m9.figshare.32537733) | Distribution-transforming encoding turns every wrong passcode into a plausible fake plaintext, neutralizing offline brute force. | [honeycrypt](https://github.com/effjy/honeycrypt) |
-
-<sub>A companion cryptanalysis &amp; verification suite (SAC/diffusion, NIST SP 800-22, division-property MILP, collision tests) backs the Krakken papers → <a href="https://github.com/effjy/krakken-cryptanalysis"><b>krakken-cryptanalysis</b></a>.</sub>
-
----
-
-## ⭐ Featured
-
-<div align="center">
-  <br>
-
-  <a href="https://github.com/effjy/axis"><img src="titles/axis-title.svg" height="56" alt="Axis"></a>
-
-<br>
-
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/License-MIT-teal?style=flat-square&labelColor=1a1a1a" alt="MIT License"></a>
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Language-C-teal?style=flat-square&labelColor=1a1a1a" alt="C"></a>
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Platform-Linux-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Linux"></a>
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Security-AES--256--GCM-teal?style=flat-square&labelColor=1a1a1a" alt="AES-256-GCM"></a>
-  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/PQC-Kyber--1024%20%2B%20X448-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Kyber-1024 + X448"></a>
-
-  <br><br>
-  <b>Ultra-secure encrypted disk manager — hybrid post-quantum key encapsulation with plausible deniability.</b>
-  <br>
-  <sub>Kyber-1024 + X448 hybrid KEM · AES-256-GCM · Argon2id (1 GB) · FUSE 3 mounting · IND-RND plausible deniability · locked non-dumpable memory.</sub>
-
-  <br><br>
-  <a href="https://github.com/effjy/axis">
-    <img src="https://github.com/effjy/axis/raw/main/screenshot.png" width="700px" alt="Axis main window">
-  </a>
-  <br>
-  <sub><i>The Axis dashboard — create or open an encrypted volume, then mount it as a transparent FUSE filesystem with a single password</i></sub>
-
-  <br><br>
-  <a href="https://github.com/effjy/axis"><b>Explore the repository →</b></a>
-</div>
 
 ---
 
@@ -122,6 +71,39 @@ I build high-assurance security tools and design symmetric primitives — with t
 | <div align="center"><a href="https://github.com/effjy/vwipe"><img src="titles/virtual-wipe-turbo-title.svg" height="52" alt="Virtual Wipe Turbo"></a></div> | **Multi-core secure-erase suite** (GTK3) — saturates NVMe/SSD throughput wiping disks, free space and RAM to **NIST/FIPS** standards. |
 
 </details>
+
+---
+
+## ⭐ Featured
+
+<div align="center">
+  <br>
+
+  <a href="https://github.com/effjy/axis"><img src="titles/axis-title.svg" height="56" alt="Axis"></a>
+
+<br>
+
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/License-MIT-teal?style=flat-square&labelColor=1a1a1a" alt="MIT License"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Language-C-teal?style=flat-square&labelColor=1a1a1a" alt="C"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Platform-Linux-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Linux"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/Security-AES--256--GCM-teal?style=flat-square&labelColor=1a1a1a" alt="AES-256-GCM"></a>
+  <a href="https://github.com/effjy/axis"><img src="https://img.shields.io/badge/PQC-Kyber--1024%20%2B%20X448-8a2be2?style=flat-square&labelColor=1a1a1a" alt="Kyber-1024 + X448"></a>
+
+  <br><br>
+  <b>Ultra-secure encrypted disk manager — hybrid post-quantum key encapsulation with plausible deniability.</b>
+  <br>
+  <sub>Kyber-1024 + X448 hybrid KEM · AES-256-GCM · Argon2id (1 GB) · FUSE 3 mounting · IND-RND plausible deniability · locked non-dumpable memory.</sub>
+
+  <br><br>
+  <a href="https://github.com/effjy/axis">
+    <img src="https://github.com/effjy/axis/raw/main/screenshot.png" width="700px" alt="Axis main window">
+  </a>
+  <br>
+  <sub><i>The Axis dashboard — create or open an encrypted volume, then mount it as a transparent FUSE filesystem with a single password</i></sub>
+
+  <br><br>
+  <a href="https://github.com/effjy/axis"><b>Explore the repository →</b></a>
+</div>
 
 ---
 
