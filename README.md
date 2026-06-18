@@ -42,7 +42,7 @@ provable-security apparatus around it.
 
 | Project | What it is |
 |---|---|
-| **[krakken](https://github.com/effjy/krakken)** | **Krakken-2048 Abyssal** — a 2048-bit SPN-ARX hybrid permutation for sponge hashing & AEAD. Full paper: spec, differential/linear/rebound/invariant-subspace analysis, MILP bounds, AVX2 benchmarks. |
+| <div align="center"><a href="https://github.com/effjy/krakken"><img src="titles/krakken-abyssal-title.svg" height="52" alt="Krakken-2048 Abyssal"></a></div> | **Krakken-2048 Abyssal** — a 2048-bit SPN-ARX hybrid permutation for sponge hashing & AEAD. Full paper: spec, differential/linear/rebound/invariant-subspace analysis, MILP bounds, AVX2 benchmarks. |
 | **[krakken-butterfly](https://github.com/effjy/krakken-butterfly)** | The evolution: **XOR-Rotation Butterfly Diffusion (XRBD)** — a 5-stage logarithmic butterfly network giving full avalanche in one pass, cutting 10 rounds down to 8. |
 | **[krakken-butterfly-bounds](https://github.com/effjy/krakken-butterfly-bounds)** | Reproducible MILP models proving a minimum of **229 active S-boxes** over 8 rounds, bounding any characteristic to **2⁻¹³⁷⁴** — with a closed optimality gap. |
 | **[krakken-cryptanalysis](https://github.com/effjy/krakken-cryptanalysis)** | The empirical + provable analysis suite for the wide-trail permutation and its sponge hash. |
