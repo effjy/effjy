@@ -73,13 +73,13 @@ A coherent family of NIST-standard PQC tools sharing a common crypto core.
 
 | Project | What it is |
 |---|---|
-| **[pqpman](https://github.com/effjy/pqpman)** | Post-quantum password manager — single-master-password vault sealed with Kyber-1024 + X448 hybrid KEM. |
-| **[pqotp](https://github.com/effjy/pqotp)** | Post-quantum TOTP/HOTP authenticator (GTK3 + CLI) — the PQ answer to Google Authenticator. |
-| **[pq-note](https://github.com/effjy/pq-note)** | Encrypted notes — nothing decrypted ever touches disk. |
-| **[pq-sealed](https://github.com/effjy/pq-sealed)** | Incremental encrypted backups with ML-DSA-65-signed, tamper-evident snapshots. |
-| **[pq-sign](https://github.com/effjy/pq-sign)** | Detached file signing with ML-DSA (FIPS 204) & SLH-DSA (FIPS 205). |
-| **[pq-audit](https://github.com/effjy/pq-audit)** | Tamper-evident, hash-chained, PQ-sealed audit logging — the record you can *prove*. |
-| **[pqtransfer](https://github.com/effjy/pqtransfer)** | Serverless peer-to-peer file transfer over an end-to-end PQ-encrypted channel. |
+| <div align="center"><a href="https://github.com/effjy/pqpman/"><img src="titles/pqpman-title.svg" height="52" alt="PQPMan"></a></div> | Post-quantum password manager — single-master-password vault sealed with Kyber-1024 + X448 hybrid KEM. |
+| <div align="center"><a href="https://github.com/effjy/pqotp/"><img src="titles/pqotp-title.svg" height="52" alt="PQOTP"></a></div> | Post-quantum TOTP/HOTP authenticator (GTK3 + CLI) — the PQ answer to Google Authenticator. |
+| <div align="center"><a href="https://github.com/effjy/pq-note/"><img src="titles/pq-note-title.svg" height="52" alt="PQ-Note"></a></div> | Encrypted notes — nothing decrypted ever touches disk. |
+| <div align="center"><a href="https://github.com/effjy/pq-sealed/"><img src="titles/pq-sealed-title.svg" height="52" alt="PQ-Sealed"></a></div> | Incremental encrypted backups with ML-DSA-65-signed, tamper-evident snapshots. |
+| <div align="center"><a href="https://github.com/effjy/pq-sign/"><img src="titles/pq-sign-title.svg" height="52" alt="PQ-SIGN"></a></a></div> | Detached file signing with ML-DSA (FIPS 204) & SLH-DSA (FIPS 205). |
+| <div align="center"><a href="https://github.com/effjy/pq-audit/"><img src="titles/pq-audit-title.svg" height="52" alt="PQ-AUDIT"></a></div> | Tamper-evident, hash-chained, PQ-sealed audit logging — the record you can *prove*. |
+| <div align="center"><a href="https://github.com/effjy/pqtransfer/"><img src="titles/pq-transfer-title.svg" height="80" alt="PQ Transfer"></a></div> | Serverless peer-to-peer file transfer over an end-to-end PQ-encrypted channel. |
 
 ---
 
@@ -87,11 +87,11 @@ A coherent family of NIST-standard PQC tools sharing a common crypto core.
 
 | Project | What it is |
 |---|---|
-| **[ciphers](https://github.com/effjy/ciphers)** | GTK3 file encryption with modern AEAD + post-quantum hybrid key encapsulation. |
-| **[multi-ciphers](https://github.com/effjy/multi-ciphers)** | Dependency-free CLI authenticated encryption — four AEAD ciphers, Argon2id, every primitive bundled. |
-| **[czip](https://github.com/effjy/czip)** | First archiver to fuse multithreaded **zstd** compression with **XChaCha20-Poly1305** — streaming, flat memory, terabyte-ready. |
-| **[entropy](https://github.com/effjy/entropy)** | Terminal password generator + multi-factor entropy analyzer (`getrandom()`, dictionary & leet-speak penalties). |
-| **[entropy-gui](https://github.com/effjy/entropy-gui)** | The sleek GTK3 edition of Entropy. |
+| <div align="center"><a href="https://github.com/effjy/ciphers/"><img src="titles/ciphers-title.svg" height="52" alt="Ciphers"></a></div> | GTK3 file encryption with modern AEAD + post-quantum hybrid key encapsulation. |
+| <div align="center"><a href="https://github.com/effjy/multi-ciphers/"><img src="titles/multi-ciphers-title.svg" height="52" alt="Multi Ciphers"></a></div> | Dependency-free CLI authenticated encryption — four AEAD ciphers, Argon2id, every primitive bundled. |
+| <div align="center"><a href="https://github.com/effjy/czip/"><img src="titles/czip-title.svg" height="52" alt="Czip"></a></div> | First archiver to fuse multithreaded **zstd** compression with **XChaCha20-Poly1305** — streaming, flat memory, terabyte-ready. |
+| <div align="center"><a href="https://github.com/effjy/entropy/"><img src="titles/entropy-title.svg" height="52" alt="Entropy"></a></div> | Terminal password generator + multi-factor entropy analyzer (`getrandom()`, dictionary & leet-speak penalties). |
+| <div align="center"><a href="https://github.com/effjy/entropy-gui/"><img src="titles/entropy-gui-title.svg" height="52" alt="Entropy GUI"></a></div> | The sleek GTK3 edition of Entropy. |
 
 ---
 
