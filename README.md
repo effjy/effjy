@@ -57,13 +57,13 @@ indistinguishable from random noise (IND-RND).
 
 | Project | What it is |
 |---|---|
-| **[axis](https://github.com/effjy/axis)** | Ultra-secure encrypted disk manager — AES-256-GCM + hybrid Kyber-1024/X448 KEM, AES-NI/AVX2 accelerated, Argon2id (1 GB) hardened, full plausible deniability. |
-| **[axis-secret](https://github.com/effjy/axis-secret)** | A beautiful GTK3 calculator… with the entire Axis disk manager hidden behind a secret passcode. |
-| **[krakken-disk](https://github.com/effjy/krakken-disk)** | Encrypted volume manager powered by the Krakken-2048 permutation — uniform 256-bit post-Grover margin. |
-| **[krakken-disk-butterfly](https://github.com/effjy/krakken-disk-butterfly)** | The faster 8-round XRBD edition of Krakken-Disk. |
-| **[krakken-disk-butterfly-cli](https://github.com/effjy/krakken-disk-butterfly-cli)** | CLI build with **FUSE 3** mounting — encrypted containers as transparent filesystem directories. |
-| **[honeycrypt](https://github.com/effjy/honeycrypt)** | DTE-based decoy encryption vault — neutralizes offline brute-force by replacing auth errors with *plausible decoys*. |
-| **[secure_mount](https://github.com/effjy/secure_mount)** | GTK3 manager for `gocryptfs` encrypted volumes — init, mount, unmount without the command line. |
+| <div align="center"><a href="https://github.com/effjy/axis/"><img src="titles/axis-title.svg" height="52" alt="Axis"></a></div> | Ultra-secure encrypted disk manager — AES-256-GCM + hybrid Kyber-1024/X448 KEM, AES-NI/AVX2 accelerated, Argon2id (1 GB) hardened, full plausible deniability. |
+| <div align="center"><a href="https://github.com/effjy/axis-secret/"><img src="titles/calculator-vault-title.svg" height="52" alt="Calculator Vault"></a></div> | A beautiful GTK3 calculator… with the entire Axis disk manager hidden behind a secret passcode. |
+| <div align="center"><a href="https://github.com/effjy/krakken-disk/"><img src="titles/krakken-disk-title.svg" height="52" alt="Krakken-Disk"></a></div> | Encrypted volume manager powered by the Krakken-2048 permutation — uniform 256-bit post-Grover margin. |
+| <div align="center"><a href="https://github.com/effjy/krakken-disk-butterfly/"><img src="titles/krakken-disk-butterfly-title.svg" height="52" alt="Krakken-Disk Butterfly"></a></div> | The faster 8-round XRBD edition of Krakken-Disk. |
+| <div align="center"><a href="https://github.com/effjy/krakken-disk-butterfly-cli/"><img src="titles/krakken-disk-butterfly-title.svg" height="52" alt="Krakken-Disk Butterfly CLI"></a></div> | CLI build with **FUSE 3** mounting — encrypted containers as transparent filesystem directories. |
+| <div align="center"><a href="https://github.com/effjy/honeycrypt"><img src="titles/honeycrypt-title.svg" height="52" alt="HoneyCrypt"></a></div> | DTE-based decoy encryption vault — neutralizes offline brute-force by replacing auth errors with *plausible decoys*. |
+| <div align="center"><a href="https://github.com/effjy/secure_mount/"><img src="titles/secure-mount-title.svg" height="52" alt="Secure Mount"></a></div> | GTK3 manager for `gocryptfs` encrypted volumes — init, mount, unmount without the command line. |
 
 ---
 
