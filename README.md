@@ -1,6 +1,6 @@
 <div align="center">
 
-# Jean-François Lachance-Caumartin
+<a href="https://github.com/effjy/effjy/"><img src="titles/jean-francois-title.svg" height="100%" alt="Jean-Francois Lachance-Caumartin"></a>
 
 ### 🛡️ Systems & Cryptography Engineer · Post-Quantum Security · Low-Level C
 
