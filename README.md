@@ -14,6 +14,8 @@ I build high-assurance security tools and design symmetric primitives.
 
 <a href="https://github.com/effjy/effjy/"><img src="titles/recent-additions-title.svg" height="52" alt="Recent Additions"></a>
 
+<a href="https://github.com/effjy/diskmon/"><b>Disk Monitor v1.0.2</b></a>
+<br><br>
 <a href="https://github.com/effjy/nwu/"><b>nwu — Novel Wiping Utility v1.5.0</b></a>
 <br><br>
 <a href="https://github.com/effjy/pq-sealed"><b>PQ-Sealed v1.0.1</b></a>
@@ -61,6 +63,7 @@ I build high-assurance security tools and design symmetric primitives.
 | <div align="center"><a href="https://github.com/effjy/chkrootkit-gui/"><img src="titles/chkrootkit-title.svg" height="65" alt="Chkrootkit GUI"></a></div> | **GTK3 front-end for chkrootkit** — live, color-coded rootkit scans with one-click false-positive filtering. |
 | <div align="center"><a href="https://github.com/effjy/connmon/"><img src="titles/connmon-title.svg" height="52" alt="Connection Monitor"></a></div> | **Real-time TCP monitor** (GTK3) — reads `/proc/net/tcp` and maps every live connection to its owning process. |
 | <div align="center"><a href="https://github.com/effjy/czip/"><img src="titles/czip-title.svg" height="52" alt="Czip"></a></div> | **Compress-and-encrypt archiver** — multithreaded **zstd** streamed through **XChaCha20-Poly1305**, with Argon2id keys and file splitting. |
+| <div align="center"><a href="https://github.com/effjy/diskmon/"><img src="titles/diskmon-title.svg" height="52" alt="Disk Monitor"></a></div> | **Real-time disk I/O monitor** (C++/GTK4) — live read/write throughput from `/proc/diskstats` with a **Tokyo Night** Cairo graph and session peaks/averages. |
 | <div align="center"><a href="https://github.com/effjy/entropy/"><img src="titles/entropy-title.svg" height="52" alt="Entropy"></a></div> | **CLI password generator** — `getrandom()` CSPRNG with an entropy analyzer that penalizes repeats, sequences and dictionary words. |
 | <div align="center"><a href="https://github.com/effjy/entropy-gui/"><img src="titles/ent-gui-title.svg" height="52" alt="Entropy GUI"></a></div> | **GTK3 edition of Entropy** — naive vs. realistic password entropy with a color-coded strength meter and one-click copy. |
 | <div align="center"><a href="https://github.com/effjy/envision/"><img src="titles/envision-title.svg" height="52" alt="Envision"></a></div> | **GTK3 system-security scanner** — audits your Linux box's posture (firewall, exposed ports, SSH, sudo, accounts, kernel hardening) and produces a severity-ranked report with copy-paste fixes, exportable to PDF. |
