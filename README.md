@@ -12,6 +12,12 @@ I build high-assurance security tools and design symmetric primitives.
 
 ---
 
+<a href="https://github.com/effjy/effjy/"><img src="titles/recent-additions-title.svg" height="52" alt="Recent Additions"></a>
+
+<a href="https://github.com/effjy/nwu/"><b>nwu — Novel Wiping Utility v1.5.0</b></a>
+
+---
+
 <a href="#-applications"><b>Applications</b></a> &nbsp;·&nbsp;
 <a href="#-featured"><b>Featured</b></a> &nbsp;·&nbsp;
 <a href="#-systems-security"><b>Systems Security</b></a> &nbsp;·&nbsp;
