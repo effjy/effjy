@@ -72,7 +72,7 @@ I build high-assurance security tools and design symmetric primitives.
 | <div align="center"><a href="https://github.com/effjy/syshash/"><img src="titles/syshash-title.svg" height="52" alt="Syshash"></a></div> | **File-integrity monitor** (CLI + GTK3) — recursively hashes a tree with **SHA3-512**, baselines it, and flags any changed file on re-scan. |
 | <div align="center"><a href="https://github.com/effjy/usage/"><img src="titles/usage-title.svg" height="52" alt="Usage"></a></div> | **Real-time network monitor** (GTK3) — live up/down speeds and a **Tokyo Night** Cairo graph, with a settable usage limit that counts down and turns red when exceeded. |
 | <div align="center"><a href="https://github.com/effjy/viewer"><img src="titles/viewer-title.svg" height="52" alt="Viewer"></a></div> | **RAM-only image viewer** (X11) — `mlock`s pixels in physical memory and zeroes them on teardown; JPEG/PNG, no swap leaks. |
-| <div align="center"><a href="https://github.com/effjy/vwipe"><img src="titles/virtual-wipe-turbo-title.svg" height="52" alt="Virtual Wipe Turbo"></a></div> | **Multi-core secure-erase suite** (GTK3) — saturates NVMe/SSD throughput wiping disks, free space and RAM to **NIST/FIPS** standards. |
+| <div align="center"><a href="https://github.com/effjy/vwipe"><img src="titles/vwipe-title.svg" height="52" alt="Virtual Wipe Turbo"></a></div> | **Multi-core secure-erase suite** (GTK3) — saturates NVMe/SSD throughput wiping disks, free space and RAM to **NIST/FIPS** standards. |
 
 </details>
 
