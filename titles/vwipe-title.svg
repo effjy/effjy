@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="306" height="96" viewBox="0 0 306 96" role="img" aria-label="vwipe">
+  <title>vwipe</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00FFCC"/>
+      <stop offset="55%" stop-color="#1FB6FF"/>
+      <stop offset="100%" stop-color="#8A2BE2"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g fill="url(#g)" filter="url(#glow)">
+    <path d="M452 0 L452 0 L35 720 L130 720 L499 79 L867 720 L962 720 L546 0 L452 0 Z" transform="translate(36.00,70.0) scale(0.05104,-0.05104)"/>
+    <path d="M297 0 L297 0 L35 720 L121 720 L332 142 L542 720 L640 720 L851 142 L1060 720 L1148 720 L886 0 L815 0 L591 615 L367 0 L297 0 Z" transform="translate(95.19,70.0) scale(0.05104,-0.05104)"/>
+    <path d="M66 0 L66 720 L148 720 L148 0 L66 0 Z" transform="translate(163.36,70.0) scale(0.05104,-0.05104)"/>
+    <path d="M56 0 L56 719 L656 719 Q689 719 716 702 Q744 686 760 659 Q776 632 776 599 L776 388 Q776 355 760 328 Q744 301 716 284 Q689 268 656 268 L137 268 L137 0 L56 0 M176 350 L656 350 Q672 350 683 361 Q695 372 695 388 L695 599 Q695 615 683 626 Q672 638 656 638 L176 638 Q160 638 148 626 Q137 615 137 599 L137 388 Q137 372 148 361 Q160 350 176 350 Z" transform="translate(182.28,70.0) scale(0.05104,-0.05104)"/>
+    <path d="M58 0 L58 720 L715 720 L715 639 L139 639 L139 401 L602 401 L602 319 L139 319 L139 81 L715 81 L715 0 L58 0 Z" transform="translate(230.65,70.0) scale(0.05104,-0.05104)"/>
+  </g>
+</svg>
