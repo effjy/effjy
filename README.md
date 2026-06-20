@@ -14,13 +14,13 @@ I build high-assurance security tools and design symmetric primitives.
 
 <a href="https://github.com/effjy/effjy/"><img src="titles/recent-additions-title.svg" height="52" alt="Recent Additions"></a>
 
+<a href="https://github.com/effjy/pq-zip/"><b>PQ-Zip v1.0.6</b></a>
+<br><br>
 <a href="https://github.com/effjy/diskmon/"><b>Disk Monitor v1.0.2</b></a>
 <br><br>
 <a href="https://github.com/effjy/nwu/"><b>nwu — Novel Wiping Utility v1.5.0</b></a>
 <br><br>
 <a href="https://github.com/effjy/envision/"><b>Envision v1.0.1</b></a>
-<br><br>
-<a href="https://github.com/effjy/pq-sealed"><b>PQ-Sealed v1.0.1</b></a>
 
 ---
 
@@ -51,6 +51,7 @@ I build high-assurance security tools and design symmetric primitives.
 | <div align="center"><a href="https://github.com/effjy/pq-note/"><img src="titles/pq-note-title.svg" height="52" alt="PQ-Note"></a></div> | **GTK3 encrypted notes app** — free-form notes sealed as one AEAD blob (AES-256-GCM / XChaCha20-Poly1305) behind a **Kyber-1024/X448 hybrid KEM** and Argon2id, unlocked by one master password. |
 | <div align="center"><a href="https://github.com/effjy/pq-sealed/"><img src="titles/pq-sealed-title.svg" height="52" alt="PQ-Sealed"></a></div> | **Incremental encrypted backups** — deduplicating, content-addressed snapshots under a **Kyber-1024/X448 hybrid KEM**, manifests signed with **ML-DSA-65**. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/pq-sign/"><img src="titles/pq-sign-title.svg" height="52" alt="PQ-SIGN"></a></div> | **Post-quantum file signing** — detached **ML-DSA (FIPS 204)** & **SLH-DSA (FIPS 205)** signatures; secret keys sealed with Argon2id + AES-256-GCM. |
+| <div align="center"><a href="https://github.com/effjy/pq-zip/"><img src="titles/pq-zip-title.svg" height="52" alt="PQ-Zip"></a></div> | **Post-quantum compressing archiver** (GTK3 + CLI) — packs files and folders into one password-protected **`.pqz`**: zlib **DEFLATE** then **AEAD** (AES-256-GCM / XChaCha20-Poly1305) behind a **Kyber-1024/X448 hybrid KEM** and Argon2id. |
 | <div align="center"><a href="https://github.com/effjy/pqotp/"><img src="titles/pqotp-title.svg" height="52" alt="PQOTP"></a></div> | **2FA authenticator** (GTK3 + CLI) — **TOTP/HOTP** seeds in a post-quantum hybrid-KEM vault behind one master password. |
 | <div align="center"><a href="https://github.com/effjy/pqpman/"><img src="titles/pqpman-title.svg" height="52" alt="PQPMan"></a></div> | **GTK3 password manager** — vault sealed with AEAD and a **Kyber-1024/X448 hybrid KEM** behind one master password. |
 | <div align="center"><a href="https://github.com/effjy/pqtransfer/"><img src="titles/pqtransfer-title.svg" height="52" alt="PQ Transfer"></a></div> | **Peer-to-peer file transfer** — serverless, end-to-end encrypted over a **Kyber-1024/X448 hybrid KEM**, with an optional passphrase to defeat MITM. |
