@@ -14,7 +14,7 @@ I build high-assurance security tools and design symmetric primitives.
 
 <a href="https://github.com/effjy/effjy/"><img src="titles/recent-additions-title.svg" height="52" alt="Recent Additions"></a>
 
-<a href="https://github.com/effjy/nwu/"><b>nwu — Novel Wiping Utility v1.5.0</b></a>
+<a href="https://github.com/effjy/nwu/"><b>nwu — Novel Wiping Utility v1.6.0</b></a>
 <br><br>
 <a href="https://github.com/effjy/pq-zip/"><b>PQ-Zip v1.0.6</b></a>
 <br><br>
