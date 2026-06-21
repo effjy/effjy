@@ -14,11 +14,11 @@ I build high-assurance security tools and design symmetric primitives.
 
 <a href="https://github.com/effjy/effjy/"><img src="titles/recent-additions-title.svg" height="52" alt="Recent Additions"></a>
 
+<a href="https://github.com/effjy/pq-shard/"><b>PQ-Shard v1.0.2</b></a>
+<br><br>
 <a href="https://github.com/effjy/nwu/"><b>nwu — Novel Wiping Utility v1.6.0</b></a>
 <br><br>
 <a href="https://github.com/effjy/pq-zip/"><b>PQ-Zip v1.0.6</b></a>
-<br><br>
-<a href="https://github.com/effjy/diskmon/"><b>Disk Monitor v1.0.2</b></a>
 <br><br>
 <a href="https://github.com/effjy/envision/"><b>Envision v1.0.1</b></a>
 
