@@ -208,4 +208,6 @@ I'm offering to develop security software at no cost. If there's a specific secu
 <img src="titles/CSS.svg" width="42" alt="CSS" title="CSS">&nbsp;
 <img src="titles/SVG-Dark.svg" width="42" alt="SVG" title="SVG">
 
+![](https://komarev.com/ghpvc/?username=effjy&color=blueviolet)
+
 </div>
