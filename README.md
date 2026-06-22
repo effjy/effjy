@@ -14,13 +14,13 @@ I build high-assurance security tools and design symmetric primitives.
 
 <a href="https://github.com/effjy/effjy/"><img src="titles/recent-additions-title.svg" height="52" alt="Recent Additions"></a>
 
+<a href="https://github.com/effjy/warden/"><b>Warden v1.0.1</b></a>
+<br><br>
 <a href="https://github.com/effjy/pq-chat/"><b>PQ-Chat v1.0.1</b></a>
 <br><br>
 <a href="https://github.com/effjy/pq-shard/"><b>PQ-Shard v1.0.2</b></a>
 <br><br>
 <a href="https://github.com/effjy/nwu/"><b>nwu — Novel Wiping Utility v1.6.0</b></a>
-<br><br>
-<a href="https://github.com/effjy/pq-zip/"><b>PQ-Zip v1.0.6</b></a>
 
 ---
 
@@ -89,6 +89,7 @@ I build high-assurance security tools and design symmetric primitives.
 | <div align="center"><a href="https://github.com/effjy/usage/">USAGE</a></div> | **Real-time network monitor** (GTK3) — live up/down speeds and a **Tokyo Night** Cairo graph, with a settable usage limit that counts down and turns red when exceeded. |
 | <div align="center"><a href="https://github.com/effjy/viewer">VIEWER</a></div> | **RAM-only image viewer** (X11) — `mlock`s pixels in physical memory and zeroes them on teardown; JPEG/PNG, no swap leaks. |
 | <div align="center"><a href="https://github.com/effjy/vwipe">VIRTUAL WIPE TURBO</a></div> | **Multi-core secure-erase suite** (GTK3) — saturates NVMe/SSD throughput wiping disks, free space and RAM to **NIST/FIPS** standards. |
+| <div align="center"><a href="https://github.com/effjy/warden/">WARDEN</a></div> | **GTK4 outbound firewall** — diverts every new connection to **NFQUEUE**, resolves the owning process via `/proc`, and prompts to **allow/deny once or forever**; rules are keyed on a **SHA-256** of the binary so a swapped executable re-prompts. |
 
 </details>
 
