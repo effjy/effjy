@@ -162,8 +162,8 @@ I build high-assurance security tools and design symmetric primitives.
 
 | Project | What it does |
 |:---|:---|
-| <div align="center"><a href="https://github.com/effjy/learning-c/"><img src="titles/learning-c-title.svg" height="52" alt="Learning C"></a></div> | **Complete beginner's guide to C** — assumes zero prior code and builds up from compilation and variables through control flow, functions, arrays, **pointers, structs, and stack/heap memory**, closing with **5 graded exercises** and where to go next. |
-| <div align="center"><a href="https://github.com/effjy/learning-python/"><img src="titles/learning-python-title.svg" height="52" alt="Learning Python"></a></div> | **Complete beginner's guide to Python** — from your first line through data types, control flow, functions, **lists/dicts/sets, strings, exceptions, and files & modules**, with PEP 8 style and **5 graded exercises**; a natural follow-on to the C guide. |
+| <div align="center"><a href="https://github.com/effjy/learning-c/">LEARNING C</a></div> | **Complete beginner's guide to C** — assumes zero prior code and builds up from compilation and variables through control flow, functions, arrays, **pointers, structs, and stack/heap memory**, closing with **5 graded exercises** and where to go next. |
+| <div align="center"><a href="https://github.com/effjy/learning-python/">LEARNING PYTHON</a></div> | **Complete beginner's guide to Python** — from your first line through data types, control flow, functions, **lists/dicts/sets, strings, exceptions, and files & modules**, with PEP 8 style and **5 graded exercises**; a natural follow-on to the C guide. |
 
 ---
 
