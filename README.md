@@ -44,7 +44,7 @@ I build high-assurance security tools and design symmetric primitives.
 
 | Project | What it does |
 |:---|:---|
-| AXIS | **GTK3 encrypted disk manager** — AES-256-GCM volumes behind a **Kyber-1024/X448 hybrid KEM**, with FUSE mounting and **IND-RND plausible deniability**. ⭐ |
+| <div align="center"><a href="https://github.com/effjy/axis/">AXIS</a></div> | **GTK3 encrypted disk manager** — AES-256-GCM volumes behind a **Kyber-1024/X448 hybrid KEM**, with FUSE mounting and **IND-RND plausible deniability**. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/axis-secret/"><img src="titles/calc-title.svg" height="52" alt="Calculator Vault"></a></div> | **Working GTK3 calculator** that secretly launches **Axis** on a passcode — hiding that an encrypted disk manager is even installed. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/ciphers/"><img src="titles/ciphers-title.svg" height="52" alt="Ciphers"></a></div> | **GTK3 file encryptor** — **AEAD** ciphers (AES-256-GCM, XChaCha20-Poly1305) with an optional **Kyber-1024/X448 hybrid KEM** and Argon2id. |
 | <div align="center"><a href="https://github.com/effjy/pq-audit/"><img src="titles/pq-audit-title.svg" height="52" alt="PQ-AUDIT"></a></div> | **Tamper-evident audit log** — append-only, hash-chained and forward-secure, sealed with post-quantum **ML-DSA/SLH-DSA** and Merkle proofs. |
