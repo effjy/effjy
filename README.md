@@ -21,8 +21,6 @@ I build high-assurance security tools and design symmetric primitives.
 <a href="https://github.com/effjy/warden/"><b>Warden v1.0.1</b></a>
 <br><br>
 <a href="https://github.com/effjy/pq-chat/"><b>PQ-Chat v1.0.1</b></a>
-<br><br>
-<a href="https://github.com/effjy/pq-shard/"><b>PQ-Shard v1.0.2</b></a>
 
 ---
 
