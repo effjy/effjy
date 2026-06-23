@@ -14,13 +14,13 @@ I build high-assurance security tools and design symmetric primitives.
 
 <a href="https://github.com/effjy/effjy/"><img src="titles/recent-additions-title.svg" height="52" alt="Recent Additions"></a>
 
+<a href="https://github.com/effjy/frecover/"><b>Forensic Recovery v1.0.1</b></a>
+<br><br>
 <a href="https://github.com/effjy/filen-gui/"><b>Filen GUI v1.0</b></a>
 <br><br>
 <a href="https://github.com/effjy/fail2ban-gui/"><b>Fail2ban GUI v1.0.2</b></a>
 <br><br>
 <a href="https://github.com/effjy/warden/"><b>Warden v1.0.1</b></a>
-<br><br>
-<a href="https://github.com/effjy/pq-chat/"><b>PQ-Chat v1.0.1</b></a>
 
 ---
 
@@ -75,6 +75,7 @@ I build high-assurance security tools and design symmetric primitives.
 | <div align="center"><a href="https://github.com/effjy/fail2ban-gui/">FAIL2BAN GUI</a></div> | **GTK4 front-end for fail2ban** — browse jails with live ban counts, **ban/unban** IPs (per-jail or across all jails), tune **bantime/findtime/maxretry**, and start/stop/reload jails or the server from one window; a privileged helper is authorized **once via pkexec**, and it minimizes to the system tray. |
 | <div align="center"><a href="https://github.com/effjy/filen-gui/">FILEN GUI</a></div> | **Desktop client for Filen.io** (C++/GTK4) — browse, upload, download and manage your **end-to-end encrypted** cloud files, with all encryption and decryption performed locally. |
 | <div align="center"><a href="https://github.com/effjy/fordump">FORENSIC DUMP</a></div> | **GTK3 forensics tool** — multithreaded block-level disk imaging with file carving (JPEG/PNG/PDF/ZIP) and credential/key search. |
+| <div align="center"><a href="https://github.com/effjy/frecover/">FORENSIC RECOVERY</a></div> | **Read-only ext2/3/4 recovery suite** (C++/CLI) — undeletes inodes via `debugfs` and carves files straight from raw free blocks (string + signature, block-aligned), with recoverability scoring, SHA-256 hashing and a CSV manifest. |
 | <div align="center"><a href="https://github.com/effjy/limiter/">NETWORK SPEED LIMITER</a></div> | **Bandwidth limiter** (GTK3 + CLI) — caps combined up/down speed on any interface via Linux `tc`, optionally as a boot-time service. |
 | <div align="center"><a href="https://github.com/effjy/lynis-gui/">LYNIS GUI</a></div> | **GTK3 front-end for Lynis** — live, color-coded security audits with a one-click pentest mode. |
 | <div align="center"><a href="https://github.com/effjy/memscan/">MEMSCAN</a></div> | **Live-memory scanner** (CLI) — searches a running process's `/proc/<pid>/mem` for byte patterns or file-magic headers. |
