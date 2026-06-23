@@ -8,7 +8,7 @@
 
 I build high-assurance security tools and design symmetric primitives.
 
-<sub>I work almost entirely in **C**, by choice — original cryptographic design & cryptanalysis, **post-quantum** applications on NIST standards (Kyber/ML-KEM, ML-DSA, SLH-DSA), digital forensics, and clean GTK3 front-ends. Original research, post-quantum by default, no dependencies, close to the metal.</sub>
+<sub>I work almost entirely in **C** (and C++), by choice — original cryptographic design & cryptanalysis, **post-quantum** applications on NIST standards (Kyber/ML-KEM, ML-DSA, SLH-DSA), digital forensics, and clean GTK3/GTK4 front-ends. Original research, post-quantum by default, no dependencies, close to the metal.</sub>
 
 ---
 
