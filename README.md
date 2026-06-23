@@ -8,19 +8,19 @@
 
 I build high-assurance security tools and design symmetric primitives.
 
-<sub>I work almost entirely in **C** (and C++), by choice — original cryptographic design & cryptanalysis, **post-quantum** applications on NIST standards (Kyber/ML-KEM, ML-DSA, SLH-DSA), digital forensics, and clean GTK3/GTK4 front-ends. Original research, post-quantum by default, no dependencies, close to the metal.</sub>
+<sub>I work almost entirely in **C**, by choice — original cryptographic design & cryptanalysis, **post-quantum** applications on NIST standards (Kyber/ML-KEM, ML-DSA, SLH-DSA), digital forensics, and clean GTK3 front-ends. Original research, post-quantum by default, no dependencies, close to the metal.</sub>
 
 ---
 
 <a href="https://github.com/effjy/effjy/"><img src="titles/recent-additions-title.svg" height="52" alt="Recent Additions"></a>
 
+<a href="https://github.com/effjy/fail2ban-gui/"><b>Fail2ban GUI v1.0.2</b></a>
+<br><br>
 <a href="https://github.com/effjy/warden/"><b>Warden v1.0.1</b></a>
 <br><br>
 <a href="https://github.com/effjy/pq-chat/"><b>PQ-Chat v1.0.1</b></a>
 <br><br>
 <a href="https://github.com/effjy/pq-shard/"><b>PQ-Shard v1.0.2</b></a>
-<br><br>
-<a href="https://github.com/effjy/nwu/"><b>nwu — Novel Wiping Utility v1.6.0</b></a>
 
 ---
 
@@ -72,6 +72,7 @@ I build high-assurance security tools and design symmetric primitives.
 | <div align="center"><a href="https://github.com/effjy/entropy/">ENTROPY</a></div> | **CLI password generator** — `getrandom()` CSPRNG with an entropy analyzer that penalizes repeats, sequences and dictionary words. |
 | <div align="center"><a href="https://github.com/effjy/entropy-gui/">ENTROPY GUI</a></div> | **GTK3 edition of Entropy** — naive vs. realistic password entropy with a color-coded strength meter and one-click copy. |
 | <div align="center"><a href="https://github.com/effjy/envision/">ENVISION</a></div> | **GTK3 system-security scanner** — audits your Linux box's posture (firewall, exposed ports, SSH, sudo, accounts, kernel hardening) and produces a severity-ranked report with copy-paste fixes, exportable to PDF. |
+| <div align="center"><a href="https://github.com/effjy/fail2ban-gui/">FAIL2BAN GUI</a></div> | **GTK4 front-end for fail2ban** — browse jails with live ban counts, **ban/unban** IPs (per-jail or across all jails), tune **bantime/findtime/maxretry**, and start/stop/reload jails or the server from one window; a privileged helper is authorized **once via pkexec**, and it minimizes to the system tray. |
 | <div align="center"><a href="https://github.com/effjy/fordump">FORENSIC DUMP</a></div> | **GTK3 forensics tool** — multithreaded block-level disk imaging with file carving (JPEG/PNG/PDF/ZIP) and credential/key search. |
 | <div align="center"><a href="https://github.com/effjy/limiter/">NETWORK SPEED LIMITER</a></div> | **Bandwidth limiter** (GTK3 + CLI) — caps combined up/down speed on any interface via Linux `tc`, optionally as a boot-time service. |
 | <div align="center"><a href="https://github.com/effjy/lynis-gui/">LYNIS GUI</a></div> | **GTK3 front-end for Lynis** — live, color-coded security audits with a one-click pentest mode. |
