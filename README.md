@@ -14,13 +14,13 @@ I build high-assurance security tools and design symmetric primitives.
 
 <a href="https://github.com/effjy/effjy/"><img src="titles/recent-additions-title.svg" height="52" alt="Recent Additions"></a>
 
+<a href="https://github.com/effjy/protondrive-gui/"><b>Proton Drive GUI v1.0</b></a>
+<br><br>
 <a href="https://github.com/effjy/axis-cli/"><b>Axis (CLI) v11.0.0</b></a>
 <br><br>
 <a href="https://github.com/effjy/frecover/"><b>Forensic Recovery v1.0.1</b></a>
 <br><br>
 <a href="https://github.com/effjy/filen-gui/"><b>Filen GUI v1.0</b></a>
-<br><br>
-<a href="https://github.com/effjy/fail2ban-gui/"><b>Fail2ban GUI v1.0.2</b></a>
 
 ---
 
@@ -83,6 +83,7 @@ I build high-assurance security tools and design symmetric primitives.
 | <div align="center"><a href="https://github.com/effjy/multi-ciphers/">MULTI CIPHERS</a></div> | **Dependency-free encryption CLI** — four **AEAD ciphers** (AES-256-GCM, XChaCha20, Serpent, Twofish) over an Argon2id KDF. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/limiter/">NETWORK SPEED LIMITER</a></div> | **Bandwidth limiter** (GTK3 + CLI) — caps combined up/down speed on any interface via Linux `tc`, optionally as a boot-time service. |
 | <div align="center"><a href="https://github.com/effjy/nwu/">NOVEL WIPING UTILITY</a></div> | **SSD-aware secure-delete tool** (interactive + CLI) — combines a fast non-compressible **ChaCha20 overwrite** with per-file punch-hole and filesystem **TRIM** to wipe files, directories and free space. Also **wipes free RAM** to **clear leftover secrets from memory**. ⭐|
+| <div align="center"><a href="https://github.com/effjy/protondrive-gui/">PROTON DRIVE GUI</a></div> | **Desktop client for Proton Drive** (C++/GTK4) — sign in with Proton's SRP, then browse, upload, download and trash your **end-to-end encrypted** files, with all key handling and decryption performed locally. |
 | <div align="center"><a href="https://github.com/effjy/ram/">RAM VISUALIZER</a></div> | **GTK3 + Cairo RAM analyzer** — top memory hogs, live ring gauges and bar charts, and verified-kill process termination. |
 | <div align="center"><a href="https://github.com/effjy/rkhunter-gui/">RKHUNTER GUI</a></div> | **GTK3 front-end for rkhunter** — live, color-coded rootkit scans with a problems-only filter. |
 | <div align="center"><a href="https://github.com/effjy/scrub/">SCRUB</a></div> | **Dependency-free metadata scrubber** — natively strips Exif/XMP/IPTC (and C2PA) from JPEGs and PNGs before you share them. |
