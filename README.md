@@ -14,13 +14,13 @@ I build high-assurance security tools and design symmetric primitives.
 
 <a href="https://github.com/effjy/effjy/"><img src="titles/recent-additions-title.svg" height="52" alt="Recent Additions"></a>
 
+<a href="https://github.com/effjy/axis-cli/"><b>Axis (CLI) v11.0.0</b></a>
+<br><br>
 <a href="https://github.com/effjy/frecover/"><b>Forensic Recovery v1.0.1</b></a>
 <br><br>
 <a href="https://github.com/effjy/filen-gui/"><b>Filen GUI v1.0</b></a>
 <br><br>
 <a href="https://github.com/effjy/fail2ban-gui/"><b>Fail2ban GUI v1.0.2</b></a>
-<br><br>
-<a href="https://github.com/effjy/warden/"><b>Warden v1.0.1</b></a>
 
 ---
 
@@ -45,6 +45,7 @@ I build high-assurance security tools and design symmetric primitives.
 | Project | What it does |
 |:---|:---|
 | <div align="center"><a href="https://github.com/effjy/axis/">AXIS</a></div> | **GTK3 encrypted disk manager** — AES-256-GCM volumes behind a **Kyber-1024/X448 hybrid KEM**, with FUSE mounting and **IND-RND plausible deniability**. ⭐ |
+| <div align="center"><a href="https://github.com/effjy/axis-cli/">AXIS CLI</a></div> | **Command-line Axis** — the same AES-256-GCM volumes and **Kyber-1024/X448 hybrid KEM** with FUSE mounting, GUI-free for servers and automation; reads the same containers as Axis. |
 | <div align="center"><a href="https://github.com/effjy/axis-secret/">CALCULATOR VAULT</a></div> | **Working GTK3 calculator** that secretly launches **Axis** on a passcode — hiding that an encrypted disk manager is even installed. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/ciphers/">CIPHERS</a></div> | **GTK3 file encryptor** — **AEAD** ciphers (AES-256-GCM, XChaCha20-Poly1305) with an optional **Kyber-1024/X448 hybrid KEM** and Argon2id. |
 | <div align="center"><a href="https://github.com/effjy/pq-audit/">PQ-AUDIT</a></div> | **Tamper-evident audit log** — append-only, hash-chained and forward-secure, sealed with post-quantum **ML-DSA/SLH-DSA** and Merkle proofs. |
@@ -71,7 +72,7 @@ I build high-assurance security tools and design symmetric primitives.
 | <div align="center"><a href="https://github.com/effjy/diskmon/">DISK MONITOR</a></div> | **Real-time disk I/O monitor** (C++/GTK4) — live read/write throughput from `/proc/diskstats` with a **Tokyo Night** Cairo graph and session peaks/averages. |
 | <div align="center"><a href="https://github.com/effjy/entropy/">ENTROPY</a></div> | **CLI password generator** — `getrandom()` CSPRNG with an entropy analyzer that penalizes repeats, sequences and dictionary words. |
 | <div align="center"><a href="https://github.com/effjy/entropy-gui/">ENTROPY GUI</a></div> | **GTK3 edition of Entropy** — naive vs. realistic password entropy with a color-coded strength meter and one-click copy. |
-| <div align="center"><a href="https://github.com/effjy/envision/">ENVISION</a></div> | **GTK4 system-security scanner** — audits your Linux box's posture (firewall, exposed ports, SSH, sudo, accounts, kernel hardening) and produces a severity-ranked report with copy-paste fixes, exportable to PDF. |
+| <div align="center"><a href="https://github.com/effjy/envision/">ENVISION</a></div> | **GTK3 system-security scanner** — audits your Linux box's posture (firewall, exposed ports, SSH, sudo, accounts, kernel hardening) and produces a severity-ranked report with copy-paste fixes, exportable to PDF. |
 | <div align="center"><a href="https://github.com/effjy/fail2ban-gui/">FAIL2BAN GUI</a></div> | **GTK4 front-end for fail2ban** — browse jails with live ban counts, **ban/unban** IPs (per-jail or across all jails), tune **bantime/findtime/maxretry**, and start/stop/reload jails or the server from one window; a privileged helper is authorized **once via pkexec**, and it minimizes to the system tray. |
 | <div align="center"><a href="https://github.com/effjy/filen-gui/">FILEN GUI</a></div> | **Desktop client for Filen.io** (C++/GTK4) — browse, upload, download and manage your **end-to-end encrypted** cloud files, with all encryption and decryption performed locally. |
 | <div align="center"><a href="https://github.com/effjy/fordump">FORENSIC DUMP</a></div> | **GTK3 forensics tool** — multithreaded block-level disk imaging with file carving (JPEG/PNG/PDF/ZIP) and credential/key search. |
