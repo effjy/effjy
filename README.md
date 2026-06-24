@@ -24,7 +24,10 @@ I build high-assurance security tools and design symmetric primitives.
 
 ---
 
-<a href="#-applications"><b>Applications</b></a> &nbsp;·&nbsp;
+<a href="#-post-quantum"><b>Post-Quantum</b></a> &nbsp;·&nbsp;
+<a href="#-encryption--privacy"><b>Encryption &amp; Privacy</b></a> &nbsp;·&nbsp;
+<a href="#-forensics--secure-erase"><b>Forensics &amp; Secure Erase</b></a> &nbsp;·&nbsp;
+<a href="#-monitoring--auditing"><b>Monitoring &amp; Auditing</b></a> &nbsp;·&nbsp;
 <a href="#-featured"><b>Featured</b></a> &nbsp;·&nbsp;
 <a href="#-systems-security"><b>Systems Security</b></a> &nbsp;·&nbsp;
 <a href="#-cryptography"><b>Cryptography</b></a> &nbsp;·&nbsp;
@@ -38,65 +41,82 @@ I build high-assurance security tools and design symmetric primitives.
 
 ---
 
-## 🛠️ Applications
+## 🔐 Post-Quantum
 
-<sub>Production-ready security tools for Linux.</sub>
+<sub>NIST-standard post-quantum applications — hybrid KEM &amp; signatures by default.</sub>
 
 | Project | What it does |
 |:---|:---|
 | <div align="center"><a href="https://github.com/effjy/axis/">AXIS</a></div> | **GTK3 encrypted disk manager** — AES-256-GCM volumes behind a **Kyber-1024/X448 hybrid KEM**, with FUSE mounting and **IND-RND plausible deniability**. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/axis-cli/">AXIS CLI</a></div> | **Command-line Axis** — the same AES-256-GCM volumes and **Kyber-1024/X448 hybrid KEM** with FUSE mounting, GUI-free for servers and automation; reads the same containers as Axis. |
 | <div align="center"><a href="https://github.com/effjy/axis-secret/">CALCULATOR VAULT</a></div> | **Working GTK3 calculator** that secretly launches **Axis** on a passcode — hiding that an encrypted disk manager is even installed. ⭐ |
-| <div align="center"><a href="https://github.com/effjy/ciphers/">CIPHERS</a></div> | **GTK3 file encryptor** — **AEAD** ciphers (AES-256-GCM, XChaCha20-Poly1305) with an optional **Kyber-1024/X448 hybrid KEM** and Argon2id. |
 | <div align="center"><a href="https://github.com/effjy/pq-audit/">PQ-AUDIT</a></div> | **Tamper-evident audit log** — append-only, hash-chained and forward-secure, sealed with post-quantum **ML-DSA/SLH-DSA** and Merkle proofs. |
 | <div align="center"><a href="https://github.com/effjy/pq-chat/">PQ-CHAT</a></div> | **Serverless encrypted messenger** (GTK3) — a **Kyber-1024/X448 hybrid KEM** handshake seeds a **Signal Double Ratchet**, giving every message forward secrecy and post-compromise security, with an optional **CPace** passphrase to defeat MITM. |
 | <div align="center"><a href="https://github.com/effjy/pq-note/">PQ-NOTE</a></div> | **GTK3 encrypted notes app** — free-form notes sealed as one AEAD blob (AES-256-GCM / XChaCha20-Poly1305) behind a **Kyber-1024/X448 hybrid KEM** and Argon2id, unlocked by one master password. |
 | <div align="center"><a href="https://github.com/effjy/pq-sealed/">PQ-SEALED</a></div> | **Incremental encrypted backups** — deduplicating, content-addressed snapshots under a **Kyber-1024/X448 hybrid KEM**, manifests signed with **ML-DSA-65**. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/pq-shard/">PQ-SHARD</a></div> | **Post-quantum secret sharing** (GTK3 + CLI) — split a passphrase, key or file into **N shares** so any **K** reconstruct it and fewer reveal nothing (**Shamir's Secret Sharing** over GF(2⁸)), with optional per-share sealing behind a **Kyber-1024/X448 hybrid KEM** and Argon2id. |
 | <div align="center"><a href="https://github.com/effjy/pq-sign/">PQ-SIGN</a></div> | **Post-quantum file signing** — detached **ML-DSA (FIPS 204)** & **SLH-DSA (FIPS 205)** signatures; secret keys sealed with Argon2id + AES-256-GCM. |
+| <div align="center"><a href="https://github.com/effjy/pq-transfer/">PQ-TRANSFER</a></div> | **Peer-to-peer file transfer** — serverless, end-to-end encrypted over a **Kyber-1024/X448 hybrid KEM**, with an optional passphrase to defeat MITM. |
 | <div align="center"><a href="https://github.com/effjy/pq-zip/">PQ-ZIP</a></div> | **Post-quantum compressing archiver** (GTK3 + CLI) — packs files and folders into one password-protected **`.pqz`**: zlib **DEFLATE** then **AEAD** (AES-256-GCM / XChaCha20-Poly1305) behind a **Kyber-1024/X448 hybrid KEM** and Argon2id. |
 | <div align="center"><a href="https://github.com/effjy/pqotp/">PQOTP</a></div> | **2FA authenticator** (GTK3 + CLI) — **TOTP/HOTP** seeds in a post-quantum hybrid-KEM vault behind one master password. |
 | <div align="center"><a href="https://github.com/effjy/pqpman/">PQPMAN</a></div> | **GTK3 password manager** — vault sealed with AEAD and a **Kyber-1024/X448 hybrid KEM** behind one master password. |
-| <div align="center"><a href="https://github.com/effjy/pqtransfer/">PQ-TRANSFER</a></div> | **Peer-to-peer file transfer** — serverless, end-to-end encrypted over a **Kyber-1024/X448 hybrid KEM**, with an optional passphrase to defeat MITM. |
 
-<details open>
-<summary><b>More utilities &amp; tools</b></summary>
+---
 
-<br>
+## 🔒 Encryption & Privacy
+
+<sub>AEAD file encryption, encrypted-cloud clients and privacy hygiene.</sub>
+
+| Project | What it does |
+|:---|:---|
+| <div align="center"><a href="https://github.com/effjy/ciphers/">CIPHERS</a></div> | **GTK3 file encryptor** — **AEAD** ciphers (AES-256-GCM, XChaCha20-Poly1305) with an optional **Kyber-1024/X448 hybrid KEM** and Argon2id. |
+| <div align="center"><a href="https://github.com/effjy/multi-ciphers/">MULTI CIPHERS</a></div> | **Dependency-free encryption CLI** — four **AEAD ciphers** (AES-256-GCM, XChaCha20, Serpent, Twofish) over an Argon2id KDF. ⭐ |
+| <div align="center"><a href="https://github.com/effjy/czip/">CZIP</a></div> | **Compress-and-encrypt archiver** — multithreaded **zstd** streamed through **XChaCha20-Poly1305**, with Argon2id keys and file splitting. |
+| <div align="center"><a href="https://github.com/effjy/secure_mount/">SECURE MOUNT</a></div> | **GTK3 front-end for gocryptfs** — initialize, mount and unmount encrypted volumes without touching the command line. |
+| <div align="center"><a href="https://github.com/effjy/scrub/">SCRUB</a></div> | **Dependency-free metadata scrubber** — natively strips Exif/XMP/IPTC (and C2PA) from JPEGs and PNGs before you share them. |
+| <div align="center"><a href="https://github.com/effjy/viewer">VIEWER</a></div> | **RAM-only image viewer** (X11) — `mlock`s pixels in physical memory and zeroes them on teardown; JPEG/PNG, no swap leaks. |
+| <div align="center"><a href="https://github.com/effjy/filen-gui/">FILEN GUI</a></div> | **Desktop client for Filen.io** (C++/GTK4) — browse, upload, download and manage your **end-to-end encrypted** cloud files, with all encryption and decryption performed locally. |
+| <div align="center"><a href="https://github.com/effjy/protondrive-gui/">PROTON DRIVE GUI</a></div> | **Desktop client for Proton Drive** (C++/GTK4) — sign in with Proton's SRP, then browse, upload, download and trash your **end-to-end encrypted** files, with all key handling and decryption performed locally. |
+
+---
+
+## 🧹 Forensics & Secure Erase
+
+<sub>Disk imaging, file recovery and forensic-grade sanitization.</sub>
+
+| Project | What it does |
+|:---|:---|
+| <div align="center"><a href="https://github.com/effjy/fordump">FORENSIC DUMP</a></div> | **GTK3 forensics tool** — multithreaded block-level disk imaging with file carving (JPEG/PNG/PDF/ZIP) and credential/key search. |
+| <div align="center"><a href="https://github.com/effjy/frecover/">FORENSIC RECOVERY</a></div> | **Read-only ext2/3/4 recovery suite** (C++/CLI) — undeletes inodes via `debugfs` and carves files straight from raw free blocks (string + signature, block-aligned), with recoverability scoring, SHA-256 hashing and a CSV manifest. |
+| <div align="center"><a href="https://github.com/effjy/memscan/">MEMSCAN</a></div> | **Live-memory scanner** (CLI) — searches a running process's `/proc/<pid>/mem` for byte patterns or file-magic headers. |
+| <div align="center"><a href="https://github.com/effjy/nwu/">NOVEL WIPING UTILITY</a></div> | **SSD-aware secure-delete tool** (interactive + CLI) — combines a fast non-compressible **ChaCha20 overwrite** with per-file punch-hole and filesystem **TRIM** to wipe files, directories and free space. Also **wipes free RAM** to **clear leftover secrets from memory**. ⭐|
+| <div align="center"><a href="https://github.com/effjy/swipe">SECURE WIPE</a></div> | **CLI data sanitizer** — irrecoverably wipes files, directories, free space and RAM to **NIST SP 800-88 / FIPS 140-3**, with SSD TRIM. |
+| <div align="center"><a href="https://github.com/effjy/vwipe">VIRTUAL WIPE TURBO</a></div> | **Multi-core secure-erase suite** (GTK3) — saturates NVMe/SSD throughput wiping disks, free space and RAM to **NIST/FIPS** standards. |
+
+---
+
+## 🛡️ Monitoring & Auditing
+
+<sub>Security scanners, live system monitors, integrity checks and firewalls.</sub>
 
 | Project | What it does |
 |:---|:---|
 | <div align="center"><a href="https://github.com/effjy/chkrootkit-gui/">CHKROOTKIT GUI</a></div> | **GTK3 front-end for chkrootkit** — live, color-coded rootkit scans with one-click false-positive filtering. |
 | <div align="center"><a href="https://github.com/effjy/connmon/">CONNECTION MONITOR</a></div> | **Real-time TCP monitor** (GTK3) — reads `/proc/net/tcp` and maps every live connection to its owning process. |
-| <div align="center"><a href="https://github.com/effjy/czip/">CZIP</a></div> | **Compress-and-encrypt archiver** — multithreaded **zstd** streamed through **XChaCha20-Poly1305**, with Argon2id keys and file splitting. |
 | <div align="center"><a href="https://github.com/effjy/diskmon/">DISK MONITOR</a></div> | **Real-time disk I/O monitor** (C++/GTK4) — live read/write throughput from `/proc/diskstats` with a **Tokyo Night** Cairo graph and session peaks/averages. |
 | <div align="center"><a href="https://github.com/effjy/entropy/">ENTROPY</a></div> | **CLI password generator** — `getrandom()` CSPRNG with an entropy analyzer that penalizes repeats, sequences and dictionary words. |
 | <div align="center"><a href="https://github.com/effjy/entropy-gui/">ENTROPY GUI</a></div> | **GTK3 edition of Entropy** — naive vs. realistic password entropy with a color-coded strength meter and one-click copy. |
 | <div align="center"><a href="https://github.com/effjy/envision/">ENVISION</a></div> | **GTK3 system-security scanner** — audits your Linux box's posture (firewall, exposed ports, SSH, sudo, accounts, kernel hardening) and produces a severity-ranked report with copy-paste fixes, exportable to PDF. |
 | <div align="center"><a href="https://github.com/effjy/fail2ban-gui/">FAIL2BAN GUI</a></div> | **GTK4 front-end for fail2ban** — browse jails with live ban counts, **ban/unban** IPs (per-jail or across all jails), tune **bantime/findtime/maxretry**, and start/stop/reload jails or the server from one window; a privileged helper is authorized **once via pkexec**, and it minimizes to the system tray. |
-| <div align="center"><a href="https://github.com/effjy/filen-gui/">FILEN GUI</a></div> | **Desktop client for Filen.io** (C++/GTK4) — browse, upload, download and manage your **end-to-end encrypted** cloud files, with all encryption and decryption performed locally. |
-| <div align="center"><a href="https://github.com/effjy/fordump">FORENSIC DUMP</a></div> | **GTK3 forensics tool** — multithreaded block-level disk imaging with file carving (JPEG/PNG/PDF/ZIP) and credential/key search. |
-| <div align="center"><a href="https://github.com/effjy/frecover/">FORENSIC RECOVERY</a></div> | **Read-only ext2/3/4 recovery suite** (C++/CLI) — undeletes inodes via `debugfs` and carves files straight from raw free blocks (string + signature, block-aligned), with recoverability scoring, SHA-256 hashing and a CSV manifest. |
 | <div align="center"><a href="https://github.com/effjy/lynis-gui/">LYNIS GUI</a></div> | **GTK3 front-end for Lynis** — live, color-coded security audits with a one-click pentest mode. |
-| <div align="center"><a href="https://github.com/effjy/memscan/">MEMSCAN</a></div> | **Live-memory scanner** (CLI) — searches a running process's `/proc/<pid>/mem` for byte patterns or file-magic headers. |
 | <div align="center"><a href="https://github.com/effjy/mole/">MOLE</a></div> | **Secret scanner** — recursively greps a tree for leaked credentials via **regex + Shannon entropy**, with a CLI and a GTK3 triage UI. |
-| <div align="center"><a href="https://github.com/effjy/multi-ciphers/">MULTI CIPHERS</a></div> | **Dependency-free encryption CLI** — four **AEAD ciphers** (AES-256-GCM, XChaCha20, Serpent, Twofish) over an Argon2id KDF. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/limiter/">NETWORK SPEED LIMITER</a></div> | **Bandwidth limiter** (GTK3 + CLI) — caps combined up/down speed on any interface via Linux `tc`, optionally as a boot-time service. |
-| <div align="center"><a href="https://github.com/effjy/nwu/">NOVEL WIPING UTILITY</a></div> | **SSD-aware secure-delete tool** (interactive + CLI) — combines a fast non-compressible **ChaCha20 overwrite** with per-file punch-hole and filesystem **TRIM** to wipe files, directories and free space. Also **wipes free RAM** to **clear leftover secrets from memory**. ⭐|
-| <div align="center"><a href="https://github.com/effjy/protondrive-gui/">PROTON DRIVE GUI</a></div> | **Desktop client for Proton Drive** (C++/GTK4) — sign in with Proton's SRP, then browse, upload, download and trash your **end-to-end encrypted** files, with all key handling and decryption performed locally. |
 | <div align="center"><a href="https://github.com/effjy/ram/">RAM VISUALIZER</a></div> | **GTK3 + Cairo RAM analyzer** — top memory hogs, live ring gauges and bar charts, and verified-kill process termination. |
 | <div align="center"><a href="https://github.com/effjy/rkhunter-gui/">RKHUNTER GUI</a></div> | **GTK3 front-end for rkhunter** — live, color-coded rootkit scans with a problems-only filter. |
-| <div align="center"><a href="https://github.com/effjy/scrub/">SCRUB</a></div> | **Dependency-free metadata scrubber** — natively strips Exif/XMP/IPTC (and C2PA) from JPEGs and PNGs before you share them. |
-| <div align="center"><a href="https://github.com/effjy/secure_mount/">SECURE MOUNT</a></div> | **GTK3 front-end for gocryptfs** — initialize, mount and unmount encrypted volumes without touching the command line. |
-| <div align="center"><a href="https://github.com/effjy/swipe">SECURE WIPE</a></div> | **CLI data sanitizer** — irrecoverably wipes files, directories, free space and RAM to **NIST SP 800-88 / FIPS 140-3**, with SSD TRIM. |
 | <div align="center"><a href="https://github.com/effjy/sizer">SIZER</a></div> | **GTK3 disk-space analyzer** — threaded scan from `/` with live percentage bars, an interactive donut and folder drill-down. |
 | <div align="center"><a href="https://github.com/effjy/syshash/">SYSHASH</a></div> | **File-integrity monitor** (CLI + GTK3) — recursively hashes a tree with **SHA3-512**, baselines it, and flags any changed file on re-scan. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/usage/">USAGE</a></div> | **Real-time network monitor** (GTK3) — live up/down speeds and a **Tokyo Night** Cairo graph, with a settable usage limit that counts down and turns red when exceeded. |
-| <div align="center"><a href="https://github.com/effjy/viewer">VIEWER</a></div> | **RAM-only image viewer** (X11) — `mlock`s pixels in physical memory and zeroes them on teardown; JPEG/PNG, no swap leaks. |
-| <div align="center"><a href="https://github.com/effjy/vwipe">VIRTUAL WIPE TURBO</a></div> | **Multi-core secure-erase suite** (GTK3) — saturates NVMe/SSD throughput wiping disks, free space and RAM to **NIST/FIPS** standards. |
 | <div align="center"><a href="https://github.com/effjy/warden/">WARDEN</a></div> | **GTK4 outbound firewall** — diverts every new connection to **NFQUEUE**, resolves the owning process via `/proc`, and prompts to **allow/deny once or forever**; rules are keyed on a **SHA-256** of the binary so a swapped executable re-prompts. |
-
-</details>
 
 ---
 
