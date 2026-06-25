@@ -14,11 +14,11 @@ I build high-assurance security tools and design symmetric primitives.
 
 <a href="https://github.com/effjy/effjy/"><img src="titles/recent-additions-title.svg" height="52" alt="Recent Additions"></a>
 
+<a href="https://github.com/effjy/vigil/"><b>Vigil v1.0.8</b></a>
+<br><br>
 <a href="https://github.com/effjy/sinfo/"><b>Services Information v1.0.1</b></a>
 <br><br>
 <a href="https://github.com/effjy/protondrive-gui/"><b>Proton Drive GUI v1.0</b></a>
-<br><br>
-<a href="https://github.com/effjy/axis-cli/"><b>Axis (CLI) v11.0.0</b></a>
 
 ---
 
@@ -58,6 +58,7 @@ I build high-assurance security tools and design symmetric primitives.
 | <div align="center"><a href="https://github.com/effjy/pq-zip/">PQ-ZIP</a></div> | **Post-quantum compressing archiver** (GTK3 + CLI) — packs files and folders into one password-protected **`.pqz`**: zlib **DEFLATE** then **AEAD** (AES-256-GCM / XChaCha20-Poly1305) behind a **Kyber-1024/X448 hybrid KEM** and Argon2id. |
 | <div align="center"><a href="https://github.com/effjy/pqotp/">PQOTP</a></div> | **2FA authenticator** (GTK3 + CLI) — **TOTP/HOTP** seeds in a post-quantum hybrid-KEM vault behind one master password. |
 | <div align="center"><a href="https://github.com/effjy/pqpman/">PQPMAN</a></div> | **GTK3 password manager** — vault sealed with AEAD and a **Kyber-1024/X448 hybrid KEM** behind one master password. |
+| <div align="center"><a href="https://github.com/effjy/vigil/">VIGIL</a></div> | **Post-quantum file-integrity monitor** (CLI/C++) — hashes a directory tree with **SHA3-512**, seals the baseline with an **ML-DSA (FIPS 204)** signature, and reports exactly what changed; incremental `inotify` live watching, with the secret key sealed by **Argon2id + AES-256-GCM**. ⭐ |
 
 ---
 
