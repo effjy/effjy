@@ -29,7 +29,7 @@ I build high-assurance security tools and design symmetric primitives.
 <a href="#-post-quantum"><b>Post-Quantum</b></a> &nbsp;·&nbsp;
 <a href="#-encryption--privacy"><b>Encryption &amp; Privacy</b></a> &nbsp;·&nbsp;
 <a href="#-forensics--secure-erase"><b>Forensics &amp; Secure Erase</b></a> &nbsp;·&nbsp;
-<a href="#-monitoring--auditing"><b>Monitoring &amp; Auditing</b></a> &nbsp;·&nbsp;
+<a href="#️-monitoring--auditing"><b>Monitoring &amp; Auditing</b></a> &nbsp;·&nbsp;
 <a href="#-featured"><b>Featured</b></a> &nbsp;·&nbsp;
 <a href="#-systems-security"><b>Systems Security</b></a> &nbsp;·&nbsp;
 <a href="#-cryptography"><b>Cryptography</b></a> &nbsp;·&nbsp;
