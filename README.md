@@ -19,10 +19,6 @@ I build high-assurance security tools and design symmetric primitives.
 <a href="https://github.com/effjy/protondrive-gui/"><b>Proton Drive GUI v1.0</b></a>
 <br><br>
 <a href="https://github.com/effjy/axis-cli/"><b>Axis (CLI) v11.0.0</b></a>
-<br><br>
-<a href="https://github.com/effjy/frecover/"><b>Forensic Recovery v1.0.1</b></a>
-<br><br>
-<a href="https://github.com/effjy/filen-gui/"><b>Filen GUI v1.0</b></a>
 
 ---
 
