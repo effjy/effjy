@@ -14,6 +14,8 @@ I build high-assurance security tools and design symmetric primitives.
 
 <a href="https://github.com/effjy/effjy/"><img src="titles/recent-additions-title.svg" height="52" alt="Recent Additions"></a>
 
+<a href="https://github.com/effjy/sinfo/"><b>Services Information v1.0.1</b></a>
+<br><br>
 <a href="https://github.com/effjy/protondrive-gui/"><b>Proton Drive GUI v1.0</b></a>
 <br><br>
 <a href="https://github.com/effjy/axis-cli/"><b>Axis (CLI) v11.0.0</b></a>
@@ -113,6 +115,7 @@ I build high-assurance security tools and design symmetric primitives.
 | <div align="center"><a href="https://github.com/effjy/limiter/">NETWORK SPEED LIMITER</a></div> | **Bandwidth limiter** (GTK3 + CLI) — caps combined up/down speed on any interface via Linux `tc`, optionally as a boot-time service. |
 | <div align="center"><a href="https://github.com/effjy/ram/">RAM VISUALIZER</a></div> | **GTK3 + Cairo RAM analyzer** — top memory hogs, live ring gauges and bar charts, and verified-kill process termination. |
 | <div align="center"><a href="https://github.com/effjy/rkhunter-gui/">RKHUNTER GUI</a></div> | **GTK3 front-end for rkhunter** — live, color-coded rootkit scans with a problems-only filter. |
+| <div align="center"><a href="https://github.com/effjy/sinfo/">SERVICES INFORMATION</a></div> | **GTK4 systemd service manager** (C++) — lists every service on the machine and lets you **start/stop**, **enable/disable** and **mask/unmask** them from one window, with live search; privileged actions are elevated per-operation via **pkexec**. |
 | <div align="center"><a href="https://github.com/effjy/sizer">SIZER</a></div> | **GTK3 disk-space analyzer** — threaded scan from `/` with live percentage bars, an interactive donut and folder drill-down. |
 | <div align="center"><a href="https://github.com/effjy/syshash/">SYSHASH</a></div> | **File-integrity monitor** (CLI + GTK3) — recursively hashes a tree with **SHA3-512**, baselines it, and flags any changed file on re-scan. ⭐ |
 | <div align="center"><a href="https://github.com/effjy/usage/">USAGE</a></div> | **Real-time network monitor** (GTK3) — live up/down speeds and a **Tokyo Night** Cairo graph, with a settable usage limit that counts down and turns red when exceeded. |
