@@ -14,6 +14,8 @@ I build high-assurance security tools and design symmetric primitives.
 
 <a href="https://github.com/effjy/effjy/"><img src="titles/recent-additions-title.svg" height="52" alt="Recent Additions"></a>
 
+<a href="https://github.com/effjy/sift/"><b>Sift v1.0.1</b></a>
+<br><br>
 <a href="https://github.com/effjy/vigil/"><b>Vigil v1.0.8</b></a>
 <br><br>
 <a href="https://github.com/effjy/sinfo/"><b>Services Information v1.0.1</b></a>
@@ -90,6 +92,7 @@ I build high-assurance security tools and design symmetric primitives.
 | <div align="center"><a href="https://github.com/effjy/memscan/">MEMSCAN</a></div> | **Live-memory scanner** (CLI) — searches a running process's `/proc/<pid>/mem` for byte patterns or file-magic headers. |
 | <div align="center"><a href="https://github.com/effjy/nwu/">NOVEL WIPING UTILITY</a></div> | **SSD-aware secure-delete tool** (interactive + CLI) — combines a fast non-compressible **ChaCha20 overwrite** with per-file punch-hole and filesystem **TRIM** to wipe files, directories and free space. Also **wipes free RAM** to **clear leftover secrets from memory**. ⭐|
 | <div align="center"><a href="https://github.com/effjy/swipe">SECURE WIPE</a></div> | **CLI data sanitizer** — irrecoverably wipes files, directories, free space and RAM to **NIST SP 800-88 / FIPS 140-3**, with SSD TRIM. |
+| <div align="center"><a href="https://github.com/effjy/sift">SIFT</a></div> | **Forensic file triage** (CLI + GTK4) — profiles a file's **Shannon entropy** as a heatmap, identifies its true type by **magic bytes**, and flags **extension/content masquerades** and **data appended past a format's logical end**, scoring every file from `clean` to `SUSPICIOUS`. |
 | <div align="center"><a href="https://github.com/effjy/vwipe">VIRTUAL WIPE TURBO</a></div> | **Multi-core secure-erase suite** (GTK3) — saturates NVMe/SSD throughput wiping disks, free space and RAM to **NIST/FIPS** standards. |
 
 ---
