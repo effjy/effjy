@@ -21,8 +21,6 @@ I build high-assurance security tools and design symmetric primitives.
 <a href="https://github.com/effjy/vigil/"><b>Vigil v1.0.8</b></a>
 <br><br>
 <a href="https://github.com/effjy/sinfo/"><b>Services Information v1.0.1</b></a>
-<br><br>
-<a href="https://github.com/effjy/protondrive-gui/"><b>Proton Drive GUI v1.0</b></a>
 
 ---
 
