@@ -8,12 +8,14 @@
 
 I build high-assurance security tools and design symmetric primitives.
 
-<sub>I work almost entirely in **C**, by choice — original cryptographic design & cryptanalysis, **post-quantum** applications on NIST standards (Kyber/ML-KEM, ML-DSA, SLH-DSA), digital forensics, and clean GTK3 front-ends. Original research, post-quantum by default, no dependencies, close to the metal.</sub>
+<sub>I work mostly in **C** and **C++**, by choice — original cryptographic design & cryptanalysis, **post-quantum** applications on NIST standards (Kyber/ML-KEM, ML-DSA, SLH-DSA), digital forensics, and clean GTK3/4 front-ends. Original research, post-quantum by default, no dependencies, close to the metal.</sub>
 
 ---
 
 <a href="https://github.com/effjy/effjy/"><img src="titles/recent-additions-title.svg" height="52" alt="Recent Additions"></a>
 
+<a href="https://github.com/effjy/pulse/"><b>Pulse v1.0.0</b></a>
+<br><br>
 <a href="https://github.com/effjy/sift/"><b>Sift v1.0.1</b></a>
 <br><br>
 <a href="https://github.com/effjy/vigil/"><b>Vigil v1.0.8</b></a>
@@ -113,6 +115,7 @@ I build high-assurance security tools and design symmetric primitives.
 | <div align="center"><a href="https://github.com/effjy/lynis-gui/">LYNIS GUI</a></div> | **GTK3 front-end for Lynis** — live, color-coded security audits with a one-click pentest mode. |
 | <div align="center"><a href="https://github.com/effjy/mole/">MOLE</a></div> | **Secret scanner** — recursively greps a tree for leaked credentials via **regex + Shannon entropy**, with a CLI and a GTK3 triage UI. |
 | <div align="center"><a href="https://github.com/effjy/limiter/">NETWORK SPEED LIMITER</a></div> | **Bandwidth limiter** (GTK3 + CLI) — caps combined up/down speed on any interface via Linux `tc`, optionally as a boot-time service. |
+| <div align="center"><a href="https://github.com/effjy/pulse/">PULSE</a></div> | **All-in-one system monitor** (C++/GTK4) — live **CPU** load & per-core usage, **temperature** (°C/°F), load averages, **RAM**/swap, per-filesystem **disk** usage with I/O throughput, and **network** speed & connections, in one tabbed **Tokyo Night** dashboard that minimizes to the system tray. |
 | <div align="center"><a href="https://github.com/effjy/ram/">RAM VISUALIZER</a></div> | **GTK3 + Cairo RAM analyzer** — top memory hogs, live ring gauges and bar charts, and verified-kill process termination. |
 | <div align="center"><a href="https://github.com/effjy/rkhunter-gui/">RKHUNTER GUI</a></div> | **GTK3 front-end for rkhunter** — live, color-coded rootkit scans with a problems-only filter. |
 | <div align="center"><a href="https://github.com/effjy/sinfo/">SERVICES INFORMATION</a></div> | **GTK4 systemd service manager** (C++) — lists every service on the machine and lets you **start/stop**, **enable/disable** and **mask/unmask** them from one window, with live search; privileged actions are elevated per-operation via **pkexec**. |
