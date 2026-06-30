@@ -14,7 +14,7 @@ I build high-assurance security tools and design symmetric primitives.
 
 <a href="https://github.com/effjy/effjy/"><img src="titles/recent-additions-title.svg" height="52" alt="Recent Additions"></a>
 
-<a href="https://github.com/effjy/sentinel/"><b>Sentinel v1.0.0</b></a>
+<a href="https://github.com/effjy/sentinel/"><b>Sentinel v1.0.2</b></a>
 <br><br>
 <a href="https://github.com/effjy/husk/"><b>Husk v1.0.0</b></a>
 <br><br>
