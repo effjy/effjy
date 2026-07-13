@@ -14,15 +14,13 @@ I build high-assurance security tools and design symmetric primitives.
 
 <a href="https://github.com/effjy/effjy/"><img src="titles/recent-additions-title.svg" height="52" alt="Recent Additions"></a>
 
+<a href="https://github.com/effjy/heat/"><b>Heat v1.0.1</b></a>
+<br><br>
 <a href="https://github.com/effjy/sentinel/"><b>Sentinel v1.0.5</b></a>
 <br><br>
 <a href="https://github.com/effjy/husk/"><b>Husk v1.0.0</b></a>
 <br><br>
 <a href="https://github.com/effjy/pulse/"><b>Pulse v1.0.0</b></a>
-<br><br>
-<a href="https://github.com/effjy/sift/"><b>Sift v1.0.1</b></a>
-<br><br>
-<a href="https://github.com/effjy/vigil/"><b>Vigil v1.0.8</b></a>
 
 ---
 
@@ -117,6 +115,7 @@ I build high-assurance security tools and design symmetric primitives.
 | <div align="center"><a href="https://github.com/effjy/mole/">MOLE</a></div> | **Secret scanner** — recursively greps a tree for leaked credentials via **regex + Shannon entropy**, with a CLI and a GTK3 triage UI. |
 | <div align="center"><a href="https://github.com/effjy/limiter/">NETWORK SPEED LIMITER</a></div> | **Bandwidth limiter** (GTK3 + CLI) — caps combined up/down speed on any interface via Linux `tc`, optionally as a boot-time service. |
 | <div align="center"><a href="https://github.com/effjy/pulse/">PULSE</a></div> | **All-in-one system monitor** (C++/GTK4) — live **CPU** load & per-core usage, **temperature** (°C/°F), load averages, **RAM**/swap, per-filesystem **disk** usage with I/O throughput, and **network** speed & connections, in one tabbed **Tokyo Night** dashboard that minimizes to the system tray. |
+| <div align="center"><a href="https://github.com/effjy/heat/">HEAT</a></div> | **CPU temperature monitor** (C++/GTK4) — watches **CPUpackage temperature** over time with a live heat‑gradient graph, real‑time stats (current/min/avg/max), °C/°F toggle, and **PDF export** (per‑minute detail via `pdflatex`); reuses Pulse's temperature‑reading logic (coretemp/k10temp/hwmon/thermal zones) and minimizes to the system tray. |
 | <div align="center"><a href="https://github.com/effjy/ram/">RAM VISUALIZER</a></div> | **GTK3 + Cairo RAM analyzer** — top memory hogs, live ring gauges and bar charts, and verified-kill process termination. |
 | <div align="center"><a href="https://github.com/effjy/rkhunter-gui/">RKHUNTER GUI</a></div> | **GTK3 front-end for rkhunter** — live, color-coded rootkit scans with a problems-only filter. |
 | <div align="center"><a href="https://github.com/effjy/sentinel/">SENTINEL</a></div> | **Unified machine guardian** (C++/GTK4) — one **Tokyo Night** window reuniting live **system vitals** (CPU/temp/RAM/disk/network), a per-process **outbound firewall** (**NFQUEUE**), and **continuous security-posture** scanning that re-scans and **diffs in real time** to surface new exposures the moment they appear; a single root daemon serves the firewall and posture, and it minimizes to the system tray. |
